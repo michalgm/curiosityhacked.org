@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<!--
+  ZeroFour 2.5 by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+  	<title>Curiosity Hacked</title>
+  	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  	<meta name="description" content="" />
+  	<meta name="keywords" content="" />
+  	<link rel="shortcut icon" href="images/favicon2.ico" type="image/vnd.microsoft.icon"/>		
+  	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800" rel="stylesheet" type="text/css" />
+  	<script src="js/jquery.min.js"></script>
+  	<script src="js/jquery.dropotron.min.js"></script>
+  	<script src="js/jquery.toc.min.js"></script>
+  	<script src="js/config.js"></script>
+  	<script src="js/skel.min.js"></script>
+  	<script src="js/skel-panels.min.js"></script>
+  	<noscript>
+  		<link rel="stylesheet" href="css/skel-noscript.css" />
+  		<link rel="stylesheet" href="css/style.css" />
+  		<link rel="stylesheet" href="css/style-desktop.css" />
+  	</noscript>
+  	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+  	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+  	<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+  </head>
+  <body class="left-sidebar">
+
+  	<!-- Header Wrapper -->
+  		<div id="header-wrapper">
+  			<div class="container">
+  				<div class="row">
+  					<div class="12u">
+  					
+  						<!-- Header -->
+
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	<!-- Main Wrapper -->
+  		<div id="main-wrapper">
+  			<div class="main-wrapper-style2">
+  				<div class="inner">
+  					<div class="container">
+  						<div class="row">
+  							<div class="4u">
+  								<div id="sidebar">
+
+  									<!-- Sidebar -->
+  								
+  										<section>
+  											
+  											<ul>
+  												<li><a href='join.html'>Curiosity Hacked</a></li>
+  											</ul>
+  										
+  										</section>
+  										
+  								<div id='signup' class='signup'>											
+  										<h3>Sign Up!</h3>
+
+  										<form id="joinForm" action="/" >
+  										<table>
+  										<tr>
+  										<td><label>Name: </label></td>
+  										<td><input name='fname' size='30'></br></td>
+  										</tr><tr>
+  										<td><label>Email: </label></td>
+  										<td><input name='femail' size='30'></br></td>
+  										</tr>
+  										<tr><td colspan='2'>
+  										<input type="radio" name="fus" value="us" CHECKED onchange="$('#outus,#inus').toggle();">US
+  										<input type="radio" name="fus" value="outside" onchange="$('#outus,#inus').toggle();">Outside</br>
+  										</td></tr>
+  										<tr>
+  										<td><span id='inus'><label>Zip Code: </label></span><span id='outus' style="display: none"> <label>Location: </label></span></td>
+  										<td><input name='floc' size='30'></br></td>
+  										</tr>
+  										</table>
+  										<table>
+  										<tr><td width="0.75em"><input name='fjoin' type="checkbox"></td><td><span class="indent">I'd be interested in joining a new or existing group.</br></span></td></tr>
+  										<tr><td><input name='fstart' type="checkbox"></td><td><span class="indent">I'd be interested in starting a new group and acting as a leader. </br></span></td></tr>
+  										<tr><td><input name='fmlist' type="checkbox"></td><td><span class="indent">Please add me to you mailing list. </br></span></td></tr>
+  										</table>
+  										<input type='submit' value="Sign Me Up!"><div id="joinresult"></div>
+  										</form>
+  										<script>
+  											// Attach a submit handler to the form
+  											$( "#joinForm" ).submit(function( event ) {
+  											 
+  											  // Stop form from submitting normally
+  											  event.preventDefault();
+  											 
+  											  // Get some values from elements on the page:
+  //											  var $form = $( this ),
+  //												fname = $form.find( "input[name='fname']" ).val(),
+  //												femail = $form.find( "input[name='femail']" ).val(),
+  //												fus = $form.find( "input[name='fus']" ).val(),
+  //												floc = $form.find( "input[name='floc']" ).val(),
+  //												fjoin = $form.find( "input[name='fjoin']" ).val(),
+  //												fstart = $form.find( "input[name='fstart']" ).val(),
+  //												fmlist = $form.find( "input[name='fmlist']" ).val(),
+  //												url = $form.attr( "action" );
+  											 
+  											  // Send the data using post
+  											  var posting = $.post( "joinpost.php", $( "#joinForm" ).serialize() );
+  											 
+  											  // Put the results in a div
+  											  posting.done(function( data ) {
+  												$( "#joinresult" ).empty().append( data.content );
+  											  });
+  											});
+  										</script>
+  								</div>		
+  							
+  								</div>
+  							</div>
+  							<div class="8u skel-cell-important">
+  								<div id="content">
+
+  									<!-- Content -->
+  								
+  										<article>
+  											<header class="major">
+  												<h2>Curiosity Hacked</h2>
+  												<span class="byline"></span>
+  											</header>
+  											
+  											<span class='image image-right'><p><img src='images/join1.jpg' alt='' /> 
+<p>Hello and thank you for your interest in Curiosity Hacked! We started with a vision of bringing STEAM (science,
+technology, engineering, art, and math) education to our community in a relevant and exciting way! We focus on real
+skill building and a developmentally progressive structure to helps kids and families get the most out of Hacking and
+Making.</p> <p>We were founded in Oakland, CA as a partner of Ace Monster Toys Hackerspace. We are a separate national
+non-profit organization, however, operating under the fiscal umbrella of The School Factory. We offer three programs
+that are designed to meet the needs of all ages, abilities, and interests. You can read more about Curiosity Hacked<a
+href="openlab.html"> Open Lab</a>, <a href="guild.html">Guild</a>, and<a href="sparks.html"> Sparks</a> on our
+website.</p> <p>We assist groups in forming new Curiosity Hacked locations, and we also keep a list of interested
+families by area that we can connect to form new groups.</p> <p>For groups wanting to join our organization, we have
+developed guidelines of benefits and expectations. To become a Curiosity Hacked Guild, potential leaders must meet,
+either in person or via the Internet to go over our program, mission, and our agreement with a member of the Curiosity
+Hacked staff. Once we have established that all parties would like to move forward, we ask that the potential leaders
+&nbsp;sign an agreement committing to our mission statement and the terms laid out in our benefits and expectations.</p>
+
+<h3>The Curiosity Hacked Mission:</h3>
+
+<p>Curiosity Hackeds is a non-profit organization dedicated to addressing the needs of the global maker community
+through STEAM education. The Curiosity Hacked program guides children through concept, process, and product by focusing
+on skill building and supporting individual goals. Our open source programs promote learning through a variety of
+developmental and educational methods while also focusing on community and family engagement. Curiosity Hacked
+encourages the relentless pursuit of knowledge through relevant hands-on activities and the development of a strong
+moral character and leadership skills through our core values.</p>
+
+<p>&nbsp;</p>
+<p>
+
+<h3>As a registered Curiosity Hacked Guild you receive the following benefits:</h3>
+<p>
+<ul class='style4'>
+<li>Initial consultation to help you get started</li>
+<li>As needed consultations with the Curiosity Hacked directors and mentors regarding programs, teaching, administrative issues, marketing and fundraising.</li>
+<li>Access to our growing database of activities and resources.</li>
+<li>Use of the Curiosity Hacked name and badges</li>
+<li>Information on and access to educational discounts from educational and material supply companies.</li>
+<li>Access to a mentor-only list where you can ask questions and get support.</li>
+<li>Representation on our website map to help others in your area find you, and a designated @curiosityhacked.org email.</li>
+<li>A dedicated page on our national website to document and highlight the activities and accomplishments of your Guild.</li>
+<li>The ability to receive tax-deductible donations as a part of our non-profit organization.</li>
+<li>Financial structure and Liability Insurance</li>
+<li>Financial assistance when available from national funding.</li>
+<li>National community building events.</li>
+</ul>
+<p>
+
+<h3>As a Curiosity Hacked Guild, you agree to:</h3>
+
+<ul class='style4'>
+<li>Maintain a commitment to, and promote our mission statement and core values.</li>
+<li>Document and publish Guild activities, including but not limited to, a guild monthly report with photos to put on our website, including assessments.</li>
+<li>Participation in adding online lesson plans, resources and notes to share information with other guilds.</li>
+<li>Manage the Guild&rsquo;s finances and keeping accurate financial records.</li>
+<li>Do not discriminate in member selection. Curiosity Hacked is committed to a policy of equal opportunity for all persons and does not discriminate on the basis of race, color, national origin, sex, sexual orientation, gender identity, gender expression, disability, or religion in our educational programs and activities.</li>
+<li>Follow the Safety guidelines set forth in the Curiosity Hacked Safety Manual.</li>
+<li>Follow the Curiosity Hacked program guidelines (including the Hackerling circuit, and badge requirements) to keep consistency with the national program standards</li>
+</ul>
+<span class='byline'>For each leader:</span>
+<ul class='style4'>
+<li>Maintain background checks on all Guild Leaders and mentors who will be working with children without a guild leader present. &nbsp;These background checks must be filed with the Curiosity Hacked national office in a timely fashion</li>
+<li>Conduct training to educate leaders in Curiosity Hacked mission and values</li>
+</ul>
+
+<span class='byline'>For participants:</span>
+<ul class='style4'>
+<li>Have each scout and their guardian fill out a Curiosity Hacked registration and liability waiver form.</li>
+</ul>
+<p></p>
+<p>We hope you will join our community! Please let us know if you have any questions or would like to move forward in
+starting a new Curiosity Hacked program in your area!<br/></p></span>
+  											
+  										</article>							
+  								</div>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+
+  	<!-- Footer Wrapper -->
+
+  </body>
+</html>
