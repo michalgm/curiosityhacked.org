@@ -51,7 +51,7 @@
       }
       var beach = [
       ['Oakland Lab', new google.maps.LatLng(37.848104,-122.260923),5],
-<!-- locationdata -->      
+{% include locationdata.html %}      
     ];
     
 function setMarkers(map, locations) {
@@ -129,7 +129,7 @@ function setMarkers(map, locations) {
   											
   											<ul class="style3">
   											<li> <a href='#' onclick="map.panTo(beach[0][1]);map.setZoom(8);return(false);">Oakland Lab, Curiosity Hacked HQ</a> </li>
-<!-- locationlist -->  						
+{% include locationlist.html %}  						
   											</ul>
 
   										</section>
