@@ -12,40 +12,28 @@
   </head>
   <body class="homepage">
 
-  	<!-- Header Wrapper -->
-  		<div id="header-wrapper">
-  			<div class="container">
-<div id="gcaldiv" class="gcalbtn">
-Looking for the Oakland Lab?<br>
-<div id="gcal" style="display: none; ">
-<iframe src="https://www.google.com/calendar/embed?showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=200&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=hacker-scouts.org_k86gqmrn03s7h95e2eu6k8h41g%40group.calendar.google.com&amp;color=%235229A3&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FLos_Angeles" style=" border-width:0;" width="300" height="200" frameborder="0" scrolling="no" ></iframe>
-<br>
-<a href="https://www.google.com/maps/place/6036+Telegraph+Ave/@37.8471313,-122.2609182,17z/data=!3m1!4b1!4m2!3m1!1s0x80857dd97579f8d1:0x2f281e1edf22ca48" target="CHOLmap">Map / Directions</a>
-</div></div>
-<script>
-$( "#gcaldiv" ).click(function() {
-    $( "#gcal" ).slideToggle( "slow" );
-});
-</script>
-  				<div class="row">
-  					<div class="12u">
-  					
-  						{% include header.html %}
 
-  						<!-- Banner -->
-  							<div id="banner">
-  								<span class="image">
-  								<img src="images/banner-top.png" />
-  								<h2> Hacking the way children and families learn</h2>
-  								<img src="images/banner-bottom.png" />
-  								</span>
-  			
-  							</div>
-
-  					</div>
-  				</div>
-  			</div>
-  		</div>
+<!-- Header Wrapper -->
+<div id="header-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="12u">
+        {% include header.html %}
+        <div id="banner">
+          <img src="images/banner-top.png">
+          <h2>Hacking the way children and families learn</h2>
+          <p>Curiosity Hacked brings <abbr title="science, technology,
+            engineering, art, and math">STEAM</abbr> education, skill building
+          and community engagement to young hackers worldwide.  </p>
+          <a href="/join.html" class="big button fa fa-chevron-right">
+            Sign Up
+          </a>
+          <img src="images/banner-bottom.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   	
   	<!-- Main Wrapper -->
   		<div id="main-wrapper">
@@ -138,6 +126,18 @@ $( "#gcaldiv" ).click(function() {
   
    	{% include footer.html %}
 
-   </body>
- </html>
+  <div id="gcaldiv" class="gcalbtn">
+    Looking for the Oakland Lab?<br>
+    <div id="gcal" style="display: none; ">
+      <iframe src="https://www.google.com/calendar/embed?showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=200&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=hacker-scouts.org_k86gqmrn03s7h95e2eu6k8h41g%40group.calendar.google.com&amp;color=%235229A3&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FLos_Angeles" style=" border-width:0;" width="300" height="200" frameborder="0" scrolling="no" ></iframe>
+      <br>
+      <a href="https://www.google.com/maps/place/6036+Telegraph+Ave/@37.8471313,-122.2609182,17z/data=!3m1!4b1!4m2!3m1!1s0x80857dd97579f8d1:0x2f281e1edf22ca48" target="CHOLmap">Map / Directions</a>
+  </div></div>
+  <script>
+  $( "#gcaldiv" ).click(function() {
+    $( "#gcal" ).slideToggle( "slow" );
+    });
+  </script>
 
+  </body>
+</html>
