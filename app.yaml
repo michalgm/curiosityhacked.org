@@ -1,0 +1,18 @@
+application: sm-apps
+version: 2
+runtime: go
+api_version: go1
+
+handlers:
+- url: /
+  static_files: _site/index.html
+  upload: _site/index.html
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+- url: (/[^\.]*)
+  static_files: _site\1/index.html
+  upload: _site/.*
+- url: /(.+)
+  static_files: _site/\1
+  upload: _site/.*
