@@ -1,4 +1,4 @@
-pygments: true
+highlights: pygments
 safe: true
 lsi: false
 exclude: ['Gemfile', 'Gemfile.lock']
