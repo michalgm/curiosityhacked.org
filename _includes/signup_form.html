@@ -1,0 +1,52 @@
+<form id="joinForm" action="/" >
+  <table>
+    <tr>
+      <td><label>Name: </label></td>
+      <td><input name='fname' size='30'></br></td>
+    </tr><tr>
+      <td><label>Email: </label></td>
+      <td><input name='femail' size='30'></br></td>
+    </tr>
+    <tr><td colspan='2'>
+      <input type="radio" name="fus" value="us" CHECKED onchange="$('#outus,#inus').toggle();">US
+      <input type="radio" name="fus" value="outside" onchange="$('#outus,#inus').toggle();">Outside</br>
+    </td></tr>
+    <tr>
+      <td><span id='inus'><label>Zip Code: </label></span><span id='outus' style="display: none"> <label>Location: </label></span></td>
+      <td><input name='floc' size='30'></br></td>
+    </tr>
+  </table>
+  <table>
+    <tr><td width="0.75em"><input name='fjoin' type="checkbox"></td><td><span class="indent">I'd be interested in joining a new or existing group.</br></span></td></tr>
+    <tr><td><input name='fstart' type="checkbox"></td><td><span class="indent">I'd be interested in starting a new group and acting as a leader. </br></span></td></tr>
+    <tr><td><input name='fmlist' type="checkbox"></td><td><span class="indent">Please add me to your mailing list. </br></span></td></tr>
+  </table>
+  <input type='submit' value="Sign Me Up!"><div id="joinresult"></div>
+</form>
+<script>
+  // Attach a submit handler to the form
+  $( "#joinForm" ).submit(function( event ) {
+
+    // Stop form from submitting normally
+    event.preventDefault();
+
+    // Get some values from elements on the page:
+    // var $form = $( this ),
+    // fname = $form.find( "input[name='fname']" ).val(),
+    // femail = $form.find( "input[name='femail']" ).val(),
+    // fus = $form.find( "input[name='fus']" ).val(),
+    // floc = $form.find( "input[name='floc']" ).val(),
+    // fjoin = $form.find( "input[name='fjoin']" ).val(),
+    // fstart = $form.find( "input[name='fstart']" ).val(),
+    // fmlist = $form.find( "input[name='fmlist']" ).val(),
+    // url = $form.attr( "action" );
+
+    // Send the data using post
+    var posting = $.post( "joinpost.php", $( "#joinForm" ).serialize() );
+
+    // Put the results in a div
+    posting.done(function( data ) {
+    $( "#joinresult" ).empty().append( data.content );
+    });
+  });
+</script>
