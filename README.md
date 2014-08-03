@@ -9,18 +9,22 @@ engineering, art, and math) education.
 The website is implmented as a [Jekyll](http://jekyllrb.com/) project. Jekyll
 is a static site generator that is used to power
 [Github Pages](https://pages.github.com/) amongst other things. The basic
-layout of this site is several pages (index.html, about.html, staff.html, etc)
-that have a very similar page structure. Each of these pages includes a header
-and a footer from the _includes/ directory using the `{% include header.html %}`
-Jekyll syntax. Otherwise, these pages are normal HTML pages. They include "YAML front matter" that is empty, in the form of "---\n---" in the top of each file.
-This front matter is necessary so that the pages get processed by Jekyll:
-otherwise they would be passed through untouched to the final site.
+layout of this site is several pages (about.html, staff.html, locations.html,
+etc) that have a very similar page structure and share a layout
+(`_layouts/default.html`). Note that the index.html page has a different
+structure and does _not_ share the deault layout. The default layout includes a
+header and a footer from the _includes/ directory using the
+`{% include header.html %}` Jekyll syntax. Otherwise, these pages are normal
+HTML pages. They include "YAML front matter" that declares which layout they use
+(none, in the case of index.html), that is delineated by "---" in the top of
+each file. This front matter is necessary so that the pages get processed by
+Jekyll: otherwise they would be passed through untouched to the final site.
 
 The content of the js/ css/ and images/ directory are copied verbatim to the final site and are available for use in the pages.
 
 ### Installing
 
-Jekyll is a Ruby program. Because the site is expected to one day live on Github
+Jekyll is a Ruby program. Because the site lives on and is served by Github
 Pages, the flavor of Jekyll used in the project is based on the 'github-pages'
 gem. This gem should be installed using [Bundler](http://bundler.io/). For this
 reason, a Gemfile is provided in the repository.
@@ -88,12 +92,14 @@ incrementally as necessary. To view your changes, simply refresh your browser.
 
 ### Deploying the site
 
-Simply run
+Whenever a new revision is pushed to the `gh-pages` branch of this repository,
+which is its default branch, the site is automatically rendered using Jekyll by
+Github Pages and made available at http://curiosityhacked.github.io/curiosityhacked.org/. This path is aliased from the Curiosity Hacked DNS hosts as 
+http://curiosityhacked.org. As well, there is a `CNAME` file in this repository 
+which enables the mapping on the Github side.
 
-```
-jekyll build --destination <destination>
-```
+More information on Github Pages:
 
-where <destination> is the folder that you have your Apache or nginx
-configuration set to serve. _CAUTION: Jekyll will likely destroy files that
-already exist at this location._
+* Homepage: https://pages.github.com/
+* Guides: https://help.github.com/categories/20/articles
+* Custom domains: https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages
