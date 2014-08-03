@@ -9,12 +9,18 @@ map: true
 
       <section>  											
         <ul class="style3">
-        <li> <a href='#' onclick="map.panTo(beach[0][1]);map.setZoom(8);return(false);">Oakland Lab, Curiosity Hacked HQ</a> </li>
-{% include locationlist.html %}  						
+        <li>
+          <a href='#' onclick="map.panTo(guild_info[{{site.data.guilds|size}}].latlong);map.setZoom(8);return false;">Oakland Lab, Curiosity Hacked HQ</a>
+        </li>
+        {% for guild in site.data.guilds %}
+        <li>
+          {% if guild.Lat_Long%}<a href='#' onclick="map.panTo(guild_info[{{forloop.index0}}].latlong); map.setZoom(8);return false;">{%endif%}
+            {{guild.Guild}}, {{guild.Location}}
+            {% if guild.Lat_Long%}</a>{%endif%}
+        </li>
+        {% endfor %}
         </ul>
-
       </section>
-
   </div>
 </div>
 <div class="8u skel-cell-important">
@@ -32,4 +38,76 @@ map: true
     </div>
   </div>
 </div>
+<style type="text/css">
+#map-canvas { height: 35em }
+</style>
+<script type="text/javascript">
+var map;
+var guild_info;
+function initializeMap() {
+  guild_info = [
+    {% for guild in site.data.guilds %}
+      {name: '{{guild.Location}}',
+       latlong:
+        {% if guild.Lat_Long %}
+        new google.maps.LatLng(
+          {{guild.Lat_Long[0]}}, {{guild.Lat_Long[1]}}),
+        {% else %}
+          undefined,
+        {% endif %}
+       zIndex: 1
+      },
+    {% endfor %}
+    {name: 'Oakland Lab',
+     latlong: new google.maps.LatLng(37.848104,-122.260923),
+     zIndex: 5},
+  ];
+  var mapOptions = {
+    center: new google.maps.LatLng(37.5794, -96.1523),
+    zoom: 4
+  };
+  map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+  setMarkers(map, guild_info);
+}
 
+function setMarkers(map, locations) {
+  // Add markers to the map
+
+  // Marker sizes are expressed as a Size of X,Y
+  // where the origin of the image (0,0) is located
+  // in the top left of the image.
+
+  // Origins, anchor positions and coordinates of the marker
+  // increase in the X direction to the right and in
+  // the Y direction down.
+  var image = {
+    url: 'images/CHicon.png',
+    size: new google.maps.Size(30, 25),
+    // The origin for this image is 0,0.
+    origin: new google.maps.Point(0,0),
+    // The anchor for this image is the base of the flagpole at 0,32.
+    anchor: new google.maps.Point(15, 12)
+  };
+  // Shapes define the clickable region of the icon.
+  // The type defines an HTML &lt;area&gt; element 'poly' which
+  // traces out a polygon as a series of X,Y points. The final
+  // coordinate closes the poly by connecting to the first
+  // coordinate.
+  var shape = {
+    coord: [1, 1, 1, 25, 30, 25, 30 , 1],
+    type: 'poly'
+  };
+  for (var i = 0; i < locations.length; i++) {
+    var location = locations[i];
+    var marker = new google.maps.Marker({
+      position: location.latlong,
+      map: map,
+      icon: image,
+      shape: shape,
+      title: location.name,
+      zIndex: location.zIndex
+    });
+  }
+}
+</script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARoSg9Ndoy14ggI5Ld0LpkPwZxutNUvro&sensor=false&callback=initializeMap" async></script>

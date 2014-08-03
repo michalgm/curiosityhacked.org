@@ -1,0 +1,185 @@
+- Guild: Guild 001
+  HS_Email: 'guild001@hacker-scouts.org'
+  Lat_Long: [37.8321, -122.262]
+  Leader: 'Garratt Gallagher, Jake Harwood'
+  Location: 'Oakland, CA'
+  Programs: ['Guild']
+- Guild: Guild 002
+  HS_Email: 'guild002@hacker-scouts.org'
+  Lat_Long: [37.4538, -122.1822]
+  Leader: 'Kandy, Melissa'
+  Location: 'Menlo Park, CA'
+  Programs: ['Guild']
+- Guild: Guild 003
+  HS_Email: 'guild003@hacker-scouts.org'
+  Lat_Long: [32.867, -79.9752]
+  Leader: 'Steve Berry'
+  Location: 'Charleston, SC'
+  Programs: ['Open Lab']
+- Guild: Guild 004
+  HS_Email: 'guild004@hacker-scouts.org'
+  Lat_Long: [47.6338, -122.3215]
+  Leader: 'Catherine & Pierce Nichols'
+  Location: 'Seattle, WA'
+  Programs: ['Open Lab']
+- Guild: Guild 005
+  HS_Email: 'guild005@hacker-scouts.org'
+  Lat_Long: [35.5856, -104.9389]
+  Leader: 'Mariano M Ulibarri'
+  Location: 'Las Vegas, NM'
+  Programs: ['Guild']
+- Guild: Guild 006
+  HS_Email: 'guild006@hacker-scouts.org'
+  Lat_Long: [37.7652, -122.2416]
+  Leader: 'Paul Skuta'
+  Location: 'Alameda, CA'
+  Programs: ['Guild']
+- Guild: Guild 007
+  HS_Email: 'guild007@hacker-scouts.org'
+  Location: 'San Francisco, CA'
+  Programs: ['Guild']
+- Guild: Guild 008
+  HS_Email: 'guild008@hacker-scouts.org'
+  Lat_Long: [37.8321, -122.262]
+  Leader: 'Chris Cook and Natalie Roth-Corti       '
+  Location: 'Oakland, CA'
+  Programs: ['Guild']
+- Guild: Guild 009
+  HS_Email: 'guild009@hacker-scouts.org'
+  Lat_Long: [38.5825, -121.4942]
+  Leader: 'Gina Lujan, Charles Blas, Charles Bookman'
+  Location: 'Sacramento'
+  Programs: ['Guild']
+- Guild: Guild 010
+  HS_Email: 'guild010@hacker-scouts.org'
+  Lat_Long: [38.7875, -90.6299]
+  Leader: 'Teri & Roger Eddy'
+  Location: 'St. Louis, MO'
+  Programs: ['Guild']
+- Guild: Guild 011
+  Lat_Long: [36.1667, -86.7833]
+  Leader: 'Matt Kenigson, Jaymes Winger'
+  Location: 'Nashville, TN (South)'
+  Programs: ['Guild']
+- Guild: Guild 012
+  HS_Email: 'guild012@hacker-scouts.org'
+  Lat_Long: [42.4355, -76.5257]
+  Leader: 'Claire Fox'
+  Location: 'Ithaca, NY'
+  Programs: ['Guild']
+- Guild: Guild 013
+  HS_Email: 'guild013@hacker-scouts.org'
+  Lat_Long: [39.2045, -77.0449]
+  Leader: 'Riley and Sarah Porter'
+  Location: 'Brookeville, MD'
+  Programs: ['Guild']
+- Guild: Guild 014
+  Lat_Long: [42.3876, -71.0995]
+  Leader: 'Melora Rush, Katie'
+  Location: 'Sommerville, MA'
+  Programs: ['Guild']
+- Guild: Guild 015
+  HS_Email: 'guild015@hacker-scouts.org'
+  Lat_Long: [33.6409, -117.6031]
+  Leader: 'Amy Stevens, Cris Hayes'
+  Location: 'Orange County, CA (South) (Rancho Santa Margarita)'
+  Programs: ['Guild']
+- Guild: Guild 016
+  Lat_Long: [33.8703, -117.9253]
+  Leader: 'Windi Eklund, Denise Silva'
+  Location: 'Orange County, CA (Fullerton)'
+  Programs: ['Guild']
+- Guild: Guild 017
+  HS_Email: 'guild017@hacker-scouts.org'
+  Lat_Long: [35.2092, -89.799]
+  Leader: 'Maurrean Barger, Steven Aronson, Jay Couture'
+  Location: 'Memphis, TN'
+  Programs: ['Guild']
+- Guild: Guild 018
+  Lat_Long: [33.3092, -111.8211]
+  Leader: 'Derek Neighbors'
+  Location: 'Chandler, AZ'
+  Programs: ['Guild']
+- Guild: Guild 019
+  HS_Email: 'guild019@hacker-scouts.org'
+  Lat_Long: [29.6516, -82.3248]
+  Leader: 'Gwendolyn Thompson'
+  Location: 'Gainesville, FL'
+- Guild: Guild 020
+  HS_Email: 'guild020@hacker-scouts.org'
+  Lat_Long: [42.0699, -103.7753]
+  Leader: 'Monique Larsen'
+  Location: 'Mitchell, NE'
+  Programs: ['Open Lab/Guild']
+- Guild: Guild 021
+  HS_Email: 'guild021@hacker-scouts.org'
+  Lat_Long: [34.181, -118.3516]
+  Leader: 'Matt Bowers'
+  Location: 'Burbank, CA'
+- Guild: Guild 022
+  Lat_Long: [33.6246, -117.7146]
+  Leader: 'Kimberly Moore'
+  Location: 'West Orange County, CA'
+  Programs: ['Guild']
+- Guild: Guild 023
+  HS_Email: 'guild023@hacker-scouts.org'
+  Lat_Long: [37.8349, -122.1297]
+  Leader: 'Robert Schwartz'
+  Location: 'LaMorinda, CA'
+  Programs: ['Guild']
+- Guild: Guild 024
+  HS_Email: 'guild024@hacker-scouts.org'
+  Lat_Long: [41.885, -87.7845]
+  Leader: 'Elaine Luther'
+  Location: 'Oak Park, IL'
+- Guild: Guild 025
+  Lat_Long: [41.6017, -87.9851]
+  Leader: 'Elizabeth Jaffe'
+  Location: 'Glenview, IL'
+  Programs: ['Guild']
+- Guild: Guild 026
+  HS_Email: 'guild026@hacker-scouts.org'
+  Lat_Long: [34.0522, -118.2437]
+  Leader: 'Luz Rivas'
+  Location: 'Los Angeles'
+  Programs: ['Open Lab']
+- Guild: Guild 027
+  Lat_Long: [33.6839, -117.7947]
+  Leader: 'Donna Jackman Cathey'
+  Location: 'Orange County (Irvine), CA'
+- Guild: Guild 028
+  Lat_Long: [42.2626, -71.8023]
+  Leader: 'Joe Forjette'
+  Location: 'Worcester MA '
+  Programs: ['Guild']
+- Guild: Guild 029
+  Lat_Long: [37.8321, -122.262]
+  Leader: 'Yan Edwards, John Roesler'
+  Location: 'Oakland, CA'
+  Programs: ['Guild']
+- Guild: Guild 030
+  Lat_Long: [32.7153, -117.1573]
+  Leader: 'David Ruiz'
+  Location: 'San Diego, CA'
+- Guild: Guild 031
+  Lat_Long: [28.5383, -81.3792]
+  Leader: 'Lorena Bidinger'
+  Location: 'South Orlando, FL'
+- Guild: Guild 032
+  Lat_Long: [37.6688, -122.0808]
+  Leader: 'Carolyn Lunger, John Lunger'
+  Location: 'Hayward, CA'
+  Programs: ['Guild']
+- Guild: Guild 033
+  Lat_Long: [51.6809, -4.1602]
+  Leader: 'John Lewis'
+  Location: 'Llanelli, Wales, UK'
+- Guild: Guild 034
+  Lat_Long: [35.9047, -78.8638]
+  Leader: 'Chris Carmody, Wanona Satcher, MaryBeth'
+  Location: 'Research Triangle, NC'
+- Guild: Guild 042
+  Lat_Long: [37.3327, -121.8918]
+  Leader: 'George Yu'
+  Location: 'San Jose'
+  Programs: ['Open Lab', 'Guild']
