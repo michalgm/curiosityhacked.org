@@ -33,11 +33,7 @@
 
   // Attach a submit handler to the form
   form.submit(function( event ) {
-    // Stop form from submitting normally
-    event.preventDefault();
-
     $('#joinresult').empty();
-
 
     // Check for errors
     var hasError = false;
@@ -54,20 +50,5 @@
       $('#loading').hide();
       return false;
     }
-
-    // Send the data using post
-    var posting = $.post(form.attr('action'), form.serialize());
-
-    // Can't get a real response from the server because of same-origin policy,
-    // but after 1.8 seconds, pretend that we received the request (we probably
-    // received the request...). It seems the data gets POSTed anyways.
-    $('#submit-sign-up').attr('disabled', true);
-    $('#loading').show();
-    window.setTimeout(function( data ) {
-      window.console.log(data);
-      $('#loading').hide();
-      $('#joinresult').html(
-          '<b style="font-size:80%">We have received your request, thank you!</b>');
-    }, 1800);
   });
 </script>
