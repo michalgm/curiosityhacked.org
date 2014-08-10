@@ -50,6 +50,10 @@ password in order to install system dependencies.
 ```
 $ rvm install 2.0.0
 ```
+And if Bundler is not already present
+```
+$ sudo gem install bundler
+```
 
 At this point, if you cd into the directory of this repository, RVM should
 automatically create a *gemset* for you. The gemset is a set of gems that are
