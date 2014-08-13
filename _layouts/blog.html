@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<!--
+  ZeroFour 2.5 by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="left-sidebar">
+
+  	<!-- Header Wrapper -->
+  		<div id="header-wrapper">
+  			<div class="container">
+  				<div class="row">
+  					<div class="12u">
+  					
+  						{% include header.html %}
+
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	<!-- Main Wrapper -->
+  		<div id="main-wrapper">
+  			<div class="main-wrapper-style2">
+  				<div class="inner">
+  					<div class="container">
+  						<div class="row">
+<div class="4u">
+  <div id="sidebar">
+
+    <!-- Sidebar -->
+
+      <section>
+<div id="post-nav" class="clearfix">
+  {% if page.previous.url %} 
+    <p>
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
+    <p>
+	{{page.previous.excerpt | markdownify | strip_html}}
+  {% endif %} 
+  {% if page.next.url %} 
+    <p>
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a> 
+    <p>
+	{{page.next.excerpt | markdownify | strip_html}}
+  {% endif %} 
+</div>
+      </section>
+
+  </div>
+</div>
+<div class="8u skel-cell-important">
+  <div id="content">
+
+    <!-- Content -->
+
+      <article>
+        <header class="major">
+          <h2>
+		{{ page.title }}
+	  </h2>
+          <span class="byline"></span>
+        </header>
+                {{ content }}
+      </article>
+  </div>
+</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+
+  	{% include footer.html %}
+
+  </body>
+</html>
+
