@@ -12,5 +12,7 @@ prose:
     blog:
     - name: "layout"
       field:
-        element: "hidden"
+        element: "text"
+        type: "text"
+        help: "Currently blog or default"
         value: "blog"
