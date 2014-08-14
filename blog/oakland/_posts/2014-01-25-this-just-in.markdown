@@ -5,12 +5,11 @@ published: true
 ---
 
 # Doing a header #
-![](/media/tshirt.jpg)
 With some about of interesting text.
 
 * oh
 * look
 * a
 * list
-
+![](/media/photo.jpg)
 ### so i did that ###
