@@ -16,4 +16,10 @@ prose:
         type: "text"
         label: "Template"
         help: "Currently blog or default"
-        value: "blog"
+        value: "blog" 
+    - name: "headingimg"
+      field:
+        element: "text"
+        type: "text"
+        label: "Heading Image"
+        help: "Path to image used in index"
