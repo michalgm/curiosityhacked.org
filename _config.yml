@@ -7,6 +7,7 @@ prose:
   rooturl: 'blog'
   siteurl: 'http://www.curiosityhacked.org'
   media: 'media'
+  site: 'http://www.curiosityhacked.org/links.jsonp'
   metadata:
     blog:
     - name: "layout"
