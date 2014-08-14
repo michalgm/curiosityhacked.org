@@ -14,5 +14,6 @@ prose:
       field:
         element: "text"
         type: "text"
+        label: "Template"
         help: "Currently blog or default"
         value: "blog"
