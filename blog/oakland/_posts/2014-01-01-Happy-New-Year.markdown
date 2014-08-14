@@ -1,7 +1,10 @@
 ---
 layout: blog
 tag: front
+published: true
 ---
+
+![photo.jpg](/media/photo.jpg)
 # Doing a header #
 
 With some about of interesting text.
@@ -12,4 +15,3 @@ With some about of interesting text.
 * list
 
 ### so i did that ###
-
