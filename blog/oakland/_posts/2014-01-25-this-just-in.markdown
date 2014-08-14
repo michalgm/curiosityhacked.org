@@ -1,9 +1,11 @@
 ---
 layout: blog
 tag: front
+published: true
 ---
-# Doing a header #
 
+# Doing a header #
+![](/media/tshirt.jpg)
 With some about of interesting text.
 
 * oh
@@ -12,4 +14,3 @@ With some about of interesting text.
 * list
 
 ### so i did that ###
-
