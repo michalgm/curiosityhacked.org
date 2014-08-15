@@ -10,3 +10,16 @@ layout: default
     </li>
   {% endfor %}
 </ul>
+
+{% capture cats %}
+{% for cat in site.categories %}
+{{ cat | first }}
+{% endfor %}
+{% endcapture %}
+
+{% assign cat =  cats |remove: "blog" | split:' ' |  sort  %}
+
+{% for q in cat %}
+<li><a href="/blog/{{q}}">{{q}}</a>
+{% endfor %}
+
