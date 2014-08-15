@@ -34,18 +34,19 @@
     <!-- Sidebar -->
 
       <section>
+<a href="{{site.url}}{{ page.categories | join: '/' }}">News Index</a>
 <div id="post-nav" class="clearfix">
   {% if page.previous.url %} 
     <p>
     <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
     <p>
-	{{page.previous.excerpt | markdownify | strip_html}}
+	{{page.previous.excerpt | markdownify | strip_html | truncatewords: 20}}
   {% endif %} 
   {% if page.next.url %} 
     <p>
     <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a> 
     <p>
-	{{page.next.excerpt | markdownify | strip_html}}
+	{{page.next.excerpt | markdownify | strip_html | truncatewords: 20}}
   {% endif %} 
 </div>
       </section>
