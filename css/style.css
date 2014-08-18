@@ -1025,11 +1025,12 @@
   		border-left: 0;
   		border-right: 0;
   		color: #fff;
-  		color: rgba(255,255,255,0.75);
+  		color: rgba(255,255,255,1);
   		font-size: 2.35em;
   		font-weight: 700;
   		line-height: 1.3em;
   		margin: 0 0 0 0;
+      text-shadow: black 0 0 .3rem;
   	}
   	
   		#banner h2 strong
@@ -1062,12 +1063,18 @@
   	{
   		text-transform: uppercase;
   		color: #fff;
-  		color: rgba(255,255,255,0.75);
+  		color: rgba(255,255,255,1);
   		font-size: 1.5em;
   		font-weight: 700;
   		line-height: 1.3em;
   		letter-spacing: 0.04em;
+      text-shadow: black 0 0 .2em;
   	}
+
+    #banner img {
+      border-radius: 1em;
+      margin: 1.25em 0;
+    }
 
 /*********************************************************************************/
 /* Wrappers                                                                      */
@@ -1075,13 +1082,14 @@
 
   #header-wrapper
   {
-  	/* background: url('../images/banner.jpg') top center; */
   	background-size: 100%;
   }
   
   	body.homepage #header-wrapper
   	{
-  		background-size: cover;
+      background-size: cover;
+      background: url('images/bg04.png') bottom center no-repeat;
+      height: auto !important;
   	}
   
   #banner-wrapper
