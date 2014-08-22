@@ -14,9 +14,30 @@ map: true
         </li>
         {% for guild in site.data.guilds %}
         <li>
-          {% if guild.Lat_Long%}<a href='#' onclick="map.panTo(guild_info[{{forloop.index0}}].latlong); map.setZoom(8);return false;">{%endif%}
+          <a href='#' onclick="{% if guild.Lat_Long%}map.panTo(guild_info[{{forloop.index0}}].latlong); map.setZoom(8);{% endif %}$(this).parent().find('ul').slideToggle();return false;">
             {{guild.Guild}}, {{guild.Location}}
-            {% if guild.Lat_Long%}</a>{%endif%}
+          </a>
+		<ul style='display: none;'>
+<li>
+{% assign bpg = guild.Guild | downcase | remove: ' ' |prepend: "/blog/" %}
+{% assign iflag = false %}
+{% for p in site.pages %}
+  {% if p.dir == bpg and p.name == 'index.markdown' %}
+    {% assign iflag = true %}
+    <a href='{{ bpg }}'>News</a>&nbsp;
+  {% endif %}
+{% endfor %}
+{% for p in site.pages %}
+  {% if p.dir == bpg and p.name == 'about.markdown' %}
+    {% assign iflag = true %}
+    <a href='{{ bpg }}/about.html'>Info</a>&nbsp;
+  {% endif %}
+{% endfor %}
+{% if iflag != true %}
+	Contact info@curiosityhacked.org for more information
+{% endif %}
+</li>
+		</ul>
         </li>
         {% endfor %}
         </ul>
