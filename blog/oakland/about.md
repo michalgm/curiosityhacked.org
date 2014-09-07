@@ -1,6 +1,7 @@
 ---
 published: true
 layout: default
+redirect_from: '/oakland'
 ---
 
 ## Thank you for your interest in the Curiosity Hacked Oakland Lab (CHOL).
