@@ -1,8 +1,7 @@
 ---
 published: true
 layout: default
-redirect_from: 
- - '/oakland'
+redirect_from:
  - '/oakland/'
 ---
 
