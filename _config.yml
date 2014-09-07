@@ -3,6 +3,8 @@ safe: true
 lsi: false
 exclude: ['Gemfile', 'Gemfile.lock', 'app.yaml', 'README.md']
 destination: _site
+gems:
+  - jekyll-redirect-from
 prose:
   rooturl: 'blog'
   siteurl: 'http://www.curiosityhacked.org'
