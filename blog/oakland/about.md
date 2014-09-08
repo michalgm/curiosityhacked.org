@@ -9,7 +9,7 @@ redirect_from:
 
 [Latest Oakland News / Blog](blog/oakland)
 
-Our Oakland location serves as our headquarters as well as our test bed for many of our programs. Guilds currently run four nights a week and Open Labs occur ever Sunday from 2-5pm. Other classes and after school activites run as scheduled.<img src="/media/10632620_897683933593731_8723575834852983001_n.jpg" height='350px'/>
+<img src="/media/10632620_897683933593731_8723575834852983001_n.jpg" height='350px'/>Our Oakland location serves as our headquarters as well as our test bed for many of our programs. Guilds currently run four nights a week and Open Labs occur ever Sunday from 2-5pm. Other classes and after school activites run as scheduled.
 
 ###Upcomming Open Lab Featured Projects
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
