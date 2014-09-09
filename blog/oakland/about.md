@@ -13,8 +13,8 @@ redirect_from:
 
 ###Upcoming Open Lab Featured Projects
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
-- September 14th, 2014 - TBD
-- September 21st, 2014 - TBD
+- September 14th, 2014 - Rubber Band Helicopters - Workshop for Young Engineers 
+- September 21st, 2014 - Pyramid Catapult - Workshop for Young Engineers
 - September 28th, 2014 - TBD
 
 <div style="width: 70%; margin:0 auto;">
