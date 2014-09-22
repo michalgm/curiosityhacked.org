@@ -15,7 +15,11 @@ redirect_from:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
 - September 14th, 2014 - Rubber Band Helicopters - Workshop for Young Engineers 
 - September 21st, 2014 - Pyramid Catapult - Workshop for Young Engineers
-- September 28th, 2014 - TBD
+- September 28th, 2014 - Tiny Matrix - Programming and soldering - https://sites.google.com/site/tinymatrix/
+- October 5th, 2014 - TBD
+- October 12th, 2014 - TBD
+- October 19th, 2014 - Closed - See us at the [East Bay Mini Maker Faire](http://ebmakerfaire.wordpress.com/)! 
+- October 26th, 2014 - TBD
 
 <div style="width: 70%; margin:0 auto;">
 <iframe src="https://www.google.com/calendar/embed?showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hacker-scouts.org_k86gqmrn03s7h95e2eu6k8h41g%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FLos_Angeles" style=" border-width: 0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
