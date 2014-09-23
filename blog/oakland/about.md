@@ -21,6 +21,8 @@ redirect_from:
 - October 19th, 2014 - Closed - See us at the [East Bay Mini Maker Faire](http://ebmakerfaire.wordpress.com/)! 
 - October 26th, 2014 - TBD
 
+##If you're interested in using CHOL for your after-school group or science club, contact us at info@curiosityhacked.org
+
 <div style="width: 70%; margin:0 auto;">
 <iframe src="https://www.google.com/calendar/embed?showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hacker-scouts.org_k86gqmrn03s7h95e2eu6k8h41g%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FLos_Angeles" style=" border-width: 0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
