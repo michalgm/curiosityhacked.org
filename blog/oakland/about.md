@@ -16,10 +16,11 @@ redirect_from:
 - September 14th, 2014 - Rubber Band Helicopters - Workshop for Young Engineers 
 - September 21st, 2014 - Pyramid Catapult - Workshop for Young Engineers
 - September 28th, 2014 - Tiny Matrix - Programming and soldering - https://sites.google.com/site/tinymatrix/
-- October 5th, 2014 - TBD
-- October 12th, 2014 - TBD
+- October 5th, 2014 - eTextiles with [The Crafty Avenger](http://thecraftyavenger.com/)
+- October 12th, 2014 - Laser Cut Lanterns
 - October 19th, 2014 - Closed - See us at the [East Bay Mini Maker Faire](http://ebmakerfaire.wordpress.com/)! 
-- October 26th, 2014 - TBD
+- October 26th, 2014 - Motion Activated Circuits (Halloween Scares!)
+- 
 
 <em>If you're interested in using CHOL for your after-school group or science club, contact us at info@curiosityhacked.org</em>
 
