@@ -19,8 +19,9 @@ redirect_from:
 - October 5th, 2014 - eTextiles with [The Crafty Avenger](http://thecraftyavenger.com/)
 - October 12th, 2014 - Laser Cut Lanterns
 - October 19th, 2014 - Closed - See us at the [East Bay Mini Maker Faire](http://ebmakerfaire.wordpress.com/)! 
-- October 26th, 2014 - Motion Activated Circuits (Halloween Scares!)
-- 
+- October 26th, 2014 - [Snap-o-lanterns!]( http://www.evilmadscientist.com/2007/make-a-robotic-snap-o-lantern/)Motion Activated Circuits (Halloween Scares!)
+
+
 
 <em>If you're interested in using CHOL for your after-school group or science club, contact us at info@curiosityhacked.org</em>
 
