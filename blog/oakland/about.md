@@ -20,6 +20,9 @@ redirect_from:
 - October 12th, 2014 - Laser Cut Lanterns
 - October 19th, 2014 - Closed - See us at the [East Bay Mini Maker Faire](http://ebmakerfaire.wordpress.com/)! 
 - October 26th, 2014 - [Snap-o-lanterns!]( http://www.evilmadscientist.com/2007/make-a-robotic-snap-o-lantern/)Motion Activated Circuits (Halloween Scares!)
+- November 2nd, 2014 - Closed due to the end of Day Light Savings time
+- November 9th, 2014 - TBD
+- November 16th, 2014 - TBD
 
 
 
