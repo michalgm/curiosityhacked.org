@@ -11,6 +11,10 @@ redirect_from:
 
 <img src="/media/10632620_897683933593731_8723575834852983001_n.jpg" height='350px' align='right'/>Our Oakland location serves as our headquarters as well as our test bed for many of our programs. Guilds currently run four nights a week and Open Labs occur ever Sunday from 2-5pm. Other classes and after school activites run as scheduled.
 
+Curiosity Hacked Oakland Lab
+6036 Telegraph Avenue
+Oakland, CA 94608
+
 ###Upcoming Open Lab Featured Projects
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
 - September 14th, 2014 - Rubber Band Helicopters - Workshop for Young Engineers 
