@@ -28,7 +28,7 @@ redirect_from:
 - December 7th, 2014 - DAY OF SERVICE (Assembling Maker Kits to send to deployed soldiers. Please bring donations of energy bars!) Also: Menorah and Christmas Tree Electronic Kits to make and take home!
 - December 14th, 2014 - HOUR OF CODE! Join us for three hours of programming celebration! Board Games, online tutorials, Lego robotics, Play-i/Make Wonder Robots, and more!
 - December 21st, 2014 - e-textile project with the Crafty Avenger
-- December 28th, 2014- NO OPEN LAB/ Holiday Recovery
+- December 28th, 2014- NO OPEN LAB/ Holiday Recovery!
 
 
 
