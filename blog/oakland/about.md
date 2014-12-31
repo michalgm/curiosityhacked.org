@@ -33,7 +33,10 @@ Oakland, CA 94608
 - December 14th, 2014 - HOUR OF CODE! Join us for three hours of programming celebration! Board Games, online tutorials, Lego robotics, Play-i/Make Wonder Robots, and more!
 - December 21st, 2014 - e-textile project with the Crafty Avenger
 - December 28th, 2014- NO OPEN LAB/ Holiday Recovery!
-
+- January 4th, 2015 - NO OPEN LAB
+- January 11th, 2015 - TBD
+- January 18th, 2015 - TBD
+- January 25th, 2015 - TBD
 
 
 <em>If you're interested in using CHOL for your after-school group or science club, contact us at info@curiosityhacked.org</em>
