@@ -13,7 +13,7 @@ redirect_from:
 
 Curiosity Hacked Oakland Lab: 
 6036 Telegraph Avenue
-Oakland, CA 94608
+Oakland, CA 94609
 
 ###Upcoming 2015 Open Lab Featured Projects:
 - January 11th, 2015 - Plastic Bottle Re-Use Hack-A-Thon (Please BYOB if you can!) plus Make your own Diving Squid in a Bottle! ($5 materials fee)
