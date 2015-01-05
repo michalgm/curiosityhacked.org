@@ -15,7 +15,12 @@ Curiosity Hacked Oakland Lab:
 6036 Telegraph Avenue
 Oakland, CA 94608
 
-###Upcoming Open Lab Featured Projects
+###Upcoming 2015 Open Lab Featured Projects:
+- January 11th, 2015 - Plastic Bottle Re-Use Hack-A-Thon (Please BYOB if you can!) plus Make your own Diving Squid in a Bottle! ($5 materials fee)
+- January 18th, 2015 - Working With Wool: Knitting and Felting
+- January 25th, 2015 - DIY Spy Bug!
+
+Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
 - September 14th, 2014 - Rubber Band Helicopters - Workshop for Young Engineers 
 - September 21st, 2014 - Pyramid Catapult - Workshop for Young Engineers
@@ -34,9 +39,7 @@ Oakland, CA 94608
 - December 21st, 2014 - e-textile project with the Crafty Avenger
 - December 28th, 2014- NO OPEN LAB/ Holiday Break!
 - January 4th, 2015 - NO OPEN LAB/ Holiday Recovery!
-- January 11th, 2015 - Plastic Bottle Re-Use Hack-A-Thon (Please BYOB if you can!) plus Make your own Diving Squid in a Bottle! ($5 materials fee)
-- January 18th, 2015 - Working With Wool: Knitting and Felting
-- January 25th, 2015 - DIY Spy Bug!
+
 
 
 <em>If you're interested in using CHOL for your after-school group or science club, contact us at info@curiosityhacked.org</em>
