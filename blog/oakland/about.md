@@ -15,6 +15,11 @@ Curiosity Hacked Oakland Lab:
 6036 Telegraph Avenue
 Oakland, CA 94609
 
+###Upcoming 2015 Special Events
+-February 14th Love Hack: A special Open Lab for parents and other kids-at heart! 5-7pm
+<A HREF="http://www.brownpapertickets.com/event/1168816">Buy tickets for Curiosity Hacked Love Hack</A>
+-February 28th: The Vault: Cardboard Projects for Families Book Launch and Open Build! 2-5pm! Get a copy of this wonderful and creative book on building with cardboard and participate in our free build!
+
 ###Upcoming 2015 Open Lab Featured Projects:
 - January 11th, 2015 - Plastic Bottle Re-Use Hack-A-Thon (Please BYOB if you can!) plus Make your own Diving Squid in a Bottle! ($5 materials fee)
 - January 18th, 2015 - Working With Wool: Knitting and Felting
