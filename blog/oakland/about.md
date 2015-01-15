@@ -11,6 +11,8 @@ redirect_from:
 
 <img src="/media/10632620_897683933593731_8723575834852983001_n.jpg" height='350px' align='right'/>Our Oakland location serves as our headquarters as well as our test bed for many of our programs. Guilds currently run four nights a week and Open Labs occur ever Sunday from 2-5pm. Other classes and after school activites run as scheduled.
 
+###We are now hosting Birthday Parties! Email us for more on our individualized approach or to schedule!
+
 Curiosity Hacked Oakland Lab: 
 6036 Telegraph Avenue
 Oakland, CA 94609
