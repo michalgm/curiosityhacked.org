@@ -28,7 +28,7 @@ See the event page here: https://www.facebook.com/events/429002137251534/
 - January 11th, 2015 - Plastic Bottle Re-Use Hack-A-Thon (Please BYOB if you can!) plus Make your own Diving Squid in a Bottle! ($5 materials fee)
 - January 18th, 2015 - Working With Wool: Knitting and Felting
 - January 25th, 2015 - Something Cool!
-- Upcomming - DIY Spy Bug!
+- Upcoming - DIY Spy Bug!
 
 Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
