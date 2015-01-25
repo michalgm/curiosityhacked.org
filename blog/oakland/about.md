@@ -27,10 +27,11 @@ See the event page here: https://www.facebook.com/events/429002137251534/
 ###Upcoming 2015 Open Lab Featured Projects:
 - January 11th, 2015 - Plastic Bottle Re-Use Hack-A-Thon (Please BYOB if you can!) plus Make your own Diving Squid in a Bottle! ($5 materials fee)
 - January 18th, 2015 - Working With Wool: Knitting and Felting
-- January 25th, 2015 - Something Cool!
+- January 25th, 2015 - [Squishy Circuits](http://courseweb.stthomas.edu/apthomas/SquishyCircuits/index.htm)
 - Upcoming - DIY Spy Bug!
 
 Past Projects:
+
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
 - September 14th, 2014 - Rubber Band Helicopters - Workshop for Young Engineers 
 - September 21st, 2014 - Pyramid Catapult - Workshop for Young Engineers
