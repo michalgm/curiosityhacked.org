@@ -29,6 +29,7 @@ See the event page here: https://www.facebook.com/events/429002137251534/
 - January 18th, 2015 - Working With Wool: Knitting and Felting
 - January 25th, 2015 - [Squishy Circuits](http://courseweb.stthomas.edu/apthomas/SquishyCircuits/index.htm)
 - February 1st, 2015 - Treasure boxes: Wood working and decoration
+- February 8th, 2015 - Mouse Trap Racers
 - Upcoming - DIY Spy Circuits!
 
 Past Projects:
