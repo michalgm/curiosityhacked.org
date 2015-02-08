@@ -10,12 +10,6 @@
   Leader: 'Kandy, Melissa'
   Location: 'Menlo Park, CA'
   Programs: ['Guild']
-- Guild: Guild 003
-  HS_Email: 'guild003@hacker-scouts.org'
-  Lat_Long: [32.867, -79.9752]
-  Leader: 'Steve Berry'
-  Location: 'Charleston, SC'
-  Programs: ['Open Lab']
 - Guild: Guild 004
   HS_Email: 'guild004@hacker-scouts.org'
   Lat_Long: [47.6338, -122.3215]
@@ -34,10 +28,6 @@
   Leader: 'Paul Skuta'
   Location: 'Alameda, CA'
   Programs: ['Guild']
-- Guild: Guild 007
-  HS_Email: 'guild007@hacker-scouts.org'
-  Location: 'San Francisco, CA'
-  Programs: ['Guild']
 - Guild: Guild 008
   HS_Email: 'guild008@hacker-scouts.org'
   Lat_Long: [37.8321, -122.262]
@@ -49,12 +39,6 @@
   Lat_Long: [38.5825, -121.4942]
   Leader: 'Gina Lujan, Charles Blas, Charles Bookman'
   Location: 'Sacramento'
-  Programs: ['Guild']
-- Guild: Guild 010
-  HS_Email: 'guild010@hacker-scouts.org'
-  Lat_Long: [38.7875, -90.6299]
-  Leader: 'Teri & Roger Eddy'
-  Location: 'St. Louis, MO'
   Programs: ['Guild']
 - Guild: Guild 011
   Lat_Long: [36.1667, -86.7833]
@@ -84,11 +68,6 @@
   Leader: 'Amy Stevens, Cris Hayes'
   Location: 'Orange County, CA (South) (Rancho Santa Margarita)'
   Programs: ['Guild']
-- Guild: Guild 016
-  Lat_Long: [33.8703, -117.9253]
-  Leader: 'Windi Eklund, Denise Silva'
-  Location: 'Orange County, CA (Fullerton)'
-  Programs: ['Guild']
 - Guild: Guild 017
   HS_Email: 'guild017@hacker-scouts.org'
   Lat_Long: [35.2092, -89.799]
@@ -111,11 +90,6 @@
   Leader: 'Monique Larsen'
   Location: 'Mitchell, NE'
   Programs: ['Open Lab/Guild']
-- Guild: Guild 021
-  HS_Email: 'guild021@hacker-scouts.org'
-  Lat_Long: [34.181, -118.3516]
-  Leader: 'Matt Bowers'
-  Location: 'Burbank, CA'
 - Guild: Guild 022
   Lat_Long: [33.6246, -117.7146]
   Leader: 'Kimberly Moore'
@@ -137,25 +111,10 @@
   Leader: 'Elizabeth Jaffe'
   Location: 'Glenview, IL'
   Programs: ['Guild']
-- Guild: Guild 026
-  HS_Email: 'guild026@hacker-scouts.org'
-  Lat_Long: [34.0522, -118.2437]
-  Leader: 'Luz Rivas'
-  Location: 'Los Angeles'
-  Programs: ['Open Lab']
-- Guild: Guild 027
-  Lat_Long: [33.6839, -117.7947]
-  Leader: 'Donna Jackman Cathey'
-  Location: 'Orange County (Irvine), CA'
 - Guild: Guild 028
   Lat_Long: [42.2626, -71.8023]
   Leader: 'Joe Forjette'
   Location: 'Worcester MA '
-  Programs: ['Guild']
-- Guild: Guild 029
-  Lat_Long: [37.8321, -122.262]
-  Leader: 'Yan Edwards, John Roesler'
-  Location: 'Oakland, CA'
   Programs: ['Guild']
 - Guild: Guild 030
   Lat_Long: [32.7153, -117.1573]
@@ -165,11 +124,6 @@
   Lat_Long: [28.5383, -81.3792]
   Leader: 'Lorena Bidinger'
   Location: 'South Orlando, FL'
-- Guild: Guild 032
-  Lat_Long: [37.6688, -122.0808]
-  Leader: 'Carolyn Lunger, John Lunger'
-  Location: 'Hayward, CA'
-  Programs: ['Guild']
 - Guild: Guild 033
   Lat_Long: [51.6809, -4.1602]
   Leader: 'John Lewis'
@@ -178,8 +132,37 @@
   Lat_Long: [35.9047, -78.8638]
   Leader: 'Chris Carmody, Wanona Satcher, MaryBeth'
   Location: 'Research Triangle, NC'
+- Guild: Guild 036
+  Lat_Long: [40.335909, -78.390847]
+  Leader: 'Jay (Jason) Rhykerd,  Mike Miller, Wade Mellot'
+  Location: 'Roaring Springs, PA'
+- Guild: Guild 037
+  Lat_Long: [34.019454, -118.491191]
+  Leader: 'Sharlene Azam'
+  Location: 'Santa Monica, CA'
+- Guild: Guild 038
+  Lat_Long: [42.025583, -88.178408]
+  Leader: 'Rachael Price'
+  Location: 'Streamwood, IL'
+- Guild: Guild 039
+  Lat_Long: [37.8321, -122.262]
+  Leader: 'Roshi and Destry'
+  Location: 'Oakland'
+- Guild: Guild 040
+  Lat_Long: [40.397761, -105.07498]
+  Leader: 'Math Stein'
+  Location: 'Loveland, CO'
+- Guild: Guild 041
+  Lat_Long: [37.681874, -121.768009]
+  Leader: 'Joyce Cao and Steve Traugott'
+  Location: 'Livermore, CA'
 - Guild: Guild 042
   Lat_Long: [37.3327, -121.8918]
   Leader: 'George Yu'
   Location: 'San Jose'
   Programs: ['Open Lab', 'Guild']
+- Guild: Guild 046
+  Lat_Long: [37.8321, -122.262]
+  Leader: 'Erin King'
+  Location: 'Oakland'
+  Programs: ['Guild']
