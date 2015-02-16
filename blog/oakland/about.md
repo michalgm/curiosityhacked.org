@@ -18,8 +18,6 @@ Curiosity Hacked Oakland Lab:
 Oakland, CA 94609
 
 ###Upcoming 2015 Special Events
--February 14th Love Hack: A special Open Lab for parents and other kids-at heart! 5-7pm
-<A HREF="http://www.brownpapertickets.com/event/1168816">Buy tickets for Curiosity Hacked Love Hack</A>
 
 -February 28th: The Vault: Cardboard Projects for Families Book Launch and Open Build! 2-5pm! Get a copy of this wonderful and creative book on building with cardboard and participate in our free build!
 See the event page here: https://www.facebook.com/events/429002137251534/
@@ -30,7 +28,9 @@ See the event page here: https://www.facebook.com/events/429002137251534/
 - January 25th, 2015 - [Squishy Circuits](http://courseweb.stthomas.edu/apthomas/SquishyCircuits/index.htm)
 - February 1st, 2015 - Treasure boxes: Wood working and decoration
 - February 8th, 2015 - Mouse Trap Racers
-- February 15th, 2015 - Solder Valintines Hearts!
+- February 15th, 2015 - Solder Valentines Hearts!
+- February 22nd, 2015 - Mosaic Garden Stepping Stones
+- March 1st, 2015- Medieval Weaponry: Bows, LARP swords, and Catapults
 
 
 Past Projects:
