@@ -4,7 +4,7 @@ layout: default
 ---
 
 ## Thank you for your participation in the programs of the Curiosity Hacked Oakland Lab
-Please use this convienient Paypal button below to subscribe in a Monthly dues payment plan. No need to remember to bring in a check and you can cancel anytime
+Please use this convienient Paypal button below to subscribe in a Monthly dues payment plan. No need to remember to bring in a check and you can cancel anytime.
 
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
