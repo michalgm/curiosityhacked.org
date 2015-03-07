@@ -30,7 +30,12 @@ See the event page here: https://www.facebook.com/events/429002137251534/
 - February 8th, 2015 - Mouse Trap Racers
 - February 15th, 2015 - Solder Valentines Hearts!
 - February 22nd, 2015 - Mosaic Garden Stepping Stones
-- March 1st, 2015- Medieval Weaponry: Bows, LARP swords, and Catapults
+- March 1st, 2015 - Medieval Weaponry: Bows, LARP swords, and Catapults
+- March 8th, 2015 - Leftovers! Part of spring cleaning, we have lots of bits an pieces from past open labs to revist. Missed swords and bows from lastweek? Do them this week!
+- March 15th, 2015 - TBD
+- March 22nd, 2015 - Rotational mold casting with chocolate, and other chocolate fun.
+- March 29th, 2015 - TBD
+- April 5th, 2015 - Closed, Easter
 
 
 Past Projects:
