@@ -18,7 +18,9 @@ Curiosity Hacked Oakland Lab:
 Oakland, CA 94609
 
 ###2015 Oakland Lab Summer Camps
+
 -Tentative Schedule (links coming soon!):
+
 -6/15-6/17: Mentor Hack (3 Day FREE Intensive for Teacher and Mentors on Learner Centered Maker Education)
 -6/22-6/26: Scientific Adventures for Girls (entering 4th and 5th grade girls)
 -6/29-7/1: Mentor Hack (3 Day FREE Intensive for Teacher and Mentors on Learner Centered Maker Education)
