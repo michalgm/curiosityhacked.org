@@ -42,7 +42,7 @@ See the event page here: https://www.facebook.com/events/429002137251534/
 
 - March 1st, 2015 - Medieval Weaponry: Bows, LARP swords, and Catapults
 - March 8th, 2015 - Leftovers! Part of spring cleaning, we have lots of bits an pieces from past open labs to revist. Missed swords and bows from lastweek? Do them this week!
-- March 15th, 2015 - TBD
+- March 15th, 2015 - Pi Day Celebration!
 - March 22nd, 2015 - Rotational mold casting with chocolate, and other chocolate fun.
 - March 29th, 2015 - Egg Hack
 - April 5th, 2015 - Closed, Easter/Spring Cleaning
