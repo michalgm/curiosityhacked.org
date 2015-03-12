@@ -19,7 +19,7 @@ Oakland, CA 94609
 
 ###2015 Oakland Lab Summer Camps
 
--Tentative Schedule (links coming soon!):
+####Tentative Schedule (links coming soon!):
 
 - 6/15-6/17: Mentor Hack (3 Day FREE Intensive for Teacher and Mentors on Learner Centered Maker Education) 
 - 6/22-6/26: Scientific Adventures for Girls (entering 4th and 5th grade girls) 
@@ -35,7 +35,7 @@ Oakland, CA 94609
 
 ###Upcoming 2015 Special Events
 
--February 28th: The Vault: Cardboard Projects for Families Book Launch and Open Build! 2-5pm! Get a copy of this wonderful and creative book on building with cardboard and participate in our free build!
+- February 28th: The Vault: Cardboard Projects for Families Book Launch and Open Build! 2-5pm! Get a copy of this wonderful and creative book on building with cardboard and participate in our free build!
 See the event page here: https://www.facebook.com/events/429002137251534/
 
 ###Upcoming 2015 Open Lab Featured Projects:
