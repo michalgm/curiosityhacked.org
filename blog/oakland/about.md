@@ -35,6 +35,8 @@ Oakland, CA 94609
 
 ###Upcoming 2015 Special Events
 
+- April 9th: Founder/ED Samantha Cook will be speaking at Impact Hub Berkeley on the balance of parenting, family life, and creating a meaningful professional path. http://berkeley.impacthub.net/event/berkeley-startup-parenting-impact-hub-community-event/
+- 
 - February 28th: The Vault: Cardboard Projects for Families Book Launch and Open Build! 2-5pm! Get a copy of this wonderful and creative book on building with cardboard and participate in our free build!
 See the event page here: https://www.facebook.com/events/429002137251534/
 
