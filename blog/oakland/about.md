@@ -19,19 +19,18 @@ Oakland, CA 94609
 
 ###2015 Oakland Lab Summer Camps
 
-####Tentative Schedule (links coming soon!):
-
-- 6/15-6/17: Mentor Hack (3 Day FREE Intensive for Teacher and Mentors on Learner Centered Maker Education) 
-- 6/22-6/26: Scientific Adventures for Girls (entering 4th and 5th grade girls) 
-- 6/29-7/1: Mentor Hack (3 Day FREE Intensive for Teacher and Mentors on Learner Centered Maker Education) 
-- 7/6-7/10: Scientific Adventures for Girls (entering 1st and 2nd grade girls) 
-- 7/13-7/17: Sparks Skill Building (ages 5-8) 
-- 7/20-7/24: Guild Skill Building (ages 8-14) 
-- 7/27-7/31: Rainbow Day Camp Partnership 
-- 8/3- 8/7: Hackerling Circuit Hack/Arduino (ages 8-14) 
-- 8/10- 8/14: Art Hack (ages 7-14) 
-- 8/17- 8/21: Geek Hack (ages 9-14) 
-
+####Schedule:
+- 6/15 - 6/17: Mentor Hack (3 Day FREE Intensive for Teacher and Mentors on Learner Centered Maker Education) 
+- 6/22 - 6/26: Scientific Adventures for Girls (entering 4th and 5th grade girls) 
+- 6/29 - 7/1: Mentor Hack (3 Day FREE Intensive for Teacher and Mentors on Learner Centered Maker Education) 
+- 7/6 - 7/10: Scientific Adventures for Girls (entering 1st and 2nd grade girls) 
+- 7/13 - 7/17: Sparks Skill Building (ages 5-8) 
+- 7/20 - 7/24: Guild Skill Building (ages 8-14) 
+- 7/27 - 7/31: Rainbow Day Camp Partnership 
+- 8/3 - 8/7: Hackerling Circuit Hack/Arduino (ages 8-14) 
+- 8/10 - 8/14: Art Hack (ages 7-14) 
+- 8/17 - 8/21: Geek Hack (ages 9-14) 
+<h3><a href-"http://www.curiosityhacked.org/blog/oakland/summer2015.html">Class descriptions and register to attend!</a></h3>
 
 ###Upcoming 2015 Special Events
 
