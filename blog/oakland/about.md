@@ -31,13 +31,11 @@ Oakland, CA 94609
 - 8/10 - 8/14: Art Hack (ages 7-14) 
 - 8/17 - 8/21: Geek Hack (ages 9-14) 
 
-<a href-"http://www.curiosityhacked.org/blog/oakland/summer2015.html">Class descriptions and register to attend!</a>
+<a href="http://www.curiosityhacked.org/blog/oakland/summer2015.html">Class descriptions and register to attend!</a>
 
 ###Upcoming 2015 Special Events
 
 -April 9th: Founder/ED Samantha Cook will be speaking at Impact Hub Berkeley on the balance of parenting, family life, and creating a meaningful professional path. http://berkeley.impacthub.net/event/berkeley-startup-parenting-impact-hub-community-event/
-- February 28th: The Vault: Cardboard Projects for Families Book Launch and Open Build! 2-5pm! Get a copy of this wonderful and creative book on building with cardboard and participate in our free build!
-See the event page here: https://www.facebook.com/events/429002137251534/
 
 ###Upcoming 2015 Open Lab Featured Projects:
 
@@ -45,9 +43,7 @@ See the event page here: https://www.facebook.com/events/429002137251534/
 - April 5th, 2015 - Closed, Easter/Spring Cleaning
 - April 12th, 2015- TBA
 
-
-Past Projects:
-
+##Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
 - September 14th, 2014 - Rubber Band Helicopters - Workshop for Young Engineers 
 - September 21st, 2014 - Pyramid Catapult - Workshop for Young Engineers
@@ -66,7 +62,7 @@ Past Projects:
 - December 21st, 2014 - e-textile project with the Crafty Avenger
 - December 28th, 2014- NO OPEN LAB/ Holiday Break!
 - January 4th, 2015 - NO OPEN LAB/ Holiday Recovery!
-- January 11th, 2015 - Plastic Bottle Re-Use Hack-A-Thon (Please BYOB if you can!) plus Make your own Diving Squid in a Bottle! ($5 materials fee)
+- January 11th, 2015 - Plastic Bottle Re-Use Hack-A-Thon (Please BYOB if you can!) plus Make your own Diving Squid in a Bottle!
 - January 18th, 2015 - Working With Wool: Knitting and Felting
 - January 25th, 2015 - [Squishy Circuits](http://courseweb.stthomas.edu/apthomas/SquishyCircuits/index.htm)
 - February 1st, 2015 - Treasure boxes: Wood working and decoration
