@@ -4,6 +4,13 @@ published: true
 ---
 #Curiosity Hacked Summer Camps 2015
 <div class="row">
+<img src="/images/summer/mentored.jpg" width="180px" align="left" class="image image-left">
+<h3>Curiosity Hacked Educator Workshop</h3>
+<h4 style="padding-top: 0">June 15th - 17th or June 29th - July 1st ($30)</h4>
+Educators can spend three days with us, learning about our approach to creating/supporting a more learner-centered classroom though mentorship, hands-on making, and hacking to integrate skill building into existing curriculum. Participants will be gaining new skills and get training on equipment to enhance their own visions as well as those of their students. This workshop is free (thanks to a generous grant) and CH will offer a Professional Development certificate, space is limited. Fee confirms your seat and lunch included. <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
+</div>
+
+<div class="row">
 <img src="/images/summer/IMG_6014.jpg" width="180px" align="left" class="image image-left">
 <h3>Skill Building Sparks Hack</h3>
 <h4 style="padding-top: 0">July 13th - 17th ($325)</h4>
