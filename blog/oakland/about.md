@@ -33,13 +33,15 @@ Oakland, CA 94609
 
 ###Upcoming 2015 Special Events
 
--April 9th: Founder/ED Samantha Cook will be speaking at Impact Hub Berkeley on the balance of parenting, family life, and creating a meaningful professional path. http://berkeley.impacthub.net/event/berkeley-startup-parenting-impact-hub-community-event/
+- April 9th: Founder/ED Samantha Cook will be speaking at Impact Hub Berkeley on the balance of parenting, family life, and creating a meaningful professional path. http://berkeley.impacthub.net/event/berkeley-startup-parenting-impact-hub-community-event/
 
 ###Upcoming 2015 Open Lab Featured Projects:
 
 - March 29th, 2015 - Egg Hack
 - April 5th, 2015 - Closed, Easter/Spring Cleaning
-- April 12th, 2015- TBA
+- April 12th, 2015- Tensegrity Structures
+- April 19th, 2015 - TBD
+- April 26th, 2015 - TBD
 
 ##Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
