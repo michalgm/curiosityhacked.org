@@ -33,8 +33,8 @@ Oakland, CA 94609
 
 ###Upcoming 2015 Special Events
 
-- April 9th: Founder/ED Samantha Cook will be speaking at Impact Hub Berkeley on the balance of parenting, family life, and creating a meaningful professional path. http://berkeley.impacthub.net/event/berkeley-startup-parenting-impact-hub-community-event/
-
+- May 15-17 MAKER FAIRE BAY AREA! 
+- 
 ###Upcoming 2015 Open Lab Featured Projects:
 
 - March 29th, 2015 - Egg Hack
@@ -42,6 +42,9 @@ Oakland, CA 94609
 - April 12th, 2015- Tensegrity Structures
 - April 19th, 2015 - TBD
 - April 26th, 2015 - TBD
+- May 3rd, 2015- STAR WARS DAY! (In prep for May the $th be with you!)
+- May 10th, 2015- TBD
+- May 17th, 2015- NO OPEN LAB: MAKER FAIRE BAY AREA!
 
 ##Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
