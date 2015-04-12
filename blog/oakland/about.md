@@ -42,7 +42,7 @@ Oakland, CA 94609
 - April 12th, 2015- Tensegrity Structures
 - April 19th, 2015 - TBD
 - April 26th, 2015 - TBD
-- May 3rd, 2015- STAR WARS DAY! (In prep for May the $th be with you!)
+- May 3rd, 2015- STAR WARS DAY! (In prep for May the 4th be with you!)
 - May 10th, 2015- TBD
 - May 17th, 2015- NO OPEN LAB: MAKER FAIRE BAY AREA!
 
