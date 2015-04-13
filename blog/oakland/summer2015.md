@@ -51,8 +51,9 @@ Time Lords, Vulcans, Troopers, and more can delve into our space station hackers
 <h4 style="padding-top: 0">August 17th - 21st ($325)</h4>
 Kids (ages 7-13) will learn about history and context of art while utilizing and integrating technology to modify or enhance their own art projects. <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
 </div>
-#All camps are 10am-3pm.
-#Any camps under-enrolled are subject to be replaced by a camp that has filled and has a wait list. After care may be available, if needed. 
+
+<ul>All camps are 10am-3pm.
+<ul>Any camps under-enrolled are subject to be replaced by a camp that has filled and has a wait list. After care may be available, if needed. 
 
 
 
