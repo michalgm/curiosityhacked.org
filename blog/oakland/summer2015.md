@@ -39,7 +39,7 @@ Kids (ages 8-14) will complete an entire Arduino-based Hackerling Circuit, learn
 </div>
 
 <div class="row">
-<img src="/images/summer/chewie.jpg" width="180px" align="left" class="image image-left">
+<img src="/images/summer/chewie.JPG" width="180px" align="left" class="image image-left">
 <h3>Sci-Fi Space Hack
 <h4 style="padding-top: 0">August 10th - 14th ($325)</h4>
 Time Lords, Vulcans, Troopers, and more can delve into our space station hackerspace and gain new skills while creating a variety of projects from one of our favorite genres! Scientifically accurate space science will be presented alongside fan favorites for understanding, perspective, and inspiration. We even created a special badge! May the force be with us! We are Groot! (ages 8-14) <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
