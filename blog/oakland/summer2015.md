@@ -12,16 +12,16 @@ Educators can spend three days with us, learning about our approach to creating/
 
 <div class="row">
 <img src="/images/summer/IMG_6014.jpg" width="180px" align="left" class="image image-left">
-<h3>Skill Building Sparks Hack</h3>
+<h3>2D to 3D Skill Building Hack</h3>
 <h4 style="padding-top: 0">July 13th - 17th ($325)</h4>
-Kids (ages 5-8) will build their making and hacking skills in electronics, woodworking,printmaking, and more using a variety of tools and machines. Kids will also learn how to integrate these skills to direct their own projects. <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
+In this camp, young hackers will become proficient in Inkscape and CAD as well as the elements of design, and then be able to accurately produce a 3D design that uses 2d parts, either on the laser cutter, 3D printer or another machine. This week is about how to make cool 3d stuff using 2d parts.  Kids will learn about making designs, choosing materials, joining parts (where your work first becomes 3D!) and fabrication. All kids will leave with a variety of projects and a badge! (ages 7-14) <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
 </div>
 
 <div class="row">
 <img src="/images/summer/rayguns.jpg" width="180px" align="left" class="image image-left">
-<h3>Skill Building Guild Hack</h3>
+<h3>Harry Potter Hack</h3>
 <h4 style="padding-top: 0">July 20th - 24th ($325)</h4>
-Kids (ages 8-14) will build their making and hacking skills in electronics, woodworking,printmaking, and more using a variety of tools and machines. Kids will also learn how to integrate these skills to direct their own projects. <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
+Join us for a week immersed in our very own Hogwarts hackerspace! Wand making, potions, magical creatures, herbology, charms, quidditch and more- all from the magical maker perspective! Gain new skills and find your hacker patronus! We even created a special badge! (ages 6-14) <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
 </div>
 
 <div class="row">
@@ -35,23 +35,22 @@ In an exciting partnership between CH and <a href="http://rainbowdaycamp.org/" s
 <img src="/images/summer/IMG_5802.jpg" width="180px" align="left" class="image image-left">
 <h3>Hackerling Circuit Hack</h3>
 <h4 style="padding-top: 0">August 3rd - 7th ($375)</h4>
-Kids (ages 8-14) will complete an entire Arduino-based Hackerling Circuit, learning and expanding their skills in soldering, electronic components, and programming. They will also learn how to modify their HC’s to perform a variety of functions. A great foundation project! <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
+Kids (ages 8-14) will complete an entire Arduino-based Hackerling Circuit, learning and expanding their skills in soldering, electronic components, and programming. They will also learn how to modify their HC’s to perform a variety of functions. A great foundation project! Young Hackers will take home thier project for continued modification and earn the Hackerling Circuit badge. <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
 </div>
 
 <div class="row">
 <img src="/images/summer/IMG_3646.jpg" width="180px" align="left" class="image image-left">
-<h3>Art Hack</h3>
+<h3>Sci-Fi Space Hack
 <h4 style="padding-top: 0">August 10th - 14th ($325)</h4>
-Kids (ages 7-13) will learn about history and context of art while utilizing and integrating technology to modify or enhance their own art projects. <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
+Time Lords, Vulcans, Troopers, and more can delve into our space station hackerspace and gain new skills while creating a variety of projects from one of our favorite genres! Scientifically accurate space science will be presented alongside fan favorites for understanding, perspective, and inspiration. We even created a special badge! May the force be with us! We are Groot! (ages 8-14) <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
 </div>
 
 <div class="row">
 <img src="/images/summer/IMG_3818.jpg" width="180px" align="left" class="image image-left">
-<h3>Geek Hack</h3>
-<h4 style="padding-top: 0">August 17th - 21st ($350)</h4>
-Kids (ages 9-14) will build skills to develop projects that relate to Geek culture and fandom. Prop replication and hacking will be covered, as well as design and production of original products based on favorite Geek movies, shows, comics and more. <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
+<h3>Art Hack</h3>
+<h4 style="padding-top: 0">August 17th - 21st ($325)</h4>
+Kids (ages 7-13) will learn about history and context of art while utilizing and integrating technology to modify or enhance their own art projects. <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
 </div>
-<hr>
 
 #All camps are 10am-3pm.
 
