@@ -40,11 +40,11 @@ Oakland, CA 94609
 - March 29th, 2015 - Egg Hack
 - April 5th, 2015 - Closed, Easter/Spring Cleaning
 - April 12th, 2015- Tensegrity Structures
-- April 19th, 2015 - TBD
-- April 26th, 2015 - TBD
+- April 19th, 2015 - Cancelled.
+- April 26th, 2015 - Kites! Have you ever been to the Berkeley Kite Festival and admired all the different amazing kites? Come learn about the science behind kite design and make your own spectacular creation to fly! 
 - May 3rd, 2015- STAR WARS DAY! (In prep for May the 4th be with you!)
-- May 10th, 2015- TBD
-- May 17th, 2015- NO OPEN LAB: MAKER FAIRE BAY AREA!
+- May 10th, 2015- Biospheres: a complete ecosystem in a jar! Back by popular demand! Some of the biospheres from 3 years ago are still going strong, come and add to your collection or make your first one!
+- May 17th, 2015- NO OPEN LAB: MAKER FAIRE BAY AREA! We are hosting the rocket launching booth this year, come by and say hello!
 
 ##Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
