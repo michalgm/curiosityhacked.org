@@ -33,7 +33,8 @@ Oakland, CA 94609
 
 ###Upcoming 2015 Special Events
 
-- May 15-17 MAKER FAIRE BAY AREA! 
+- MAKER FAIRE BAY AREA MAY 15-17! We are hosting the rocket launching booth this year, come by and say hello!
+- MF presentation: Building a Learner Centered Maker Education (Sunday, May 17th at 11am on the Education Stage)
 - 
 ###Upcoming 2015 Open Lab Featured Projects:
 
