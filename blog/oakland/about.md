@@ -44,7 +44,7 @@ Oakland, CA 94609
 - April 19th, 2015 - Cancelled.
 - April 26th, 2015 - Tensegrity Structures 
 - May 3rd, 2015- STAR WARS DAY! (In prep for May the 4th be with you!)Light Sabers! Wookie Cushions! Laser cut wall clocks! This Open Lab is your only hope!
-- May 10th, 2015- Mother's Day! Learn the uses of plants and make your mom (or you!)a special gift of some lovely natural body products from scratch! 
+- May 10th, 2015- Mother's Day! Learn the uses of plants and make your mom (or you!)a special gift of some lovely natural body products from scratch! -- May be cancelled due to lack of attendence, please let us know if you expect to come: info@curiosityhacked.org
 - May 17th, 2015- NO OPEN LAB: MAKER FAIRE BAY AREA MAY 15-17! We are hosting the rocket launching booth this year, come by and say hello!
 - May 24th, 2015- Kites! Have you ever been to the Berkeley Kite Festival and admired all the different amazing kites? Come learn about the science behind kite design and make your own spectacular creation to fly! 
 - May 31st, 2015- Biospheres: a complete ecosystem in a jar! Back by popular demand! Some of the biospheres from 3 years ago are still going strong, come and add to your collection or make your first one!
