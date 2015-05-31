@@ -38,16 +38,10 @@ Oakland, CA 94609
 - 
 ###Upcoming 2015 Open Lab Featured Projects:
 
-- March 29th, 2015 - Egg Hack
-- April 5th, 2015 - Closed, Easter/Spring Cleaning
-- April 12th, 2015- Tensegrity Structures
-- April 19th, 2015 - Cancelled.
-- April 26th, 2015 - Tensegrity Structures 
-- May 3rd, 2015- STAR WARS DAY! (In prep for May the 4th be with you!)Light Sabers! Wookie Cushions! Laser cut wall clocks! This Open Lab is your only hope!
-- May 10th, 2015- Mother's Day! Learn the uses of plants and make your mom (or you!)a special gift of some lovely natural body products from scratch! -- May be cancelled due to lack of attendence, please let us know if you expect to come: info@curiosityhacked.org
-- May 17th, 2015- NO OPEN LAB: MAKER FAIRE BAY AREA MAY 15-17! We are hosting the rocket launching booth this year, come by and say hello!
-- May 24th, 2015- Kites! Have you ever been to the Berkeley Kite Festival and admired all the different amazing kites? Come learn about the science behind kite design and make your own spectacular creation to fly! 
+
 - May 31st, 2015- Biospheres: a complete ecosystem in a jar! Back by popular demand! Some of the biospheres from 3 years ago are still going strong, come and add to your collection or make your first one!
+- June 7th, 2015- HEY YOU GUYS! Celebrate Goonies Day with us hacker style! Pirate Maps! Booby Traps! And more!
+- June 14th, 2015- Learn the uses of plants and make some lovely natural body products from scratch! Learn to make scented lip balm (tinted or not), homemade sunscreen, and/or an essential oil blend made custom for you!
 
 ##Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
@@ -79,6 +73,15 @@ Oakland, CA 94609
 - March 8th, 2015 - Leftovers! Part of spring cleaning, we have lots of bits an pieces from past open labs to revist. Missed swords and bows from lastweek? Do them this week!
 - March 15th, 2015 - Pi Day Celebration!
 - March 22nd, 2015 - Rotational mold casting with chocolate, and other chocolate fun.
+- March 29th, 2015 - Egg Hack
+- April 5th, 2015 - Closed, Easter/Spring Cleaning
+- April 12th, 2015- Tensegrity Structures
+- April 19th, 2015 - Cancelled.
+- April 26th, 2015 - Tensegrity Structures 
+- May 3rd, 2015- STAR WARS DAY! (In prep for May the 4th be with you!)Light Sabers! Wookie Cushions! Laser cut wall clocks! This Open Lab is your only hope!
+- May 10th, 2015- Mother's Day! Learn the uses of plants and make your mom (or you!)a special gift of some lovely natural body products from scratch! -- May be cancelled due to lack of attendence, please let us know if you expect to come: info@curiosityhacked.org
+- May 17th, 2015- NO OPEN LAB: MAKER FAIRE BAY AREA MAY 15-17! We are hosting the rocket launching booth this year, come by and say hello!
+- May 24th, 2015- Kites! Have you ever been to the Berkeley Kite Festival and admired all the different amazing kites? Come learn about the science behind kite design and make your own spectacular creation to fly! 
 
 <em>If you're interested in using CHOL for your after-school group or science club, contact us at info@curiosityhacked.org</em>
 
