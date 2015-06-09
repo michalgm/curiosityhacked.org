@@ -41,7 +41,12 @@ Oakland, CA 94609
 
 - May 31st, 2015- Biospheres: a complete ecosystem in a jar! Back by popular demand! Some of the biospheres from 3 years ago are still going strong, come and add to your collection or make your first one!
 - June 7th, 2015- HEY YOU GUYS! Celebrate Goonies Day with us hacker style! Pirate Maps! Booby Traps! And more!
-- June 14th, 2015- Learn the uses of plants and make some lovely natural body products from scratch! Learn to make scented lip balm (tinted or not), homemade sunscreen, and/or an essential oil blend made custom for you!
+- June 14th, 2015- By repeat special request, we are focusing on safe, effective, natural, handmade body products this Sunday! Learn how easy it is to make scented lip balm (tinted or not), homemade sunscreen, and/or an essential oil blend made custom for your summer adventures- including an exceptionally awesome bug repellent! 
+Join us Sunday, 2-5pm, for this awesome Open Lab!
+(materials fee $5-10)
+- June 21st, 2015- Father's Day! Design and laser cut a custom picture frame for your dad/father figure! Plus LED cards to complete the gift!
+- June 28th, 2015- TBA
+- July 5th, 2015- TBA
 
 ##Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
