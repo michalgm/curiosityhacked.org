@@ -50,7 +50,6 @@ Join us Sunday, 2-5pm, for this awesome Open Lab!
 - July 12th, 2015- DIY Stomp Rockets and Compressed Air Rockets
 - July 19th, 2015- Tiny Matrix: Programmable LED pendants
 - July 26th, 2015- Etextiles: integrating circuits into accessories
-- 
 
 ##Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
