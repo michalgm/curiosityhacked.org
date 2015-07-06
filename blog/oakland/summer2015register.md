@@ -12,8 +12,6 @@ published: true
 	<option value="Harry Potter Hack July 20th - 24th">Harry Potter Hack July 20th - 24th $325.00 USD</option>
 	<option value="Rainbow Day Camp Partnership Hack July 27th - 31st">Rainbow Day Camp Partnership Hack: July 27th - 31st $325.00 USD</option>
 	<option value="Hackerling Circuit Hack August 3rd - 7th">Hackerling Circuit Hack: August 3rd - 7th $375.00 USD</option>
-	<option value="Sci-Fi Space Hack August 10th - 14th">Sci-Fi Space Hack August 10th - 14th $325.00 USD</option>
-	<option value="Art Hack August 17th - 21st">Art Hack August 17th - 21st $325.00 USD</option>
 	<option value="CH Educator Workshop June 15th - 17th">CH Educator Workshop: June 15th - 17th $30.00 USD</option>
 	<option value="CH Educator Workshop June 29th - July 1st">CH Educator Workshop: June 29th - July 1st $30.00 USD</option>
 </select> </td></tr>
