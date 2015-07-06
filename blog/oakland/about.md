@@ -35,7 +35,6 @@ Oakland, CA 94609
 - MAKER FAIRE BAY AREA MAY 15-17! We are hosting the rocket launching booth this year, come by and say hello!
 - MF presentation: Building a Learner Centered Maker Education (Sunday, May 17th at 11am on the Education Stage)
 - November 22, 2015 Open Lab at the Contemporary Jewish Museum (SF)! A collaboration exploring their new exhibit NEAT: New Experiments in Art and Technology through making. 
-- 
 ###Upcoming 2015 Open Lab Featured Projects:
 
 
