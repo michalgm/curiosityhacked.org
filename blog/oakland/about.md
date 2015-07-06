@@ -26,8 +26,7 @@ Oakland, CA 94609
 - 7/20 - 7/24: Harry Potter Hack (ages 6-14) 
 - 7/27 - 7/31: Rainbow Day Camp Partnership 
 - 8/3 - 8/7: Hackerling Circuit Hack/Arduino (ages 8-14) 
-- 8/10 - 8/14: Sci-Fi Space Hack (ages 8-14) 
-- 8/17 - 8/21: Art Hack (ages 7-14) 
+
 
 <a href="http://www.curiosityhacked.org/blog/oakland/summer2015.html">Class descriptions and register to attend!</a>
 
