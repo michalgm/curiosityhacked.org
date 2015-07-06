@@ -38,20 +38,6 @@ In an exciting partnership between CH and <a href="http://rainbowdaycamp.org/" s
 Kids (ages 8-14) will complete an entire Arduino-based Hackerling Circuit, learning and expanding their skills in soldering, electronic components, and programming. They will also learn how to modify their HC’s to perform a variety of functions. A great foundation project! Young Hackers will take home thier project for continued modification and earn the Hackerling Circuit badge. <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
 </div>
 
-<div class="row">
-<img src="/images/summer/chewie.JPG" width="180px" align="left" class="image image-left">
-<h3>Sci-Fi Space Hack
-<h4 style="padding-top: 0">August 10th - 14th ($325)</h4>
-Time Lords, Vulcans, Troopers, and more can delve into our space station hackerspace and gain new skills while creating a variety of projects from one of our favorite genres! Scientifically accurate space science will be presented alongside fan favorites for understanding, perspective, and inspiration. We even created a special badge! May the force be with us! We are Groot! (ages 8-14) <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
-</div>
-
-<div class="row">
-<img src="/images/summer/IMG_3646.jpg" width="180px" align="left" class="image image-left">
-<h3>Art Hack</h3>
-<h4 style="padding-top: 0">August 17th - 21st ($325)</h4>
-Kids (ages 7-13) will learn about history and context of art while utilizing and integrating technology to modify or enhance their own art projects. <a href="http://www.curiosityhacked.org/blog/oakland/summer2015register.html" style="padding:0">Register!</a>
-</div>
-
 <ul>All camps are 10am-3pm.
 <ul>Any camps under-enrolled are subject to be replaced by a camp that has filled and has a wait list. After care may be available, if needed. 
 
