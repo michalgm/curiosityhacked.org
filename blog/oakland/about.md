@@ -11,13 +11,16 @@ redirect_from:
 
 <img src="/media/10632620_897683933593731_8723575834852983001_n.jpg" height='350px' align='right'/>Our Oakland location serves as our headquarters as well as our test bed for many of our programs. Guilds currently run four nights a week and Open Labs occur ever Sunday from 2-5pm. Other classes and after school activites run as scheduled.
 
-#####We are now hosting Birthday Parties! Email us for more on our individualized approach or to schedule!
-
 Curiosity Hacked Oakland Lab: 
 6036 Telegraph Avenue
 Oakland, CA 94609
 
-###2015 Oakland Lab Summer Camp Schedule:
+
+#####We are now hosting Birthday Parties! Email us for more on our individualized approach or to schedule!
+
+<em>If you're interested in using CHOL for your after-school group or science club, contact us at info@curiosityhacked.org</em>
+
+ ###2015 Oakland Lab Summer Camp Schedule:
 - 6/15 - 6/17: Mentor Hack (3 Day FREE Intensive for Teacher and Mentors on Learner Centered Maker Education. A small deposit will hold your spot and provide your catered lunch all three days!) 
 - 6/22 - 6/26: Scientific Adventures for Girls (entering 4th and 5th grade girls) 
 - 6/29 - 7/1: Mentor Hack (3 Day FREE Intensive for Teacher and Mentors on Learner Centered Maker Education. A small deposit will hold your spot and provide your catered lunch all three days!) 
@@ -32,8 +35,8 @@ Oakland, CA 94609
 
 ###Upcoming 2015 Special Events
 
-- MAKER FAIRE BAY AREA MAY 15-17! We are hosting the rocket launching booth this year, come by and say hello!
-- MF presentation: Building a Learner Centered Maker Education (Sunday, May 17th at 11am on the Education Stage)
+-September TBA: Special Screening of Class Dismissed, followed by a discussion with film maker Jeremy Stuart and several of the featured experts in the movie!
+-September TBA: The Kids are Online! Book reading and discussion with Sarah Granger, author of "The Digital Mystique." If you are interested in children, the Internet, Safety, and the future of digital life, this is the event for you! 
 - November 22, 2015 Open Lab at the Contemporary Jewish Museum (SF)! A collaboration exploring their new exhibit NEAT: New Experiments in Art and Technology through making. 
 ###Upcoming 2015 Open Lab Featured Projects:
 
@@ -90,7 +93,11 @@ Join us Sunday, 2-5pm, for this awesome Open Lab!
 - May 17th, 2015- NO OPEN LAB: MAKER FAIRE BAY AREA MAY 15-17! We are hosting the rocket launching booth this year, come by and say hello!
 - May 24th, 2015- Kites! Have you ever been to the Berkeley Kite Festival and admired all the different amazing kites? Come learn about the science behind kite design and make your own spectacular creation to fly! 
 
-<em>If you're interested in using CHOL for your after-school group or science club, contact us at info@curiosityhacked.org</em>
+###Past 2015 Events
+-- MAKER FAIRE BAY AREA MAY 15-17! We are hosting the rocket launching booth this year, come by and say hello!
+- MF presentation: Building a Learner Centered Maker Education (Sunday, May 17th at 11am on the Education Stage)
+
+
 
 <div style="width: 70%; margin:0 auto;">
 <iframe src="https://www.google.com/calendar/embed?showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hacker-scouts.org_k86gqmrn03s7h95e2eu6k8h41g%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FLos_Angeles" style=" border-width: 0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
