@@ -42,15 +42,6 @@ Oakland, CA 94609
 - November 22, 2015 Open Lab at the Contemporary Jewish Museum (SF)! A collaboration exploring their new exhibit NEAT: New Experiments in Art and Technology through making. 
 
 ###Upcoming 2015 Open Lab Featured Projects:
-
-
-- May 31st, 2015- Biospheres: a complete ecosystem in a jar! Back by popular demand! Some of the biospheres from 3 years ago are still going strong, come and add to your collection or make your first one!
-- June 7th, 2015- HEY YOU GUYS! Celebrate Goonies Day with us hacker style! Pirate Maps! Booby Traps! And more!
-- June 14th, 2015- By repeat special request, we are focusing on safe, effective, natural, handmade body products this Sunday! Learn how easy it is to make scented lip balm (tinted or not), homemade sunscreen, and/or an essential oil blend made custom for your summer adventures- including an exceptionally awesome bug repellent! 
-Join us Sunday, 2-5pm, for this awesome Open Lab!
-(materials fee $5-10)
-- June 21st, 2015- Happy Father's Day! NO OPEN LAB
-- June 28th, 2015- Day of Service: Bee Stations
 - July 5th, 2015- NO OPEN LAB
 - July 12th, 2015- DIY Stomp Rockets and Compressed Air Rockets
 - July 19th, 2015- Tiny Matrix: Programmable LED pendants
@@ -95,6 +86,13 @@ Join us Sunday, 2-5pm, for this awesome Open Lab!
 - May 10th, 2015- Mother's Day! Learn the uses of plants and make your mom (or you!)a special gift of some lovely natural body products from scratch! -- May be cancelled due to lack of attendence, please let us know if you expect to come: info@curiosityhacked.org
 - May 17th, 2015- NO OPEN LAB: MAKER FAIRE BAY AREA MAY 15-17! We are hosting the rocket launching booth this year, come by and say hello!
 - May 24th, 2015- Kites! Have you ever been to the Berkeley Kite Festival and admired all the different amazing kites? Come learn about the science behind kite design and make your own spectacular creation to fly! 
+- May 31st, 2015- Biospheres: a complete ecosystem in a jar! Back by popular demand! Some of the biospheres from 3 years ago are still going strong, come and add to your collection or make your first one!
+- June 7th, 2015- HEY YOU GUYS! Celebrate Goonies Day with us hacker style! Pirate Maps! Booby Traps! And more!
+- June 14th, 2015- By repeat special request, we are focusing on safe, effective, natural, handmade body products this Sunday! Learn how easy it is to make scented lip balm (tinted or not), homemade sunscreen, and/or an essential oil blend made custom for your summer adventures- including an exceptionally awesome bug repellent! 
+Join us Sunday, 2-5pm, for this awesome Open Lab!
+(materials fee $5-10)
+- June 21st, 2015- Happy Father's Day! NO OPEN LAB
+- June 28th, 2015- Day of Service: Bee Stations
 
 ###Past 2015 Events
 -- MAKER FAIRE BAY AREA MAY 15-17! We are hosting the rocket launching booth this year, come by and say hello!
