@@ -34,11 +34,8 @@ Oakland, CA 94609
 <a href="http://www.curiosityhacked.org/blog/oakland/summer2015.html">Class descriptions and register to attend!</a>
 
 ###Upcoming 2015 Special Events
-
-- September TBA: Special Screening of Class Dismissed, followed by a discussion with film maker Jeremy Stuart and several of the featured experts in the movie!
-
-- September TBA: The Kids are Online! Book reading and discussion with Sarah Granger, author of "The Digital Mystique." If you are interested in children, the Internet, Safety, and the future of digital life, this is the event for you! 
-
+- September 16th, 2015 from 6:30-8pm: The Kids are Online! Book reading and discussion with Sarah Granger, author of "The Digital Mystique." If you are interested in children, the Internet, Safety, and the future of digital life, this is the event for you! 
+- September 23rd, 2015 from 6-9pm: Special Screening of Class Dismissed, followed by a discussion with film maker Jeremy Stuart and several of the featured experts in the movie!
 - November 22, 2015 Open Lab at the Contemporary Jewish Museum (SF)! A collaboration exploring their new exhibit NEAT: New Experiments in Art and Technology through making. 
 
 ###Upcoming 2015 Open Lab Featured Projects:
