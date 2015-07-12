@@ -20,7 +20,7 @@ Oakland, CA 94609
 
 <em>If you're interested in using CHOL for your after-school group or science club, contact us at info@curiosityhacked.org</em>
 
- ###2015 Oakland Lab Summer Camp Schedule:
+###2015 Oakland Lab Summer Camp Schedule:
 - 6/15 - 6/17: Mentor Hack (3 Day FREE Intensive for Teacher and Mentors on Learner Centered Maker Education. A small deposit will hold your spot and provide your catered lunch all three days!) 
 - 6/22 - 6/26: Scientific Adventures for Girls (entering 4th and 5th grade girls) 
 - 6/29 - 7/1: Mentor Hack (3 Day FREE Intensive for Teacher and Mentors on Learner Centered Maker Education. A small deposit will hold your spot and provide your catered lunch all three days!) 
@@ -40,6 +40,7 @@ Oakland, CA 94609
 - September TBA: The Kids are Online! Book reading and discussion with Sarah Granger, author of "The Digital Mystique." If you are interested in children, the Internet, Safety, and the future of digital life, this is the event for you! 
 
 - November 22, 2015 Open Lab at the Contemporary Jewish Museum (SF)! A collaboration exploring their new exhibit NEAT: New Experiments in Art and Technology through making. 
+
 ###Upcoming 2015 Open Lab Featured Projects:
 
 
