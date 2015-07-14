@@ -38,7 +38,7 @@ Oakland, CA 94609
 - September 16th, 2015 from 6:30-8pm: The Kids are Online! Book reading and discussion with Sarah Granger, author of  <a href="http://sarahgranger.com/books/">"The Digital Mystique."</a> If you are interested in children, the Internet, Safety, and the future of digital life, this is the event for you! 
 <A HREF="http://www.brownpapertickets.com/event/1984826">Buy tickets for The Kids Are Online! An evening with Sarah Granger</A>
 
-- September 23rd, 2015 from 6-9pm: Special Screening of <a href="http://classdismissedmovie.com/">Class Dismissed</a>, followed by a discussion with film maker Jeremy Stuart and several of the featured experts in the movie!
+- September 23rd, 2015 from 6-9pm: Special Screening of <a href="http://classdismissedmovie.com/">Class Dismissed</a>, followed by a discussion with film maker Jeremy Stuart and several of the featured experts in the movie! <A HREF="http://classdismissedmovieberkeley.bpt.me/>Buy tickets for this event!</A>
 
 - November 22, 2015 Open Lab at the Contemporary Jewish Museum (SF)! A collaboration exploring their new exhibit NEAT: New Experiments in Art and Technology through making. 
 
