@@ -43,6 +43,11 @@ Oakland, CA 94609
 
 ###Fall 2015 Classes and Workshops (Registration coming soon!)
 - Video Game Design and Development
+Join mentor Cara for a 10 week exploration of character, environment, and gameplay design. Using game development programs with simple and visual scripting, kids will build a solid foundation in various aspects of game design and development while also building skills in their own areas of interest. Ages 11 and up.
+10 week session: 9/10- 11/18 (no class 9/28)
+Homeschool Class/Wednesdays 1-3pm
+		After School/Wednesdays 4-6pm
+
 - Bling Your Hoodie (with programmable LEDs!)
 - Natural Body Products Workshop
 - Printmaking
