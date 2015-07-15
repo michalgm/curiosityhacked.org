@@ -46,6 +46,7 @@ Oakland, CA 94609
 - Bling Your Hoodie (with programmable LEDs!)
 - Natural Body Products Workshop
 - Printmaking
+- Dissection! 
 
 ###Upcoming 2015 Open Lab Featured Projects:
 - July 5th, 2015- NO OPEN LAB
