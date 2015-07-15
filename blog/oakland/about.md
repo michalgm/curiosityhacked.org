@@ -41,6 +41,12 @@ Oakland, CA 94609
 - September 23rd, 2015 6:30pm: Special Screening of <a href="http://classdismissedmovie.com/">Class Dismissed</a>, followed by a discussion with film maker Jeremy Stuart and several of the featured experts in the movie! Buy tickets  <a href="http://classdismissedmovieberkeley.bpt.me/">HERE!</a> 
 - November 22, 2015 Open Lab at the Contemporary Jewish Museum (SF)! A collaboration exploring their new exhibit NEAT: New Experiments in Art and Technology through making. 
 
+###Fall 2015 Classes and Workshops (Registration coming soon!)
+- Video Game Design and Development
+- Bling Your Hoodie (with programmable LEDs!)
+- Natural Body Products Workshop
+- Printmaking
+
 ###Upcoming 2015 Open Lab Featured Projects:
 - July 5th, 2015- NO OPEN LAB
 - July 12th, 2015- DIY Stomp Rockets and Compressed Air Rockets
