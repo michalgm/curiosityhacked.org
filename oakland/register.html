@@ -3,6 +3,10 @@ published: true
 layout: default
 ---
 <script>
+  $.urlParam = function(name){
+      var results = new RegExp('[\?&amp;]' + name + '=([^&amp;#]*)').exec(window.location.href);
+      return results[1] || 0;
+  }
   if ($.urlParam('a') != null){
     prams = $.urlParam('a').split("-");
     alert("A: "+prams[0]+" B: "+prams[1]);
