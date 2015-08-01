@@ -198,11 +198,11 @@ minions! Then take it home to continue hacking at home.
 <br>Ages 10 and up, materials fee included
 <span class='date'>Wednesdays 6:30pm-8:30pm, $350</span>
 Sept 14th - Nov 16th
-<br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue'>>Wed 6:30pm</span>
+<br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue'>Wed 6:30pm</span>
 </article>
 
 </section>
 </div>
 <script>
-$('.buttonsmall.ltblue').click( function() { alert(this.parentElement.ParentElement.id); } );
+$('.buttonsmall.ltblue').click( function() { window.location.assign("oakland/register?a="+this.ParentElement.id+'-'+$(this).html()); } );
 </script>
