@@ -204,5 +204,5 @@ Sept 14th - Nov 16th
 </section>
 </div>
 <script>
-$('.buttonsmall.ltblue').click( function() { window.location.assign("oakland/register?a="+this.ParentElement.id+'-'+$(this).html()); } );
+$('.buttonsmall.ltblue').click( function() { window.location.assign("oakland/register?a="+$(this).parent().attr('id')+'-'+$(this).html()); } );
 </script>
