@@ -12,12 +12,27 @@ layout: default
 <table class='classtable' style="width: 80%; margin: auto;">
 <thead><th style="width: 10%;"> </th><th style="width: 18%;">Monday</th><th style="width: 18%;">Tuesday</th><th style="width: 18%;">Wednesday</th><th style="width: 18%;">Thursday</th><th style="width: 18%;">Friday</th></thead>
 <tbody class="classtable">
-<tr class="classtable"><td class="classtable">10am - 12pm</td><td class="ltblue classtable">Advanced Minecraft Modding </td><td class="ltblue classtable">Tiny Tinkering I </td><td class="ltblue classtable">Intro to Arduino Robotics </td><td class="ltblue classtable">Tiny Tinkering II </td><td class="ltblue classtable"> </td></tr>
-<tr class="classtable"><td class="classtable">1pm - 3pm</td><td class="ltblue classtable">Intro to Minecraft Modding</td><td class="ltblue classtable"> </td><td class="ltblue classtable">Video Game Design and Development</td><td class="ltblue classtable"> </td><td class="ltblue classtable">Making Through History</td></tr>
-<tr class="classtable"><td class="classtable">4pm - 6pm</td><td class="ltblue classtable"> </td><td class="ltblue classtable"> </td><td class="ltblue classtable">Video Game Design and Development</td><td class="ltblue classtable">Intro to Arduino Robotics</td><td class="ltblue classtable">Intro to Minecraft Modding </td></tr>
-<tr class="classtable"><td class="classtable">6:30pm - 8:30pm</td><td class="ltblue classtable"> </td><td class="ltblue classtable"> </td><td class="ltblue classtable">Advanced Arduino Robotics</td><td class="ltblue classtable">Advanced Minecraft Mod</td><td class="ltblue classtable"> </td></tr>
+<tr class="classtable"><td class="classtable">10am - 12pm</td><td id='c_amm' class="ltblue classtable">Advanced Minecraft Modding </td><td id='c_tti' class="ltblue classtable">Tiny Tinkering I </td><td id='c_iar' class="ltblue classtable">Intro to Arduino Robotics </td><td id='c_ttii' class="ltblue classtable">Tiny Tinkering II </td><td class="ltblue classtable"> </td></tr>
+<tr class="classtable"><td class="classtable">1pm - 3pm</td><td id='c_imm' class="ltblue classtable">Intro to Minecraft Modding</td><td class="ltblue classtable"> </td><td id='c_vgdd' class="ltblue classtable">Video Game Design and Development</td><td class="ltblue classtable"> </td><td id='c_mth' class="ltblue classtable">Making Through History</td></tr>
+<tr class="classtable"><td class="classtable">4pm - 6pm</td><td class="ltblue classtable"> </td><td class="ltblue classtable"> </td><td id='c_vgdd2' class="ltblue classtable">Video Game Design and Development</td><td id='c_iar2' class="ltblue classtable">Intro to Arduino Robotics</td><td id='c_imm2' class="ltblue classtable">Intro to Minecraft Modding </td></tr>
+<tr class="classtable"><td class="classtable">6:30pm - 8:30pm</td><td class="ltblue classtable"> </td><td class="ltblue classtable"> </td><td id='c_aar' class="ltblue classtable">Advanced Arduino Robotics</td><td id='c_amm2' class="ltblue classtable">Advanced Minecraft Mod</td><td class="ltblue classtable"> </td></tr>
 </tbody>
 </table>
+<script>
+$('#c_amm').click(function() { $('html, body').animate({ scrollTop: $("#amm").offset().top }, 2000); });
+$('#c_amm2').click(function() { $('html, body').animate({ scrollTop: $("#amm").offset().top }, 2000); });
+$('#c_tti').click(function() { $('html, body').animate({ scrollTop: $("#tti").offset().top }, 2000); });
+$('#c_ttii').click(function() { $('html, body').animate({ scrollTop: $("#ttii").offset().top }, 2000); });
+$('#c_iar').click(function() { $('html, body').animate({ scrollTop: $("#iar").offset().top }, 2000); });
+$('#c_aar').click(function() { $('html, body').animate({ scrollTop: $("#aar").offset().top }, 2000); });
+$('#c_iar2').click(function() { $('html, body').animate({ scrollTop: $("#iar").offset().top }, 2000); });
+$('#c_imm').click(function() { $('html, body').animate({ scrollTop: $("#imm").offset().top }, 2000); });
+$('#c_imm2').click(function() { $('html, body').animate({ scrollTop: $("#imm").offset().top }, 2000); });
+$('#c_vgdd').click(function() { $('html, body').animate({ scrollTop: $("#vgdd").offset().top }, 2000); });
+$('#c_vgdd2').click(function() { $('html, body').animate({ scrollTop: $("#vgdd").offset().top }, 2000); });
+$('#c_mth').click(function() { $('html, body').animate({ scrollTop: $("#mth").offset().top }, 2000); });
+
+</script>
 <header class='major'>
 <h2></h2>
 <p><a href="oakland/index.html#cal">Full calendar of Oakland Lab activities</a></p>
@@ -25,7 +40,7 @@ layout: default
 <div class='6u'>
 <section class='article-list box'>
 
-<article class='box excerpt'>
+<article id='tti' class='box excerpt'>
 <header>
 <h4>Tiny Tinkering Level I</h4>
 </header>
@@ -38,7 +53,7 @@ Sept 8th - Nov 24th (no class on Sept 22nd, Sept 29th)
 <span class="date" style="border-radius: 25px; border: 1px solid; padding-left: 15px; padding-right: 5px; font-size: 0.7em;"><a href='bob'>Register: Tue 10am</a></span>
 </article>
 
-<article class='box excerpt'>
+<article id='vgdd' class='box excerpt'>
 <header>
 <h4>Video Game Design and Development</h4>
 </header>
@@ -58,7 +73,7 @@ Sept 10th - Nov 18th (no class Sept 28)<br>
 <span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue'><a href='bob'>Wed 1pm</a></span> <span class='buttonsmall ltblue'><a href='bob'>Web 4pm</a></span>
 </article>
 
-<article class='box excerpt'>
+<article id='imm' class='box excerpt'>
 <header>
 <h4>Intro to Minecraft Modding</h4>
 </header>
@@ -79,7 +94,7 @@ your favorite creative tool, and learn the basic skills necessary to use more co
 Sept 14th - Nov 16th
 </article>
 
-<article class='box excerpt'>
+<article id='iar' class='box excerpt'>
 <header>
 <h4>Intro to Arduino Robotics</h4>
 </header>
@@ -107,7 +122,7 @@ Sept 14th - Nov 16th
 <div class='6u'>
 <section class='article-list box'>
 
-<article class='box excerpt'>
+<article id='ttii' class='box excerpt'>
 <header>
 <h4>Tiny Tinkering Level II</h4>
 </header>
@@ -119,7 +134,7 @@ combination of guided skills and child-led exploration.
 Sept 10th - Nov 19th (no class on Sept 24th)
 </article>
 
-<article class='box excerpt'>
+<article id='mth' class='box excerpt'>
 <header>
 <h4>Making Through History: Ancients</h4>
 </header>
@@ -138,7 +153,7 @@ making. (Making Through History: Middle Ages will be offered Spring 2016)
 Sept 11th - Nov 20th (no class on Oct 2nd)
 </article>
 
-<article class='box excerpt'>
+<article id='amm' class='box excerpt'>
 <header>
 <h4>Advanced Minecraft Modding</h4>
 </header>
@@ -158,7 +173,7 @@ Sept 14th - Nov 19th
 </article>
 
 
-<article class='box excerpt'>
+<article id='aar' class='box excerpt'>
 <header>
 <h4>Advanced Arduino Robotics</h4>
 </header>
