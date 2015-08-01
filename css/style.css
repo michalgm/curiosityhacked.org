@@ -330,6 +330,15 @@
   		padding: 1em 2.25em 1em 2.25em;
   	}
 
+  	.buttonsmall
+  	{
+  		font-size: 100%;
+  		padding: .15em .5em;
+		border-radius: 25px;
+		border: 1px solid;
+		text-decoration: none;
+  	}
+
   	.button.big
   	{
   		font-size: 1.5em;
@@ -365,6 +374,29 @@
   			background-image: linear-gradient(top, #3a3a3a, #424242);
   		}
 
+	.ltblue
+	{
+		text-decoration: none;
+	}
+		.ltblue:hover
+		{
+  		background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  		background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  		background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  		background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  		background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  		text-decoration: none;
+		}
+		.ltblue:active
+		{
+  			background-image: -moz-linear-gradient(top, #3a3a3a, #424242);
+  			background-image: -webkit-linear-gradient(top, #3a3a3a, #424242);
+  			background-image: -o-linear-gradient(top, #3a3a3a, #424242);
+  			background-image: -ms-linear-gradient(top, #3a3a3a, #424242);
+  			background-image: linear-gradient(top, #3a3a3a, #424242);
+  			text-decoration: none;
+
+		{
   ul.style1
   {
   }
