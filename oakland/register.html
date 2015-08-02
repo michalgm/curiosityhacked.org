@@ -12,7 +12,13 @@ layout: default
     alert("A: "+prams[0]+" B: "+prams[1]);
    }
   
-  var classes = $.getJSON("oakland/classes.json");
+  $.getJSON("oakland/classes.json","",function(data,y,z){
+      for (a in data.classes) {
+        for (b in data.classes[a]['time']) {
+          $('#classsel').append('<option value="'+data.classes[a]['id']+"-"+data.classes[a]['time'][b]+'"> "+data.classes[a]['name']+" "+data.classes[a]['time'][b]+"</option>");
+         };
+      };
+     });
 
 </script>
 <header class='major'>
@@ -21,4 +27,5 @@ layout: default
 <p>Questions on a class? info@curiosityhacked.org</p>
 </header>
 
+<form><select id='classsel'></select></form>
 
