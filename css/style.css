@@ -634,6 +634,15 @@
   		padding-bottom: 0;
   	}
 
+.ss-required-asterisk
+{
+	color: red;
+}
+.ss-q-long
+{
+	display: block;
+	width: 85%;
+}	
 /*********************************************************************************/
 /* Icons                                                                         */
 /* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */

@@ -24,8 +24,9 @@ function GetURLParameter(sParam)
 <p>Thank you for your interest in our classes.</p>
 <p>Questions on a class? info@curiosityhacked.org</p>
 </header>
-<p> Please verify the proper class is selected:
-<form><select id='classsel'></select></form>
+<form>
+<label for='classsel'>Please verify the proper class is selected:</label>
+<select id='classsel'></select></form>
 <script>
   
   $.getJSON("oakland/classes.json","",function(data,y,z){
@@ -34,13 +35,14 @@ function GetURLParameter(sParam)
           $('#classsel').append('<option value="'+data.classes[a]['id']+"-"+data.classes[a]['time'][b]+'"> '+data.classes[a]['name']+" "+data.classes[a]['time'][b]+"</option>");
          };
       };
+      $('#classsel').val(decodeURIComponent(GetURLParameter('a')));
      });
 
-  $('#classsel').val(decodeURIComponent(GetURLParameter('a')));
 </script>
 
 <form action="https://docs.google.com/forms/d/1zYjlwwF85PTDUtZVMvsU8muBZepTnnGOwKOXIDh6HIk/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
 <div class='6u'>
+<h3>Child</h3>
 <label class="ss-q-item-label" for="entry_1971468574">Child&#39;s Name
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
 <input type="text" name="entry.1971468574" value="" class="ss-q-short" id="entry_1971468574" dir="auto" aria-label="Child&#39;s Name  " aria-required="true" required="" title="">
@@ -66,21 +68,22 @@ function GetURLParameter(sParam)
 <br>
 </div>
 <div class='6u'>
-<label class="ss-q-item-label" for="entry_1933350169">Parent/Guardian 1 (Name)
+<h3>Guardian</h3>
+<label class="ss-q-item-label" for="entry_1933350169">Parent/Guardian (Name)
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
-<input type="text" name="entry.1933350169" value="" class="ss-q-short" id="entry_1933350169" dir="auto" aria-label="Parent/Guardian 1 (Name)  " aria-required="true" required="" title="">
+<input type="text" name="entry.1933350169" value="" class="ss-q-short" id="entry_1933350169" dir="auto" aria-label="Parent/Guardian (Name)  " aria-required="true" required="" title="">
 <br>
-<label class="ss-q-item-label" for="entry_2087606971">Parent/Guardian 1 (Phone Number)
+<label class="ss-q-item-label" for="entry_2087606971">Parent/Guardian (Phone Number)
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
-<input type="text" name="entry.2087606971" value="" class="ss-q-short" id="entry_2087606971" dir="auto" aria-label="Parent/Guardian 1 (Phone Number)  " aria-required="true" required="" title="">
+<input type="text" name="entry.2087606971" value="" class="ss-q-short" id="entry_2087606971" dir="auto" aria-label="Parent/Guardian (Phone Number)  " aria-required="true" required="" title="">
 <br>
-<label class="ss-q-item-label" for="entry_1271794087">Parent Guardian 1 (Email)
+<label class="ss-q-item-label" for="entry_1271794087">Parent Guardian (Email)
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
-<input type="email" name="entry.1271794087" value="" class="ss-q-short" id="entry_1271794087" dir="auto" aria-label="Parent Guardian 1 (Email)  Must be a valid email address" aria-required="true" required="" title="Must be a valid email address">
+<input type="email" name="entry.1271794087" value="" class="ss-q-short" id="entry_1271794087" dir="auto" aria-label="Parent Guardian (Email)  Must be a valid email address" aria-required="true" required="" title="Must be a valid email address">
 <br>
-<label class="ss-q-item-label" for="entry_1560112480">Parent/Guardian 1 (Address)
+<label class="ss-q-item-label" for="entry_1560112480">Parent/Guardian (Address)
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
-<textarea name="entry.1560112480" rows="8" cols="0" class="ss-q-long" id="entry_1560112480" dir="auto" aria-label="Parent/Guardian 1 (Address) (write &quot;same as above&quot; if same as child) " aria-required="true" required=""></textarea>
+<textarea name="entry.1560112480" rows="8" cols="0" class="ss-q-long" id="entry_1560112480" dir="auto" aria-label="Parent/Guardian (Address) (write &quot;same as above&quot; if same as child) " aria-required="true" required=""></textarea>
 <br>
 <label class="ss-q-item-label" for="entry_2100513296">In addition to above, who may pick up your child?
 <textarea name="entry.2100513296" rows="8" cols="0" class="ss-q-long" id="entry_2100513296" dir="auto" aria-label="In addition to above, who may pick up your child? Full name and phone number "></textarea>
@@ -90,6 +93,12 @@ function GetURLParameter(sParam)
 <textarea name="entry.1314175626" rows="8" cols="0" class="ss-q-long" id="entry_1314175626" dir="auto" aria-label="Emergency Contacts please include the phone number of one local emergency contact other than yourself, and one out of state if possible (in case of earthquake, lines going out of state are more often intact than local lines) " aria-required="true" required=""></textarea>
 <br>
 </div>
+<div>
+<label class="ss-q-item-label" for="entry_1091775880"><div class="ss-q-title">Is there anything in particular that your child is hoping to get out of the class?
+>This insight aids us in tailoring the classes to specific interests.</label>
+<textarea name="entry.1091775880" rows="8" cols="0" class="ss-q-long" id="entry_1091775880" dir="auto" aria-label="Is there anything in particular that your child is hoping to get out of the class? This insight aids us in tailoring the classes to specific interests. "></textarea>
+
+
 <label class="ss-q-item-label" for="entry_758535236">I understand that photography and video is often used at the Curiosity Hacked Oakland Lab for documentation. Sometimes photos are used for sharing on our website or social media. Names are never published.
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
 <ul class="ss-choices" role="radiogroup" aria-label="I understand that photography and video is often used at the Curiosity Hacked Oakland Lab for documentation. Sometimes photos are used for sharing on our website or social media. Names are never published.  "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1198401305" value="I agree" id="group_1198401305_1" role="radio" class="ss-q-radio" aria-label="I agree" required="" aria-required="true"></span>
@@ -112,5 +121,6 @@ function GetURLParameter(sParam)
 <input type="hidden" name="entry.1415844574" value="" id="entry_1415844574" >
 <input type="hidden" name="entry.1993237748" value="" id="entry_1993237748" >
 <br>
+</div>
 <input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
 </form>
