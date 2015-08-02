@@ -11,6 +11,15 @@ layout: default
     prams = $.urlParam('a').split("-");
     alert("A: "+prams[0]+" B: "+prams[1]);
    }
+</script>
+<header class='major'>
+<h2>Fall 2015 Class Registration</h2>
+<p>Thank you for your interest in our classes.</p>
+<p>Questions on a class? info@curiosityhacked.org</p>
+</header>
+
+<form><select id='classsel'></select></form>
+<script>
   
   $.getJSON("oakland/classes.json","",function(data,y,z){
       for (a in data.classes) {
@@ -21,11 +30,4 @@ layout: default
      });
 
 </script>
-<header class='major'>
-<h2>Fall 2015 Class Registration</h2>
-<p>Thank you for your interest in our classes.</p>
-<p>Questions on a class? info@curiosityhacked.org</p>
-</header>
-
-<form><select id='classsel'></select></form>
 
