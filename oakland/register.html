@@ -24,7 +24,7 @@ layout: default
   $.getJSON("oakland/classes.json","",function(data,y,z){
       for (a in data.classes) {
         for (b in data.classes[a]['time']) {
-          $('#classsel').append('<option value="'+data.classes[a]['id']+"-"+data.classes[a]['time'][b]+'"> "+data.classes[a]['name']+" "+data.classes[a]['time'][b]+"</option>");
+          $('#classsel').append('<option value="'+data.classes[a]['id']+"-"+data.classes[a]['time'][b]+'"> '+data.classes[a]['name']+" "+data.classes[a]['time'][b]+"</option>");
          };
       };
      });
