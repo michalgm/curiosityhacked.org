@@ -3,14 +3,21 @@ published: true
 layout: default
 ---
 <script>
-  $.urlParam = function(name){
-      var results = new RegExp('[\?&amp;]' + name + '=([^&amp;#]*)').exec(window.location.href);
-      return results[1] || 0;
-  }
-  if ($.urlParam('a') != null){
-    prams = $.urlParam('a').split("-");
-    alert("A: "+prams[0]+" B: "+prams[1]);
-   }
+function GetURLParameter(sParam)
+{
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++)
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam)
+        {
+            return sParameterName[1];
+        }
+    }
+}
+
+
 </script>
 <header class='major'>
 <h2>Fall 2015 Class Registration</h2>
@@ -29,5 +36,6 @@ layout: default
       };
      });
 
+  $('#classsel').val(decodeURIComponent(GetURLParameter(a)));
 </script>
 
