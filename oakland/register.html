@@ -40,18 +40,18 @@ function GetURLParameter(sParam)
 
 </script>
 
-<form action="https://docs.google.com/forms/d/1zYjlwwF85PTDUtZVMvsU8muBZepTnnGOwKOXIDh6HIk/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+<form action="https://docs.google.com/forms/d/1zYjlwwF85PTDUtZVMvsU8muBZepTnnGOwKOXIDh6HIk/formResponse" method="POST" id="registrationform" target="_self" onsubmit="">
 <div class='6u'>
 <h3>Child</h3>
 <label class="ss-q-item-label" for="entry_1971468574">Child&#39;s Name
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
 </label>
-<input type="text" name="entry.1971468574" value="" class="ss-q-short" id="entry_1971468574" dir="auto" aria-label="Child&#39;s Name  " aria-required="true" required="" title="">
+<input type="text" name="entry.1971468574" class="ss-q-short" id="entry_1971468574" dir="auto" aria-label="Child&#39;s Name  " aria-required="true" required="" title="">
 <br>
 <label class="ss-q-item-label" for="entry_310604489">Child&#39;s birthday
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
 </label>
-<input type="date" name="entry.310604489" value="" class="ss-q-date" dir="auto" id="entry_310604489" aria-label="Child&#39;s birthday  " aria-required="true" required="">
+<input type="date" name="entry.310604489" class="ss-q-date" dir="auto" id="entry_310604489" aria-label="Child&#39;s birthday  " aria-required="true" required="">
 <br>
 <label class="ss-q-item-label" for="entry_1350312985">Address
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
@@ -61,7 +61,7 @@ function GetURLParameter(sParam)
 <label class="ss-q-item-label" for="entry_1272613416">Child&#39;s email
 <div class="ss-secondary-text">(if any) Must be a valid email address</div>
 </label>
-<input type="email" name="entry.1272613416" value="" class="ss-q-short" id="entry_1272613416" dir="auto" aria-label="Child&#39;s email (if any) Must be a valid email address" title="Must be a valid email address">
+<input type="email" name="entry.1272613416" class="ss-q-short" id="entry_1272613416" dir="auto" aria-label="Child&#39;s email (if any) Must be a valid email address" title="Must be a valid email address">
 <br>
 <label class="ss-q-item-label" for="entry_899706627">Does your child have any allergies we should be aware of?
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
@@ -80,17 +80,17 @@ function GetURLParameter(sParam)
 <label class="ss-q-item-label" for="entry_1933350169">Parent/Guardian Name
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
 </label>
-<input type="text" name="entry.1933350169" value="" class="ss-q-short" id="entry_1933350169" dir="auto" aria-label="Parent/Guardian (Name)  " aria-required="true" required="" title="">
+<input type="text" name="entry.1933350169" class="ss-q-short" id="entry_1933350169" dir="auto" aria-label="Parent/Guardian (Name)  " aria-required="true" required="" title="">
 <br>
 <label class="ss-q-item-label" for="entry_2087606971">Parent/Guardian Phone Number
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
 </label>
-<input type="text" name="entry.2087606971" value="" class="ss-q-short" id="entry_2087606971" dir="auto" aria-label="Parent/Guardian (Phone Number)  " aria-required="true" required="" title="">
+<input type="text" name="entry.2087606971" class="ss-q-short" id="entry_2087606971" dir="auto" aria-label="Parent/Guardian (Phone Number)  " aria-required="true" required="" title="">
 <br>
 <label class="ss-q-item-label" for="entry_1271794087">Parent Guardian Email
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
 </label>
-<input type="email" name="entry.1271794087" value="" class="ss-q-short" id="entry_1271794087" dir="auto" aria-label="Parent Guardian (Email)  Must be a valid email address" aria-required="true" required="" title="Must be a valid email address">
+<input type="email" name="entry.1271794087" class="ss-q-short" id="entry_1271794087" dir="auto" aria-label="Parent Guardian (Email)  Must be a valid email address" aria-required="true" required="" title="Must be a valid email address">
 <br>
 <label class="ss-q-item-label" for="entry_1560112480">Parent/Guardian Address
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
@@ -115,7 +115,7 @@ function GetURLParameter(sParam)
 <div class='ss-secondary-text'>This insight aids us in tailoring the classes to specific interests.</div>
 </label>
 <textarea name="entry.1091775880" rows="8" cols="0" class="ss-q-long" id="entry_1091775880" dir="auto" aria-label="Is there anything in particular that your child is hoping to get out of the class? This insight aids us in tailoring the classes to specific interests. "></textarea>
-
+<br>
 <label class="ss-q-item-label" for="entry_758535236">I understand that photography and video is often used at the Curiosity Hacked Oakland Lab for documentation. Sometimes photos are used for sharing on our website or social media. Names are never published.
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
 </label>
@@ -128,23 +128,51 @@ function GetURLParameter(sParam)
 <label class="ss-q-item-label" for="entry_2054543004">I have read and agree to the CH Liability Waiver.
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
 </label>
-<ul class="ss-choices ss-choices-required" role="group" aria-label="I have read and agree to the CH Liability Waiver. CH Liability Waiver: https://www.curiosityhacked.org/oakland/CuriosityHackedLiabilityRelease.pdf "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1637419504" value="I agree." id="group_1637419504_1" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
+<ul class="ss-choices ss-choices-required" role="group" aria-label="I have read and agree to the CH Liability Waiver. CH Liability Waiver: https://www.curiosityhacked.org/oakland/CuriosityHackedLiabilityRelease.pdf "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1637419504" value="I agree." id="group_1637419504_1" role="checkbox" class="ss-q-checkbox" aria-required="true" required=""></span>
 <span class="ss-choice-label">I agree.</span>
 </label></li></ul>
 <br>
 <label class="ss-q-item-label" for="entry_2055516812">I understand that this registration is not sufficient to hold placement without an accompanying payment.
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
 </label>
-<ul class="ss-choices ss-choices-required" role="group" aria-label="I understand that this registration is not sufficient to hold placement without an accompanying payment.  "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1949933081" value="I agree." id="group_1949933081_1" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
+<ul class="ss-choices ss-choices-required" role="group" aria-label="I understand that this registration is not sufficient to hold placement without an accompanying payment.  "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1949933081" value="I agree." id="group_1949933081_1" role="checkbox" class="ss-q-checkbox" aria-required="true" required=""></span>
 <span class="ss-choice-label">I agree.</span>
 </label></li></ul>
-<input type="hidden" name="entry.1415844574" value="" id="entry_1415844574" >
-<input type="hidden" name="entry.1993237748" value="" id="entry_1993237748" >
+<input type="hidden" name="entry.1415844574" id="entry_1415844574" >
+<input type="hidden" name="entry.1993237748" id="entry_1993237748" >
 <br>
 </div>
 <span class="ss-required-asterisk" aria-hidden="true">*</span><div class='ss-secondary-text'>Required</div>
-<script>
-$('#entry_1993237748').val($('#classsel').val());
-</script>
 <input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
+<img id="loading" src="/images/ajax-loader.gif" alt="loading..." style="display:none;"/>
+<div id="formresult"></div>
 </form>
+<script>
+  var form = $("#registrationform");
+
+  // Attach a submit handler to the form
+  form.submit(function( event ) {
+    $('#fromresult').empty();
+
+    $('#entry_1993237748').val($('#classsel').val());
+
+// $("#ss-form input[required],textarea[required]")
+
+    // Check for errors
+    var hasError = false;
+    var values = {};
+    $.each(form.serializeArray(), function(i, field) {
+      if (field.name in nameToHuman && !field.value) {
+         hasError = true;
+         humanFieldName = nameToHuman[field.name]
+         $('#joinresult').append(
+             '<b style="color: red">' + humanFieldName + ' is required.</b><br>');
+      }
+    });
+
+    if (hasError) {
+      $('#loading').hide();
+      return false;
+    }
+  });
+</script>
