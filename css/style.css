@@ -643,6 +643,21 @@
 	display: block;
 	width: 85%;
 }	
+.ss-q-item-label
+{
+        font-weight: 700;
+        letter-spacing: 0.065em;
+        font-size: 0.9em;
+        color: #696969;
+        margin: 0 0 0.25em 0;
+}
+.ss-secondary-text
+{
+        font-weight: 700;
+        letter-spacing: 0.065em;
+        font-size: 0.6em;
+        margin: 0 0 0.25em 0;
+}
 /*********************************************************************************/
 /* Icons                                                                         */
 /* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */
