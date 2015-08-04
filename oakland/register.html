@@ -160,7 +160,7 @@ function GetURLParameter(sParam)
     $('#formresult').empty();
 
     $('#entry_1993237748').val($('#classsel').val());
-    $('#entry_1415844574').val( "fall"+((new Date).getTime()).toString()+'.'+(new Date).getTime() );
+    $('#entry_1415844574').val( "fall"+((new Date).getTime()).toString()+'.'+Math.floor((Math.random() * 1000) + 1).toString() );
 
     var missingval = false;
     $.each($('#registrationform [required][type!=checkbox][type!=radio]').serializeArray(),function(i,v){
@@ -186,7 +186,7 @@ function GetURLParameter(sParam)
      event.preventDefault();
      $("#formresult").html("<h1>Submitting</h1>");
      //$.post( "https://docs.google.com/forms/d/1zYjlwwF85PTDUtZVMvsU8muBZepTnnGOwKOXIDh6HIk/formResponse", $( "#registrationform" ).serialize() )
-     $.post( "http://steam.curiosityhacked.org/cgi-bin/test.py", $( "#registrationform" ).serialize() )
+     $.post( "http://steam.curiosityhacked.org/cgi-bin/registration.py", $( "#registrationform" ).serialize() )
         .fail(function(data) {
            $("#formresult").html("<h1>fail</h1>");
          })
@@ -195,5 +195,4 @@ function GetURLParameter(sParam)
          });
      return false;
   });
-//action="https://docs.google.com/forms/d/1zYjlwwF85PTDUtZVMvsU8muBZepTnnGOwKOXIDh6HIk/formResponse"
 </script>
