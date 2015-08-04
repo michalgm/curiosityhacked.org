@@ -185,7 +185,7 @@ function GetURLParameter(sParam)
         missingval = true;
      }
      if ( missingval ) { return false; }
-
+     event.preventDefault();
      $("#formresult").html("<h1>Submitting</h1>");
   });
 
