@@ -151,8 +151,8 @@ function GetURLParameter(sParam)
 //<span id="formsubmit" class="smallbutton ltblue">Register and go to payment</span>
   function gotoBlink(blinkthis){
      acton = $('[name="'+blinkthis+'"]');
-     $('html, body').animate({ scrollTop: acton.offset().top }, 2000);
-     $('[name="'+v["name"]+'"]').attr('style','border: 1px solid red');
+     $('html, body').animate({ scrollTop: acton.offset().top-100 }, 1000);
+     $('[name="'+v["name"]+'"]').attr('style','border: 1px solid #FF0000');
   };
 
 // Attach a submit handler to the form
