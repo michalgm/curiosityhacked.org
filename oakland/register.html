@@ -40,7 +40,7 @@ function GetURLParameter(sParam)
  });
 </script>
 
-<form id="registrationform" >
+<form action="javascript:return false;" id="registrationform" >
 <div class='6u'>
 <h3>Child</h3>
 <label class="ss-q-item-label" for="entry_1971468574">Child&#39;s Name
@@ -142,12 +142,13 @@ function GetURLParameter(sParam)
 <input type="hidden" name="entry.1993237748" id="entry_1993237748" >
 <br>
 </div>
-<span class="ss-required-asterisk" aria-hidden="true">* Required`</span>
+<span class="ss-required-asterisk" aria-hidden="true">* Required</span><br>
 <input type="submit" name="submit" value="Register and go to payment" id="ss-submit" class="jfk-button jfk-button-action ">
 <img id="loading" src="/images/ajax-loader.gif" alt="loading..." style="display:none;"/>
 <div id="formresult"></div>
 </form>
 <script>
+//<span id="formsubmit" class="smallbutton ltblue">Register and go to payment</span>
   function gotoBlink(blinkthis){
      acton = $('[name="'+blinkthis+'"]');
      $('html, body').animate({ scrollTop: acton.offset().top }, 2000);
@@ -180,7 +181,7 @@ function GetURLParameter(sParam)
      }
      if ( missingval ) { return false; }
 
-     if (typeof $('#registrationform [required][type=checkbox]:not(:checked)')[0].name != 'undefined') {
+     if (typeof $('#registrationform [required][type=checkbox]:not(:checked)')[0] != 'undefined') {
         gotoBlink($('#registrationform [required][type=checkbox]:not(:checked)')[0].name);
         missingval = true;
      }
