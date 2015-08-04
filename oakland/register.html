@@ -185,13 +185,12 @@ function GetURLParameter(sParam)
      if ( missingval ) { return false; }
      event.preventDefault();
      $("#formresult").html("<h1>Submitting</h1>");
-     //$.post( "https://docs.google.com/forms/d/1zYjlwwF85PTDUtZVMvsU8muBZepTnnGOwKOXIDh6HIk/formResponse", $( "#registrationform" ).serialize() )
      $.post( "http://steam.curiosityhacked.org/cgi-bin/registration.py", $( "#registrationform" ).serialize() )
         .fail(function(data) {
-           $("#formresult").html("<h1>fail</h1>");
+           $("#formresult").html("<h1>Fail</h1>");
          })
          .done(function(data) {
-           $("#formresult").html("<h1>Success</h1>");
+           $("#formresult").html("<h1>"+data+"</h1>");
          });
      return false;
   });
