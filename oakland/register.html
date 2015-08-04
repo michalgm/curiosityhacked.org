@@ -153,9 +153,6 @@ function GetURLParameter(sParam)
      acton = $('[name="'+blinkthis+'"]');
      $('html, body').animate({ scrollTop: acton.offset().top }, 2000);
      $('[name="'+v["name"]+'"]').attr('style','border: 1px solid red');
-     zz=setTimeout(function(){$('[name="'+v["name"]+'"]').attr('style','');}, 500);
-     $('[name="'+v["name"]+'"]').attr('style','border: 1px solid red');
-     zz=setTimeout(function(){$('[name="'+v["name"]+'"]').attr('style','');}, 500);
   };
 
 // Attach a submit handler to the form
@@ -188,6 +185,13 @@ function GetURLParameter(sParam)
      if ( missingval ) { return false; }
      event.preventDefault();
      $("#formresult").html("<h1>Submitting</h1>");
+     $.post( "https://docs.google.com/forms/d/1zYjlwwF85PTDUtZVMvsU8muBZepTnnGOwKOXIDh6HIk/formResponse", $( "#registrationform" ).serialize() )
+        .fail(function(data) {
+           $("#formresult").html("<h1>fail</h1>");
+         })
+         .done(function(data) {
+           $("#formresult").html("<h1>Success</h1>");
+         });
      return false;
   });
 //action="https://docs.google.com/forms/d/1zYjlwwF85PTDUtZVMvsU8muBZepTnnGOwKOXIDh6HIk/formResponse"
