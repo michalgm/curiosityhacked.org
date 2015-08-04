@@ -153,6 +153,7 @@ function GetURLParameter(sParam)
      acton = $('[name="'+blinkthis+'"]');
      $('html, body').animate({ scrollTop: acton.offset().top-100 }, 1000);
      $('[name="'+v["name"]+'"]').attr('style','border: 1px solid #FF0000');
+     $("#formresult").html("<h1>Please check required fields for validity.</h1>");
   };
 
 // Attach a submit handler to the form
