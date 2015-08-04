@@ -148,6 +148,14 @@ function GetURLParameter(sParam)
 <div id="formresult"></div>
 </form>
 <script>
+  function gotoBlink(blinkthis){
+     acton = $('[name="'+blinkthis+'"]');
+     $('html, body').animate({ scrollTop: acton.offset().top }, 2000);
+     $('[name="'+v["name"]+'"]').attr('style','border: 1px solid red');
+     zz=setTimeout(function(){$('[name="'+v["name"]+'"]').attr('style','');}, 500);
+     $('[name="'+v["name"]+'"]').attr('style','border: 1px solid red');
+     zz=setTimeout(function(){$('[name="'+v["name"]+'"]').attr('style','');}, 500);
+  };
   var form = $("#registrationform");
   var reqfields = [
 	"entry_1971468574",
@@ -167,28 +175,30 @@ function GetURLParameter(sParam)
     $('#formresult').empty();
 
     $('#entry_1993237748').val($('#classsel').val());
+    $('#entry_1415844574').val( "fall"+((new Date).getTime()).toString()+'.'+(new Date).getTime() );
 
-    for ( f in reqfields) {
-	if ( $('#'+f).val()  
-	}
+    var missingval = false;
+    $.each($('#registrationform [required][type!=checkbox][type!=radio]').serializeArray(),function(i,v){
+        if (v['value'] == ""){
+           gotoBlink(v['name']);
+           missingval = true;
+           return false;
+        };
+     })
+     if ( missingval ) { return false; }
 
-// $("#ss-form input[required],textarea[required]")
+     if (typeof $('#registrationform [name="entry.1198401305"]:checked').val() == 'undefined') {
+        gotoBlink('entry.1198401305');
+        missingval = true;
+     }
+     if ( missingval ) { return false; }
 
-    // Check for errors
-    var hasError = false;
-    var values = {};
-    $.each(form.serializeArray(), function(i, field) {
-      if (field.name in nameToHuman && !field.value) {
-         hasError = true;
-         humanFieldName = nameToHuman[field.name]
-         $('#joinresult').append(
-             '<b style="color: red">' + humanFieldName + ' is required.</b><br>');
-      }
-    });
+     if (typeof $('#registrationform [required][type=checkbox]:not(:checked)')[0].name != 'undefined') {
+        gotoBlink($('#registrationform [required][type=checkbox]:not(:checked)')[0].name);
+        missingval = true;
+     }
+     if ( missingval ) { return false; }
 
-    if (hasError) {
-      $('#loading').hide();
-      return false;
-    }
   });
+
 </script>
