@@ -40,7 +40,7 @@ function GetURLParameter(sParam)
  });
 </script>
 
-<form action="https://docs.google.com/forms/d/1zYjlwwF85PTDUtZVMvsU8muBZepTnnGOwKOXIDh6HIk/formResponse" id="registrationform" >
+<form id="registrationform" >
 <div class='6u'>
 <h3>Child</h3>
 <label class="ss-q-item-label" for="entry_1971468574">Child&#39;s Name
@@ -142,7 +142,7 @@ function GetURLParameter(sParam)
 <input type="hidden" name="entry.1993237748" id="entry_1993237748" >
 <br>
 </div>
-<span class="ss-required-asterisk" aria-hidden="true">*</span><div class='ss-secondary-text'>Required</div>
+<span class="ss-required-asterisk" aria-hidden="true">* Required`</span>
 <input type="submit" name="submit" value="Register and go to payment" id="ss-submit" class="jfk-button jfk-button-action ">
 <img id="loading" src="/images/ajax-loader.gif" alt="loading..." style="display:none;"/>
 <div id="formresult"></div>
@@ -187,6 +187,7 @@ function GetURLParameter(sParam)
      if ( missingval ) { return false; }
      event.preventDefault();
      $("#formresult").html("<h1>Submitting</h1>");
+     return false;
   });
-
+//action="https://docs.google.com/forms/d/1zYjlwwF85PTDUtZVMvsU8muBZepTnnGOwKOXIDh6HIk/formResponse"
 </script>
