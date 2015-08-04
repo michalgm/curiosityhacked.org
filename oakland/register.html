@@ -24,11 +24,11 @@ function GetURLParameter(sParam)
 <p>Thank you for your interest in our classes.</p>
 <p>Questions on a class? info@curiosityhacked.org</p>
 </header>
-<form>
+<form id="classselform" name="classselform">
 <label for='classsel'>Please verify the proper class is selected:</label>
 <select id='classsel'></select></form>
 <script>
-  
+ $(function(){ 
   $.getJSON("oakland/classes.json","",function(data,y,z){
       for (a in data.classes) {
         for (b in data.classes[a]['time']) {
@@ -37,16 +37,16 @@ function GetURLParameter(sParam)
       };
       $('#classsel').val(decodeURIComponent(GetURLParameter('a')));
      });
-
+ });
 </script>
 
-<form action="https://docs.google.com/forms/d/1zYjlwwF85PTDUtZVMvsU8muBZepTnnGOwKOXIDh6HIk/formResponse" method="POST" id="registrationform" target="_self" onsubmit="">
+<form action="https://docs.google.com/forms/d/1zYjlwwF85PTDUtZVMvsU8muBZepTnnGOwKOXIDh6HIk/formResponse" id="registrationform" >
 <div class='6u'>
 <h3>Child</h3>
 <label class="ss-q-item-label" for="entry_1971468574">Child&#39;s Name
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
 </label>
-<tinput type="text" name="entry.1971468574" class="ss-q-short" id="entry_1971468574" dir="auto" aria-label="Child&#39;s Name  " aria-required="true" required="" title="">
+<input type="text" name="entry.1971468574" class="ss-q-short" id="entry_1971468574" dir="auto" aria-label="Child&#39;s Name  " aria-required="true" required="" title="">
 <br>
 <label class="ss-q-item-label" for="entry_310604489">Child&#39;s birthday
 <span class="ss-required-asterisk" aria-hidden="true">*</span>
@@ -143,7 +143,7 @@ function GetURLParameter(sParam)
 <br>
 </div>
 <span class="ss-required-asterisk" aria-hidden="true">*</span><div class='ss-secondary-text'>Required</div>
-<input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
+<input type="submit" name="submit" value="Register and go to payment" id="ss-submit" class="jfk-button jfk-button-action ">
 <img id="loading" src="/images/ajax-loader.gif" alt="loading..." style="display:none;"/>
 <div id="formresult"></div>
 </form>
@@ -156,22 +156,9 @@ function GetURLParameter(sParam)
      $('[name="'+v["name"]+'"]').attr('style','border: 1px solid red');
      zz=setTimeout(function(){$('[name="'+v["name"]+'"]').attr('style','');}, 500);
   };
-  var form = $("#registrationform");
-  var reqfields = [
-	"entry_1971468574",
-	"entry_310604489",
-	"entry_1350312985",
-	"entry_899706627",
-	"entry_1026069468",
-	"entry_1933350169",
-	"entry_2087606971",
-	"entry_1271794087",
-	"entry_1560112480",
-	"entry_1314175626"
-	];
 
-  // Attach a submit handler to the form
-  form.submit(function( event ) {
+// Attach a submit handler to the form
+ $("#registrationform").submit(function( event ) {
     $('#formresult').empty();
 
     $('#entry_1993237748').val($('#classsel').val());
@@ -199,6 +186,7 @@ function GetURLParameter(sParam)
      }
      if ( missingval ) { return false; }
 
+     $("#formresult").html("<h1>Submitting</h1>");
   });
 
 </script>
