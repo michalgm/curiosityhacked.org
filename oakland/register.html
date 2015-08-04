@@ -190,7 +190,7 @@ function GetURLParameter(sParam)
            $("#formresult").html("<h1>Fail</h1>");
          })
          .done(function(data) {
-           $("#formresult").html("<h1>"+data+"</h1>");
+           $("#formresult").html("<h1>"+data['success']+"</h1>");
          });
      return false;
   });
