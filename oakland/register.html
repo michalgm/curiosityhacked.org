@@ -32,7 +32,7 @@ function GetURLParameter(sParam)
   $.getJSON("oakland/classes.json","",function(data,y,z){
       for (a in data.classes) {
         for (b in data.classes[a]['time']) {
-          $('#classsel').append('<option value="'+data.classes[a]['id']+"-"+data.classes[a]['time'][b]+'"> '+data.classes[a]['name']+" "+data.classes[a]['time'][b]+"</option>");
+          $('#classsel').append('<option value="'+data.classes[a]['id']+"-"+data.classes[a]['time'][b].replace(/\s+/g, '')+'"> '+data.classes[a]['name']+" "+data.classes[a]['time'][b]+"</option>");
          };
       };
       $('#classsel').val(decodeURIComponent(GetURLParameter('a')));
@@ -111,7 +111,7 @@ function GetURLParameter(sParam)
 <br>
 </div>
 <div>
-<label class="ss-q-item-label" for="entry_1091775880"><div class="ss-q-title">Is there anything in particular that your child is hoping to get out of the class?
+<label class="ss-q-item-label" for="entry_1091775880"><div class="ss-q-title">Is there anything in particular that your child is hoping to get out of the class?</div>
 <div class='ss-secondary-text'>This insight aids us in tailoring the classes to specific interests.</div>
 </label>
 <textarea name="entry.1091775880" rows="8" cols="0" class="ss-q-long" id="entry_1091775880" dir="auto" aria-label="Is there anything in particular that your child is hoping to get out of the class? This insight aids us in tailoring the classes to specific interests. "></textarea>
@@ -149,12 +149,28 @@ function GetURLParameter(sParam)
 </form>
 <script>
   var form = $("#registrationform");
+  var reqfields = [
+	"entry_1971468574",
+	"entry_310604489",
+	"entry_1350312985",
+	"entry_899706627",
+	"entry_1026069468",
+	"entry_1933350169",
+	"entry_2087606971",
+	"entry_1271794087",
+	"entry_1560112480",
+	"entry_1314175626"
+	];
 
   // Attach a submit handler to the form
   form.submit(function( event ) {
-    $('#fromresult').empty();
+    $('#formresult').empty();
 
     $('#entry_1993237748').val($('#classsel').val());
+
+    for ( f in reqfields) {
+	if ( $('#'+f).val()  
+	}
 
 // $("#ss-form input[required],textarea[required]")
 
@@ -176,4 +192,3 @@ function GetURLParameter(sParam)
     }
   });
 </script>
-</div>
