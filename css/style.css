@@ -417,6 +417,9 @@
 		padding: 10px;
 		border-collapse: collapse;
 	}
+	.italic {
+               font-style: italic;
+        }
 
   ul.style1
   {
