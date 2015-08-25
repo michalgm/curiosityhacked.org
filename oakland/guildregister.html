@@ -129,9 +129,8 @@ function GetURLParameter(sParam)
 <span class="ss-choice-label">I don&#39;t expect to be able to help</span>
 </label></li></ul>
 
-<br>
 <label class="ss-q-item-label" for="entry_148291457"><div class="ss-q-title">Parent Specific Skills</div>
-<div class='ss-secondary-text'>A key point of the Guild program is the inclusion of skilled mentors to aid and assist the kids in learning new skills and accomplishing projects. Available mentors are often a gating factor in the skills and badges available to the kids. What skills and knowledge do you have that you'd be willing to share? Could be anything, need not be technical, nor do you need mastery of the subject.</div>
+<div class='ss-secondary-text'>A key point of the Guild program is the inclusion of skilled mentors to aid and assist the kids in learning new skills and accomplishing projects. Available mentors are often a gating factor in the skills and projects available to the kids. What skills and knowledge do you have that you'd be willing to share? Could be anything, need not be technical, nor do you need mastery of the subject.</div>
 </label>
 <textarea name="entry.148291457" rows="8" cols="0" class="ss-q-long" id="entry_148291457" dir="auto" aria-label="Parent Specific Skills"></textarea>
 <br>
@@ -175,14 +174,15 @@ function GetURLParameter(sParam)
      $("#formresult").html("<h1>Please check required fields for validity.</h1>");
   };
 
-  ppmap = { "tti-Tue10am":"2GJS2HSM2UXEN","vgdd-Wed1pm":"VVUTF2Z2392W6", "vgdd-Wed4pm": "LR4BJ6Z778Z3Y", "imm-Mon1pm": "DEPPCPMH9PSC6", "imm-Fri4pm": "5ALEHX4NHPS5Q", "iar-Wed10am": "UGQY2XKWGAY4C", "iar-Thu4pm": "D93SSDN6BQXNG", "ttii-Thu10am": "4FWT7NNUJLCZ6", "mth-Fri1pm": "U3X9T5MNC6938", "amm-Mon10am": "LRWTA272WNF3E", "amm-Thu6:30pm": "CQ2KDHZFBPDAA", "aar-Wed6:30pm": "N83F8KG3XK454"};
+//  ppmap = { "tti-Tue10am":"2GJS2HSM2UXEN","vgdd-Wed1pm":"VVUTF2Z2392W6", "vgdd-Wed4pm": "LR4BJ6Z778Z3Y", "imm-Mon1pm": "DEPPCPMH9PSC6", "imm-Fri4pm": "5ALEHX4NHPS5Q", "iar-Wed10am": "UGQY2XKWGAY4C", "iar-Thu4pm": "D93SSDN6BQXNG", "ttii-Thu10am": "4FWT7NNUJLCZ6", "mth-Fri1pm": "U3X9T5MNC6938", "amm-Mon10am": "LRWTA272WNF3E", "amm-Thu6:30pm": "CQ2KDHZFBPDAA", "aar-Wed6:30pm": "N83F8KG3XK454"};
+  ppmap = { "guild001":"XXXXXXXXXXXXX","guild008":"XXXXXXXXXXXXX","guild039":"XXXXXXXXXXXXX","guild042":"XXXXXXXXXXXXX"};
 
 // Attach a submit handler to the form
  $("#registrationform").submit(function( event ) {
     $('#formresult').empty();
 
     $('#entry_1993237748').val($('#classsel').val());
-    $('#entry_1415844574').val( "fall"+((new Date).getTime()).toString()+'.'+Math.floor((Math.random() * 1000) + 1).toString() );
+    $('#entry_1415844574').val( "guild"+((new Date).getTime()).toString()+'.'+Math.floor((Math.random() * 1000) + 1).toString() );
 
     var missingval = false;
     $.each($('#registrationform [required][type!=checkbox][type!=radio]').serializeArray(),function(i,v){
@@ -207,7 +207,7 @@ function GetURLParameter(sParam)
      if ( missingval ) { return false; }
      event.preventDefault();
      $("#formresult").html("<h1>Submitting</h1>");
-     $.post( "http://steam.curiosityhacked.org/cgi-bin/registration.py", $( "#registrationform" ).serialize() )
+     $.post( "http://steam.curiosityhacked.org/cgi-bin/guildregistration.py", $( "#registrationform" ).serialize() )
         .fail(function(data) {
            $("#formresult").html("<h1>Fail</h1>");
          })
