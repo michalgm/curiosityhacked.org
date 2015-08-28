@@ -177,14 +177,14 @@ function GetURLParameter(sParam)
   ppmap = { "guild001":"XXXXXXXXXXXXX","guild008":"XXXXXXXXXXXXX","guild039":"XXXXXXXXXXXXX","guild042":"XXXXXXXXXXXXX"};
 
 // Attach a submit handler to the form
- $("#registrationform").submit(function( event ) {
+ $("#guildregistrationform").submit(function( event ) {
     $('#formresult').empty();
 
     $('#entry_1993237748').val($('#classsel').val());
     $('#entry_1415844574').val( "guild"+((new Date).getTime()).toString()+'.'+Math.floor((Math.random() * 1000) + 1).toString() );
 
     var missingval = false;
-    $.each($('#registrationform [required][type!=checkbox][type!=radio]').serializeArray(),function(i,v){
+    $.each($('#guildregistrationform [required][type!=checkbox][type!=radio]').serializeArray(),function(i,v){
         if (v['value'] == ""){
            gotoBlink(v['name']);
            missingval = true;
@@ -193,20 +193,20 @@ function GetURLParameter(sParam)
      })
      if ( missingval ) { return false; }
 
-     if (typeof $('#registrationform [name="entry.1198401305"]:checked').val() == 'undefined') {
+     if (typeof $('#guildregistrationform [name="entry.1198401305"]:checked').val() == 'undefined') {
         gotoBlink('entry.1198401305');
         missingval = true;
      }
      if ( missingval ) { return false; }
 
-     if (typeof $('#registrationform [required][type=checkbox]:not(:checked)')[0] != 'undefined') {
-        gotoBlink($('#registrationform [required][type=checkbox]:not(:checked)')[0].name);
+     if (typeof $('#guildregistrationform [required][type=checkbox]:not(:checked)')[0] != 'undefined') {
+        gotoBlink($('#guildregistrationform [required][type=checkbox]:not(:checked)')[0].name);
         missingval = true;
      }
      if ( missingval ) { return false; }
      event.preventDefault();
      $("#formresult").html("<h1>Submitting</h1>");
-     $.post( "http://steam.curiosityhacked.org/cgi-bin/guildregistration.py", $( "#registrationform" ).serialize() )
+     $.post( "http://steam.curiosityhacked.org/cgi-bin/guildregistration.py", $( "#guildregistrationform" ).serialize() )
         .fail(function(data) {
            $("#formresult").html("<h1>Fail</h1>");
          })
