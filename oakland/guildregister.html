@@ -155,6 +155,10 @@ function GetURLParameter(sParam)
 <ul class="ss-choices ss-choices-required" role="group" aria-label="I understand that this registration is not sufficient to hold placement without an accompanying payment.  "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1949933081" value="I agree." id="group_1949933081_1" role="checkbox" class="ss-q-checkbox" aria-required="true" required=""></span>
 <span class="ss-choice-label">I agree.</span>
 </label></li></ul>
+<label class="ss-q-item-label" for="entry_1765693940"><div class="ss-q-title">Anything else?</div>
+</label>
+<textarea name="entry.1765693940" rows="8" cols="0" class="ss-q-long" id="entry_1765693940" dir="auto" aria-label="Anything else?"></textarea>
+<br>
 <input type="hidden" name="entry.1415844574" id="entry_1415844574" >
 <input type="hidden" name="entry.1993237748" id="entry_1993237748" >
 <br>
@@ -211,7 +215,8 @@ function GetURLParameter(sParam)
            $("#formresult").html("<h1>Fail</h1>");
          })
          .done(function(data) {
-           $("#formresult").html("<h1>"+data['success']+"  </h1><a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id="+ppmap[$('#entry_1993237748').val()]+"&custom="+$('#entry_1415844574').val()+"&invoice="+$('#entry_1415844574').val()+"'>Continue to payment</a>");
+           $("#formresult").html("<h1>"+data['success']+"  </h1><a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id="+ppmap[$('#entry_1993237748').val()]+"&custom="+$('#entry_1415844574').val()+"&invoice="+$('#entry_1415844574').val()+"'>Continue to setting up payments</a>");
+           $("#ss-submit").hide();
            if ( data['success'] == "Success" ) {
 
            }
