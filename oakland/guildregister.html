@@ -31,7 +31,11 @@ function GetURLParameter(sParam)
 <option value="guild039"> Guild 039 - Friday 6:30pm - 8:30pm</option>
 <option value="guild046"> Guild 046 - Friday 10am - Noon</option>
 </select></form>
-
+<script>
+ $(function(){
+      $('#classsel').val(decodeURIComponent(GetURLParameter('a')));
+ });
+</script>
 <form action="javascript:return false;" id="guildregistrationform" >
 <div class='6u'>
 <h3>Child</h3>
