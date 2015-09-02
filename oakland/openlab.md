@@ -17,9 +17,10 @@ Oakland, CA 94609
 <em>If you're interested in using CHOL for your after-school group or science club, contact us at info@curiosityhacked.org</em>
 
 ###Upcoming 2015 Open Lab Featured Projects:
+Please note that Open Labs are subject to change when the kids inspire us to try something new. You can check back here for any changes we make prior to each Open Lab. Material fees for Open Lab run $5-$15 depending on the project.
 - September 13, 2015: GEOCACHING! Learn how to participate in modern day treasure hunts, and make your own box and stamp to hide for others to find!
 - September 20, 2015: Celebrate TALK LIKE A PIRATE DAY! Make air cannons and shrunken heads! Walk the plank! 
-- September 27, 2015: Electronics: Music Machine (will require soldering)
+- September 27, 2015: Electronics: Music Machine 
 - October 4, 2015: House Building! We will have all kinds of materials to create miniature abodes, from fairies to creatures to haunted. Integrate technology or not, make for outside or inside!
 - October 11, 2015: Back by popular demand! Snap-O Lanterns and Pumpkin Carving!
 - October 18, 2015: Come see us at the East Bay Mini Maker Faire! (No Open Lab)
