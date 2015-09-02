@@ -17,7 +17,24 @@ Oakland, CA 94609
 <em>If you're interested in using CHOL for your after-school group or science club, contact us at info@curiosityhacked.org</em>
 
 ###Upcoming 2015 Open Lab Featured Projects:
-- No Open Labs in August. Summer vacation!
+- September 13, 2015: GEOCACHING! Learn how to participate in modern day treasure hunts, and make your own box and stamp to hide for others to find!
+- September 20, 2015: Celebrate TALK LIKE A PIRATE DAY! Make air cannons and shrunken heads! Walk the plank! 
+- September 27, 2015: Electronics: Music Machine (will require soldering)
+- October 4, 2015: House Building! We will have all kinds of materials to create miniature abodes, from fairies to creatures to haunted. Integrate technology or not, make for outside or inside!
+- October 11, 2015: Back by popular demand! Snap-O Lanterns and Pumpkin Carving!
+- October 18, 2015: Come see us at the East Bay Mini Maker Faire! (No Open Lab)
+- October 25, 2015: Final Costume Hack (last minute sewing, lighting, special effects, accessories) and sugar skulls!
+- November 1, 2015: DST: DIY Clocks! Laser cut, binary, perpetual, all kinds of clocks!
+- November 8, 2015: Day of Service: TBD
+- November 15, 2015: Printmaking Workshop! Screenprinting, Linocut, Gyotaku, Etching, Monoprints! Learn about the many ways to print on paper, fabric, and more!
+- November 22, 2015: Open Lab at the CJM in San Francisco! (No Open Lab in Oakland)
+- November 29, 2015: NO OPEN LAB. Happy Thanksgiving!
+- December 6, 2015: Holiday Hack! Ornaments, E-Textile Snowflakes, FiberOptic Tree Toppers, Electronic Dreidels, LED Menorahs
+- December 13, 2015: Three hours of Code: Projects and Games that introduce and celebrate programming.
+- December 20th, 2015: Festival of Lights: Candle Making and Laser Cut Lanterns
+- December 27th, 2015: NO OPEN LAB, Happy Holidays!
+- 
+- 
 
 ##Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
