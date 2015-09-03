@@ -18,6 +18,7 @@ Oakland, CA 94609
 
 ###Upcoming 2015 Open Lab Featured Projects:
 Please note that Open Labs are subject to change when the kids inspire us to try something new. You can check back here for any changes we make prior to each Open Lab. Material fees for Open Lab run $5-$15 depending on the project.
+
 - September 13, 2015: GEOCACHING! Learn how to participate in modern day treasure hunts, and make your own box and stamp to hide for others to find!
 - September 20, 2015: Celebrate TALK LIKE A PIRATE DAY! Make air cannons and shrunken heads! Walk the plank! 
 - September 27, 2015: Electronics: Music Machine 
