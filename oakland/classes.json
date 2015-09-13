@@ -4,6 +4,6 @@
     {"id":"imm", "name":"Intro to Minecraft Modding", "time":["Mon 1pm", "Fri 4pm"]},
     {"id":"iar", "name":"Intro to Arduino Robotics", "time":["Wed 10am", "Thu 4pm"]},
     {"id":"mth", "name":"Making Through History: Ancients", "time":["Fri 1pm"]},
-    {"id":"amm",  "name":"Advanced Minecraft Modding", "time":["Mon 10am"]},
+    {"id":"amm",  "name":"Advanced Minecraft Modding", "time":["Mon 10am"]}
    ]
 }
