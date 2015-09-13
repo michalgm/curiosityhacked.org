@@ -3,9 +3,7 @@
     {"id":"vgdd", "name":"Video Game Design and Development", "time":[ "Wed 1pm", "Wed 4pm" ] },
     {"id":"imm", "name":"Intro to Minecraft Modding", "time":["Mon 1pm", "Fri 4pm"]},
     {"id":"iar", "name":"Intro to Arduino Robotics", "time":["Wed 10am", "Thu 4pm"]},
-    {"id":"ttii","name":"Tiny Tinkering Level II", "time":["Thu 10am"]},
     {"id":"mth", "name":"Making Through History: Ancients", "time":["Fri 1pm"]},
-    {"id":"amm",  "name":"Advanced Minecraft Modding", "time":["Mon 10am","Thu 6:30pm"]},
-    {"id":"aar", "name":"Advanced Arduino Robotics", "time":["Wed 6:30pm"]}
+    {"id":"amm",  "name":"Advanced Minecraft Modding", "time":["Mon 10am"]},
    ]
 }
