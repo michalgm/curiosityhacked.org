@@ -31,7 +31,7 @@ Open Labs are all ages and a great way to get started! You can come for the feat
 - November 15, 2015: Printmaking Workshop! Screenprinting, Linocut, Gyotaku, Etching, Monoprints! Learn about the many ways to print on paper, fabric, and more!
 - November 22, 2015: Open Lab at the CJM in San Francisco! (No Open Lab in Oakland)
 - November 29, 2015: NO OPEN LAB. Happy Thanksgiving!
-- December 6, 2015: Holiday Hack! Ornaments, E-Textile Snowflakes, FiberOptic Tree Toppers, Electronic Dreidels, LED Menorahs
+- December 6, 2015: Holiday Hack! Laser cut algorithmic snowflakes, E-Textile ornaments, Electronic Dreidels, LED Menorahs
 - December 13, 2015: Three hours of Code: Projects and Games that introduce and celebrate programming.
 - December 20th, 2015: Festival of Lights: Candle Making and Laser Cut Lanterns
 - December 27th, 2015: NO OPEN LAB, Happy Holidays!
