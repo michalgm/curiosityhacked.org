@@ -12,15 +12,13 @@ This January, we will be starting a part time program in our Oakland location, w
 
 ####Please join us on Thursday 12/10/15 at 6:30pm for our information night!
 
-**3 Day Option $575/ month**
-**Mondays, Tuesdays, Wednesdays 10-4pm**
+**3 Day Option $575/ month** 
+**Mondays, Tuesdays, Wednesdays 10-4pm** 
 
-**2 Day Option $395/month**
+**2 Day Option $395/month** 
 **Monday, Tuesday** 
-
 **Monday, Wednesday** 
-
-**Tuesday, Wednesday**
+**Tuesday, Wednesday** 
 
 
 
