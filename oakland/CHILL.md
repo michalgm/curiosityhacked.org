@@ -3,6 +3,7 @@ published: true
 layout: default
 ---
 ## C.H.I.L.L. 
+
 ## Curiosity Hacked Independent Learning Lab
 
 What if the hackerspace and mentors were accessible all the time so that a space was created where kids could dream big and create big, and have a consistent community? What if we didn't have to run all over town, but built something that made sense, together, in one place? What if the hackerspace was not the center of the universe, but one of it's many stars? We are working with a group of independent, enthusiastic young learners to build a collective not-a-school, a program that empowers kids to be in charge of their own education while giving them the support, resources, and experiences they want or need! 
