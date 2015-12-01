@@ -17,7 +17,9 @@ This January, we will be starting a part time program in our Oakland location, w
 
 **2 Day Option $395/month**
 **Monday, Tuesday** 
+
 **Monday, Wednesday** 
+
 **Tuesday, Wednesday**
 
 
