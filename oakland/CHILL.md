@@ -10,8 +10,6 @@ What if the hackerspace and mentors were accessible all the time so that a space
 
 This January, we will be starting a part time program in our Oakland location, with the intention of adding a full time program for all ages, hopefully in Autumn 2016. Initially, we are focusing on middle school to early high school age kids who can commit to 2-3 days a week. We will be expanding the ages as our community needs.
 
-####Please join us on Thursday 12/10/15 at 6:30pm for our information night!
-
 **3 Day Option $575/ month**  
 **Mondays, Tuesdays, Wednesdays 10-4pm**  
 
@@ -20,6 +18,9 @@ This January, we will be starting a part time program in our Oakland location, w
 **Monday, Wednesday**  
 **Tuesday, Wednesday**  
 
+Registration coming soon!  
+
+####Please join us on Thursday 12/10/15 at 6:30pm for our information night!
 
 
 #####How did this program come about?
