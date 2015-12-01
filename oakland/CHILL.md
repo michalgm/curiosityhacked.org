@@ -15,8 +15,8 @@ This January, we will be starting a part time program in our Oakland location, w
 **Mondays, Tuesdays, Wednesdays 10-4pm**
 
 **2 Day Option $395/month**
-**Monday, Tuesday**
-**Monday, Wednesday**
+**Monday, Tuesday** 
+**Monday, Wednesday** 
 **Tuesday, Wednesday**
 
 
