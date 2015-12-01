@@ -53,7 +53,7 @@ We have already been interviewing mentors, a process in which the kids are heavi
 
 *“I'm excited that I can be with friends learning about things I'd never even heard of before I heard about this program. I'm also excited that I'm going to learn how to learn about things I want to explore."*  
 
-*I am excited about this creation because it gives me a fresh start. I just love the idea of having a place to learn with my friends, a place where I can be myself."*  
+*"I am excited about this creation because it gives me a fresh start. I just love the idea of having a place to learn with my friends, a place where I can be myself."*    
 
 
 
