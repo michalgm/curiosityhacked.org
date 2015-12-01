@@ -1,0 +1,11 @@
+{"classes":[
+    {"id":"tti", "name":"Tiny Tinkering Level", "time":[["day":"Friday", "timestart":"10:00", "timestop":"12:00"]]},
+    {"id":"vgdd", "name":"Video Game Design and Development", "time":[["day":"Monday", "timestart":"13:00", "timestop":"15:00"],["day":"Monday", "timestart":"16:00", "timestop":"18:00"]]},
+    {"id":"tlxweb", "name":"Web Programing", "time":[["day":"Wednesday", "timestart":"14:00", "timestop":"16:00"],["day":"Wednesday", "timestart":"18:30", "timestop":"20:30"]]},
+    {"id":"tlxmm", "name":"Mincraft Modding", "time":[["day":"Wednesday", "timestart":"16:00", "timestop":"18:00"],["day":"Thursday", "timestart":"12:00", "timestop":"14:00"]]},
+    {"id":"chem", "name":"Chemistry", "time":[["day":"Thursday", "timestart":"10:00", "timestop":"11:30"]]},
+    {"id":"tlxgdm", "name":"Game Design with Minecraft", "time":[["day":"Thursday", "timestart":"12:00", "timestop":"14:00"]]},
+    {"id":"mth", "name":"Making Through History: Ancients", "time":["Fri 1pm"]},
+    {"id":"amm",  "name":"Advanced Minecraft Modding", "time":["Mon 10am"]}
+   ]
+}
