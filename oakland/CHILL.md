@@ -51,7 +51,10 @@ We have already been interviewing mentors, a process in which the kids are heavi
 
 *“I want to join this new program because it’s like homeschooling and school but not, with the benefits of both. I get to hang out with friends and go to cool places. I want to learn about the things I’m into but also learn about the things my friends are interested in too. I already take a cool video game design class at the Lab and it’s cool; I want boatloads more of that.”*
 
-*“I'm excited that I can be with friends learning about things I'd never even heard of before I heard about this program. I'm also excited that I'm going to learn how to learn about things I want to explore."*
+*“I'm excited that I can be with friends learning about things I'd never even heard of before I heard about this program. I'm also excited that I'm going to learn how to learn about things I want to explore."*  
+
+*I am excited about this creation because it gives me a fresh start. I just love the idea of having a place to learn with my friends, a place where I can be myself."*  
+
 
 
 
