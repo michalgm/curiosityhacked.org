@@ -1,11 +1,29 @@
 {"classes":[
-    {"id":"tti", "name":"Tiny Tinkering Level", "time":[["day":"Friday", "timestart":"10:00", "timestop":"12:00"]]},
-    {"id":"vgdd", "name":"Video Game Design and Development", "time":[["day":"Monday", "timestart":"13:00", "timestop":"15:00"],["day":"Monday", "timestart":"16:00", "timestop":"18:00"]]},
-    {"id":"tlxweb", "name":"Web Programing", "time":[["day":"Wednesday", "timestart":"14:00", "timestop":"16:00"],["day":"Wednesday", "timestart":"18:30", "timestop":"20:30"]]},
-    {"id":"tlxmm", "name":"Mincraft Modding", "time":[["day":"Wednesday", "timestart":"16:00", "timestop":"18:00"],["day":"Thursday", "timestart":"12:00", "timestop":"14:00"]]},
-    {"id":"chem", "name":"Chemistry", "time":[["day":"Thursday", "timestart":"10:00", "timestop":"11:30"]]},
-    {"id":"tlxgdm", "name":"Game Design with Minecraft", "time":[["day":"Thursday", "timestart":"12:00", "timestop":"14:00"]]},
-    {"id":"mth", "name":"Making Through History: Ancients", "time":["Fri 1pm"]},
-    {"id":"amm",  "name":"Advanced Minecraft Modding", "time":["Mon 10am"]}
-   ]
+    {"id":"vgdd", "name":"Video Game Design", "time":["Mon 1pm", "Mon 4pm"]},
+    {"id":"tlxweb", "name":"Web Programming", "time":["Wed 2pm", "Wed 6:30pm"]},
+    {"id":"tlxmm", "name":"Minecraft Modding", "time":["Wed 4pm", "Thu 12pm"]},
+    {"id":"chem", "name":"Chemistry", "time":["Thu 10am"]},
+    {"id":"tlxmgd", "name":"Minecraft Game Design", "time":["Thu 12pm", "Fri 4pm"]},
+    {"id":"tlxart", "name":"Arduino Robotics Tinkering", "time":["Thu 2pm", "Thu 4pm"]},
+    {"id":"tlxarp", "name":"Arduino Robotics Programing", "time":["Thu 2pm", "Thu 6:30pm"]},
+    {"id":"tti", "name":"Tiny Tinkering", "time":["Fri 10am"]},
+    {"id":"mth", "name":"Making Through History", "time":["Fri 1pm"]}
+  ],
+  "paypal":{
+    "vgdd-Mon1pm":"MCFNWQHZB8ZBE",
+    "vgdd-Mon4pm":"WA3QQZDK3B952",
+    "tlxweb-Wed2pm":"YATXLRXSL2TA4",
+    "tlxweb-Wed6:30pm":"B44LJ6NUWDQJU",
+    "tlxmm-Wed4pm":"NTUBF25RTC4U8",
+    "tlxmm-Thu12pm":"4K7VWRCJUJLNJ",
+    "chem-Thu10am":"8LKQW39QCH2FE",
+    "tlxmgd-Thu12pm":"79WM8QJZF6C9A",
+    "tlxmgd-Fri4pm":"J3NBQDYGNYMCE",
+    "tlxart-Thu2pm":"4MRQKB32YZPSA",
+    "tlxart-Thu4pm":"4BHTR5S3JFNKG",
+    "tlxarp-Thu2pm":"JLT87BQ296KE8",
+    "tlxarp-Thu6:30pm":"7JQ79NFJ79NYQ",
+    "tti-Fri10am":"TWA4RBMHHSP8E",
+    "mth-Fri1pm":"U3X9T5MNC6938"
+  }
 }
