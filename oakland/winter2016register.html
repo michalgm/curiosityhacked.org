@@ -16,6 +16,7 @@ function GetURLParameter(sParam)
         }
     }
 }
+var paypal;
 
 
 </script>
@@ -36,6 +37,7 @@ function GetURLParameter(sParam)
          };
       };
       $('#classsel').val(decodeURIComponent(GetURLParameter('a')));
+      paypal = data.paypal;
      });
  });
 </script>
@@ -165,8 +167,6 @@ function GetURLParameter(sParam)
      $('[name="'+v["name"]+'"]').attr('style','border: 1px solid #FF0000');
      $("#formresult").html("<h1>Please check required fields for validity.</h1>");
   };
-
-  ppmap = { "tti-Tue10am":"2GJS2HSM2UXEN","vgdd-Wed1pm":"VVUTF2Z2392W6", "vgdd-Wed4pm": "LR4BJ6Z778Z3Y", "imm-Mon1pm": "DEPPCPMH9PSC6", "imm-Fri4pm": "5ALEHX4NHPS5Q", "iar-Wed10am": "UGQY2XKWGAY4C", "iar-Thu4pm": "D93SSDN6BQXNG", "ttii-Thu10am": "4FWT7NNUJLCZ6", "mth-Fri1pm": "U3X9T5MNC6938", "amm-Mon10am": "LRWTA272WNF3E", "amm-Thu6:30pm": "CQ2KDHZFBPDAA", "aar-Wed6:30pm": "N83F8KG3XK454"};
 
 // Attach a submit handler to the form
  $("#registrationform").submit(function( event ) {
