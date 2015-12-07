@@ -203,7 +203,7 @@ var paypal;
            $("#formresult").html("<h1>Fail</h1>");
          })
          .done(function(data) {
-           $("#formresult").html("<h1>"+data['success']+"  </h1><a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id="+data.paypal[$('#entry_1993237748').val()]+"&custom="+$('#entry_1415844574').val()+"&invoice="+$('#entry_1415844574').val()+"'>Continue to payment</a>");
+           $("#formresult").html("<h1>"+data['success']+"  </h1><a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id="+paypal[$('#entry_1993237748').val()]+"&custom="+$('#entry_1415844574').val()+"&invoice="+$('#entry_1415844574').val()+"'>Continue to payment</a>");
            $("#ss-submit").hide();
            if ( data['success'] == "Success" ) {
 
