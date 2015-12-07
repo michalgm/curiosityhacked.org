@@ -7,7 +7,8 @@
     {"id":"tlxart", "name":"Arduino Robotics Tinkering", "time":["Thu 2pm", "Thu 4pm"]},
     {"id":"tlxarp", "name":"Arduino Robotics Programing", "time":["Thu 2pm", "Thu 6:30pm"]},
     {"id":"tti", "name":"Tiny Tinkering", "time":["Fri 10am"]},
-    {"id":"mth", "name":"Making Through History", "time":["Fri 1pm"]}
+    {"id":"mth", "name":"Making Through History", "time":["Fri 1pm"]},
+    {"id":"chill", "name":"Curiosity Hacked Independent Learning Lab", "time":["2 day","3 day"]}
   ],
   "paypal":{
     "vgdd-Mon1pm":"MCFNWQHZB8ZBE",
@@ -24,6 +25,8 @@
     "tlxarp-Thu2pm":"JLT87BQ296KE8",
     "tlxarp-Thu6:30pm":"7JQ79NFJ79NYQ",
     "tti-Fri10am":"TWA4RBMHHSP8E",
-    "mth-Fri1pm":"U3X9T5MNC6938"
+    "mth-Fri1pm":"U3X9T5MNC6938",
+    "chill-2day":"XKEPELMARVZPC",
+    "chill-3day":"ZKJK6E3DEBHNY"
   }
 }
