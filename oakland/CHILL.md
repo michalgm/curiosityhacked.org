@@ -20,7 +20,7 @@ This January, we will be starting a part time program in our Oakland location, w
 **Tuesday, Wednesday**  
 **10-4pm**
 
-<br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue' onClick="function() { window.location.assign('/oakland/winter2016register?a=chill-3day'); }">3 Day</span><span class='buttonsmall ltblue' onClick="function() { window.location.assign('/oakland/winter2016register?a=chill-2day'); }">2 Day</span>
+<br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue' onClick="function() { window.location.assign('/oakland/winter2016register?a=chill-3day'); }">3 Day</span>  <span class='buttonsmall ltblue' onClick="function() { window.location.assign('/oakland/winter2016register?a=chill-2day'); }">2 Day</span>
 
 ####Please join us on Thursday 12/10/15 at 6:30pm for our information night!
 
