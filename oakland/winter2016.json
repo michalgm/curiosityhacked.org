@@ -8,7 +8,9 @@
     {"id":"tlxarp", "name":"Arduino Robotics Programing", "time":["Thu 2pm", "Thu 6:30pm"]},
     {"id":"tti", "name":"Tiny Tinkering", "time":["Fri 10am"]},
     {"id":"mth", "name":"Making Through History", "time":["Fri 1pm"]},
-    {"id":"chill", "name":"Curiosity Hacked Independent Learning Lab", "time":["2 day","3 day"]}
+    {"id":"chill", "name":"Curiosity Hacked Independent Learning Lab", "time":["2 day","3 day"]},
+    {"id":"ase1day", "name":"Albany ASE Guild 1-day", "time":["Monday","Friday"]},
+    {"id":"ase2day", "name":"Albany ASE Guild 2-day", "time":["Monday and Friday"]}
   ],
   "paypal":{
     "vgdd-Mon1pm":"MCFNWQHZB8ZBE",
@@ -27,6 +29,9 @@
     "tti-Fri10am":"TWA4RBMHHSP8E",
     "mth-Fri1pm":"U3X9T5MNC6938",
     "chill-2day":"XKEPELMARVZPC",
-    "chill-3day":"ZKJK6E3DEBHNY"
+    "chill-3day":"ZKJK6E3DEBHNY",
+    "ase1day-Monday":"353TRYYBKEU6L",
+    "ase1day-Friday":"7DS2628ACCMHC",
+    "ase2day-MondayandFriday":"RPBXXA2NXN9RS"
   }
 }
