@@ -19,24 +19,13 @@ Oakland, CA 94609
 ###Upcoming 2015 Open Lab Featured Projects:
 Open Labs are all ages and a great way to get started! You can come for the featured project, use our available materials and tools to design your own project, or bring in a project you want to work on and/or need help with! Please note that Open Labs are subject to change when the kids inspire us to try something new. You can check back here for any changes we make prior to each Open Lab. Material fees for Open Lab run $5-$15 depending on the project.
 
-- September 13, 2015: GEOCACHING! Learn how to participate in modern day treasure hunts, and make your own box and stamp to hide for others to find!
-- September 20, 2015: Celebrate TALK LIKE A PIRATE DAY! Make air cannons and shrunken heads! Walk the plank! 
-- September 27, 2015: Electronics: Music Machine 
-- October 4, 2015: House Building! We will have all kinds of materials to create miniature abodes, from fairies to creatures to haunted. Integrate technology or not, make for outside or inside!
-- October 11, 2015: Back by popular demand! Snap-O Lanterns and Pumpkin Carving!
-- October 18, 2015: Come see us at the East Bay Mini Maker Faire! (No Open Lab)
-- October 25, 2015: Final Costume Hack (last minute sewing, lighting, special effects, accessories) and sugar skulls!
-- November 1, 2015: DST: DIY Clocks! Laser cut, binary, perpetual, all kinds of clocks!
-- November 8, 2015: Day of Service: TBD
-- November 15, 2015: Printmaking Workshop! Screenprinting, Linocut, Gyotaku, Etching, Monoprints! Learn about the many ways to print on paper, fabric, and more!
-- November 22, 2015: Open Lab at the CJM in San Francisco! (No Open Lab in Oakland)
-- November 29, 2015: NO OPEN LAB. Happy Thanksgiving!
-- December 6, 2015: Holiday Hack! Laser cut algorithmic snowflakes, E-Textile ornaments, Electronic Dreidels, LED Menorahs
-- December 13, 2015: Three hours of Code: Projects and Games that introduce and celebrate programming.
-- December 20th, 2015: Festival of Lights: Candle Making and Laser Cut Lanterns
-- December 27th, 2015: NO OPEN LAB, Happy Holidays!
-- 
-- 
+- January 3rd, 2016: Resolutions Open Lab! Learn a new skill or tool, get help planning a new project... we will show you the possibilities!
+- January 10th, 2016: We have gotten a lot of requests for light sabers lately. The force is obviously strong with our young hackers! Let's do it. (Can't guarantee a spoiler free environment, but we'll try) 
+- January 17th, 2016: TBA
+- January 24th, 2016: Turn your smart phone into a microscope!
+- January 31st, 2016: TBA
+- February 7th, 2016: Google Cardboard
+- February 14th, 2016: TBA
 
 ##Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
@@ -88,6 +77,22 @@ Join us Sunday, 2-5pm, for this awesome Open Lab!
 - July 12th, 2015- DIY Stomp Rockets and Compressed Air Rockets
 - July 19th, 2015- Tiny Matrix: Programmable LED pendants
 - July 26th, 2015- Etextiles: integrating circuits into accessories
+- September 13, 2015: GEOCACHING! Learn how to participate in modern day treasure hunts, and make your own box and stamp to hide for others to find!
+- September 20, 2015: Celebrate TALK LIKE A PIRATE DAY! Make air cannons and shrunken heads! Walk the plank! 
+- September 27, 2015: Electronics: Music Machine 
+- October 4, 2015: House Building! We will have all kinds of materials to create miniature abodes, from fairies to creatures to haunted. Integrate technology or not, make for outside or inside!
+- October 11, 2015: Back by popular demand! Snap-O Lanterns and Pumpkin Carving!
+- October 18, 2015: Come see us at the East Bay Mini Maker Faire! (No Open Lab)
+- October 25, 2015: Final Costume Hack (last minute sewing, lighting, special effects, accessories) and sugar skulls!
+- November 1, 2015: DST: DIY Clocks! Laser cut, binary, perpetual, all kinds of clocks!
+- November 8, 2015: Day of Service: TBD
+- November 15, 2015: Printmaking Workshop! Screenprinting, Linocut, Gyotaku, Etching, Monoprints! Learn about the many ways to print on paper, fabric, and more!
+- November 22, 2015: Open Lab at the CJM in San Francisco! (No Open Lab in Oakland)
+- November 29, 2015: NO OPEN LAB. Happy Thanksgiving!
+- December 6, 2015: Holiday Hack! Laser cut algorithmic snowflakes, E-Textile ornaments, Electronic Dreidels, LED Menorahs
+- December 13, 2015: Three hours of Code: Projects and Games that introduce and celebrate programming.
+- December 20th, 2015: Festival of Lights: Candle Making and Laser Cut Lanterns
+- December 27th, 2015: NO OPEN LAB, Happy Holidays!
 
 
 <div style="width: 70%; margin:0 auto;">
