@@ -17,7 +17,24 @@ function GetURLParameter(sParam)
     }
 }
 var paypal;
-
+function updateClasssel(){
+     $('#lunchq').hide();
+     $('#afterall').hide();
+     $('#after4').hide();
+     $('#after5').hide();
+     if ($('#classsel').val() == 'ews1' or $('#classsel').val() == 'ews1') {
+       $('#lunchq').show();
+     }
+     else if ($('#classsel').val() == 'elemonth') {
+       $('#afterall').show();
+     }
+     else if ($('#classsel').val() == '2dto3d') {
+       $('#after4').show();
+     }
+     else {
+       $('#after5').show();
+     }
+}
 
 </script>
 <header class='major'>
@@ -58,24 +75,6 @@ var paypal;
  $(function(){
       $('#classsel').val(decodeURIComponent(GetURLParameter('a')));
       updateClasssel();
- });
- $(function updateClasssel(){
-      $('#lunchq').hide();
-      $('#afterall').hide();
-      $('#after4').hide();
-      $('#after5').hide();
-      if ($('#classsel').val() == 'ews1' or $('#classsel').val() == 'ews1') {
-        $('#lunchq').show();
-      }
-      else if ($('#classsel').val() == 'elemonth') {
-        $('#afterall').show();
-      }
-      else if ($('#classsel').val() == '2dto3d') {
-        $('#after4').show();
-      }
-      else {
-        $('#after5').show();
-      }
  });
 </script>
 </div>
