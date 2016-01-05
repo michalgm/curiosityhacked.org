@@ -17,19 +17,19 @@ function GetURLParameter(sParam)
     }
 };
 var paypal;
-function updateClasssel()
+function updateClasssel(fthis)
 {
      $('#lunchq').hide();
      $('#afterallq').hide();
      $('#after4q').hide();
      $('#after5q').hide();
-     if ($('#classsel').val() == 'ews1' or $('#classsel').val() == 'ews1') {
+     if (fthis.val() == 'ews1' or fthis.val() == 'ews1') {
        $('#lunchq').show();
      }
-     else if ($('#classsel').val() == 'elemonth') {
+     else if (fthis.val() == 'elemonth') {
        $('#afterallq').show();
      }
-     else if ($('#classsel').val() == '2dto3d') {
+     else if (fthis.val() == '2dto3d') {
        $('#after4q').show();
      }
      else {
@@ -45,7 +45,7 @@ function updateClasssel()
 <div style="border:1">
 <form id="classselform" name="classselform">
 <label for='classsel'>Please verify the proper class is selected:</label>
-<select id='classsel' onchange='updateClasssel();'>
+<select id='classsel' onchange='updateClasssel(this);'>
 <option value="ews1"> Educator Workshop June 13-15</option>
 <option value="ews2"> Educator Workshop June 16-19</option>
 <option value="hackerling"> Hackerling Circuit Camp June 27-July 1</option>
@@ -74,7 +74,7 @@ function updateClasssel()
 <script>
  $(function(){
       $('#classsel').val(decodeURIComponent(GetURLParameter('a')));
-      updateClasssel();
+      updateClasssel($('#classsel'));
  });
 </script>
 </div>
