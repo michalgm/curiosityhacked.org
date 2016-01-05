@@ -25,6 +25,7 @@ var paypal;
 <p>Thank you for your interest in our classes.</p>
 <p>Questions on a class? info@curiosityhacked.org</p>
 </header>
+<div style="border:1">
 <form id="classselform" name="classselform">
 <label for='classsel'>Please verify the proper class is selected:</label>
 <select id='classsel'>
@@ -39,12 +40,22 @@ var paypal;
 <option value="water"> Water August 8-12</option>
 <option value="earth"> Earth August 15-19</option>
 <option value="fire"> Fire August 22-26</option>
-</select></form>
+</select>
+<span id="lunchq" style="display: none">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="lunch" value="Add catered lunch for $50?" id="lunch" role="checkbox" class="ss-q-checkbox" aria-required="true" required=""></span>
+<span class="ss-choice-label">Add catered lunch for $50?</span>
+</label>
+</span>
+</form>
 <script>
  $(function(){
       $('#classsel').val(decodeURIComponent(GetURLParameter('a')));
+      if ($('#classsel').val() == 'ews1' || $('#classsel').val() == 'ews1') {
+        $('#lunchq').show();
+      }
  });
 </script>
+</div>
 
 <form action="javascript:return false;" id="registrationform" >
 <div class='6u'>
@@ -219,3 +230,34 @@ var paypal;
      return false;
   });
 </script>
+
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="QLNAXP4JQW8BE">
+<table>
+<tr><td><input type="hidden" name="on0" value="Lunch Option">Lunch Option</td></tr><tr><td><select name="os0">
+	<option value="Educator Workshop">Educator Workshop $225.00 USD</option>
+	<option value="with Lunch">with Lunch $275.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QLNAXP4JQW8BE&custom=abc123&invoice=abc123&on0=Lunch%20Option&os0=with%20Lunch
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="E4MW5PG8VQFQE">
+<table>
+<tr><td><input type="hidden" name="on0" value="Lunch Option">Lunch Option</td></tr><tr><td><select name="os0">
+	<option value="Educator Workshop">Educator Workshop $225.00 USD</option>
+	<option value="with Lunch">with Lunch $275.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
