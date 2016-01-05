@@ -20,6 +20,10 @@ var paypal;
 
 </script>
 <script>
+var l4check = "";
+var addtourl = "";
+var l4yes = "&on0=After%20Caren&os0=Camp";
+var l4no = "&on0=After%20Care&os0=with%20After%20Care";
 function updateClasssel()
 {
      var fthis = $('#classsel');
@@ -29,21 +33,27 @@ function updateClasssel()
      $('#after5q').hide();
      if (fthis.val() == 'ews1' || fthis.val() == 'ews2') {
        $('#lunchq').show();
+       l4check = $('#lunch');
+       l4yes = "&on0=Lunch%20Option&os0=with%20Lunch";
+       l4no = "&on0=Lunch%20Option&os0=Educator%20Workshop";
      }
      else if (fthis.val() == 'elemonth') {
        $('#afterallq').show();
+       l4check = $('#afterall');
      }
      else if (fthis.val() == '2dto3d') {
        $('#after4q').show();
+       l4check = $('#after4');
      }
      else {
        $('#after5q').show();
+       l4check = $('#after5');
      }
 };
 </script>
 <header class='major'>
 <h2>Curiosity Hacked Class Registration</h2>
-<p>4Thank you for your interest in our classes.</p>
+<p>Thank you for your interest in our classes.</p>
 <p>Questions on a class? info@curiosityhacked.org</p>
 </header>
 <div style="border:1">
@@ -204,7 +214,9 @@ function updateClasssel()
     $('#formresult').empty();
 
     $('#entry_1993237748').val($('#classsel').val());
-    $('#entry_1415844574').val( "winter"+((new Date).getTime()).toString()+'.'+Math.floor((Math.random() * 1000) + 1).toString() );
+    var extraFlag = "":
+    if ( l4check.prop('checked') ){ extraFlag = "C";}
+    $('#entry_1415844574').val( "summer"+extraFlag+((new Date).getTime()).toString()+'.'+Math.floor((Math.random() * 1000) + 1).toString() );
 
     var missingval = false;
     $.each($('#registrationform [required][type!=checkbox][type!=radio]').serializeArray(),function(i,v){
@@ -235,19 +247,20 @@ function updateClasssel()
          })
          .done(function(data) {
            paypal = {
-             "ews1":"MCFNWQHZB8ZBE",
-             "ews2":"WA3QQZDK3B952",
-             "hackerling":"YATXLRXSL2TA4",
-             "2dto3d":"B44LJ6NUWDQJU",
-             "hackwarts":"NTUBF25RTC4U8",
-             "sparks":"4K7VWRCJUJLNJ",
-             "elemonth":"8LKQW39QCH2FE",
-             "air":"79WM8QJZF6C9A",
-             "water":"J3NBQDYGNYMCE",
-             "earth":"4MRQKB32YZPSA",
-             "fire":"4BHTR5S3JFNKG"
-           }
-           $("#formresult").html("<h1>"+data['success']+"  </h1><a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id="+paypal[$('#entry_1993237748').val()]+"&custom="+$('#entry_1415844574').val()+"&invoice="+$('#entry_1415844574').val()+"'>Continue to payment</a>");
+             "ews1":"QLNAXP4JQW8BE",
+             "ews2":"E4MW5PG8VQFQE",
+             "hackerling":"KBRHYVRHVNDFS",
+             "2dto3d":"ER9ZGB332DUUN",
+             "hackwarts":"WZ8Z7EYUBDGHC",
+             "sparks":"NFMPUPZVH8BM2",
+             "elemonth":"JFSB52CEYVXXA",
+             "air":"LH2YKKHV27LMN",
+             "water":"9B8MPXAN3GHWA",
+             "earth":"4PSRGHSKWRFYE",
+             "fire":"WHXQXGSB9BTCG"
+           };
+           if (l4check.prop('checked')) { addtourl = l4yes;} else { addtourl = l4no;}
+           $("#formresult").html("<h1>"+data['success']+"  </h1><a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id="+paypal[$('#entry_1993237748').val()]+"&custom="+$('#entry_1415844574').val()+"&invoice="+$('#entry_1415844574').val()+addtourl+"'>Continue to payment</a>");
            $("#ss-submit").hide();
            if ( data['success'] == "Success" ) {
 
@@ -256,34 +269,3 @@ function updateClasssel()
      return false;
   });
 </script>
-
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="QLNAXP4JQW8BE">
-<table>
-<tr><td><input type="hidden" name="on0" value="Lunch Option">Lunch Option</td></tr><tr><td><select name="os0">
-	<option value="Educator Workshop">Educator Workshop $225.00 USD</option>
-	<option value="with Lunch">with Lunch $275.00 USD</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QLNAXP4JQW8BE&custom=abc123&invoice=abc123&on0=Lunch%20Option&os0=with%20Lunch
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="E4MW5PG8VQFQE">
-<table>
-<tr><td><input type="hidden" name="on0" value="Lunch Option">Lunch Option</td></tr><tr><td><select name="os0">
-	<option value="Educator Workshop">Educator Workshop $225.00 USD</option>
-	<option value="with Lunch">with Lunch $275.00 USD</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
