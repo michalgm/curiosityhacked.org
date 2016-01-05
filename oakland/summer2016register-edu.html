@@ -20,7 +20,6 @@ var paypal;
 
 </script>
 <script>
-var l4check = "";
 var addtourl = "";
 l4yes = "&on0=Lunch%20Option&os0=with%20Lunch";
 l4no = "&on0=Lunch%20Option&os0=Educator%20Workshop";
@@ -103,12 +102,12 @@ $('#lunchq').show();
 </label>
 <textarea name="entry.1314175626" rows="8" cols="0" class="ss-q-long" id="entry_1314175626" dir="auto" aria-label="Emergency Contacts please include the phone number of one local emergency contact other than yourself, and one out of state if possible (in case of earthquake, lines going out of state are more often intact than local lines) " aria-required="true" required=""></textarea>
 <br>
-</div>
 <div>
 <label class="ss-q-item-label" for="entry_1091775880"><div class="ss-q-title">Is there anything in particular that you are hoping to get out of the class?</div>
 <div class='ss-secondary-text'>This insight aids us in tailoring the classes to specific interests.</div>
 </label>
 <textarea name="entry.1091775880" rows="8" cols="0" class="ss-q-long" id="entry_1091775880" dir="auto" aria-label="Is there anything in particular that you are hoping to get out of the class? This insight aids us in tailoring the classes to specific interests. "></textarea>
+</div>
 </div>
 <br>
 <label class="ss-q-item-label" for="entry_758535236">I understand that photography and video is often used at the Curiosity Hacked Oakland Lab for documentation. Sometimes photos are used for sharing on our website or social media. Names are never published.
@@ -203,7 +202,7 @@ $('#lunchq').show();
              "earth":"4PSRGHSKWRFYE",
              "fire":"WHXQXGSB9BTCG"
            };
-           if (l4check.prop('checked')) { addtourl = l4yes;} else { addtourl = l4no;}
+           if ($('#lunch').prop('checked')) { addtourl = l4yes;} else { addtourl = l4no;}
            $("#formresult").html("<h1>"+data['success']+"  </h1><a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id="+paypal[$('#entry_1993237748').val()]+"&custom="+$('#entry_1415844574').val()+"&invoice="+$('#entry_1415844574').val()+addtourl+"'>Continue to payment</a>");
            $("#ss-submit").hide();
            if ( data['success'] == "Success" ) {
