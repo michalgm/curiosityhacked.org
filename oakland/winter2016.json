@@ -1,11 +1,6 @@
 {"classes":[
     {"id":"vgdd", "name":"Video Game Design", "time":["Mon 1pm", "Mon 4pm"]},
-    {"id":"tlxweb", "name":"Web Programming", "time":["Wed 2pm", "Wed 6:30pm"]},
-    {"id":"tlxmm", "name":"Minecraft Modding", "time":["Wed 4pm", "Thu 12pm"]},
     {"id":"chem", "name":"Chemistry", "time":["Thu 10am"]},
-    {"id":"tlxmgd", "name":"Minecraft Game Design", "time":["Thu 12pm", "Fri 4pm"]},
-    {"id":"tlxart", "name":"Arduino Robotics Tinkering", "time":["Thu 2pm", "Thu 4pm"]},
-    {"id":"tlxarp", "name":"Arduino Robotics Programing", "time":["Thu 2pm", "Thu 6:30pm"]},
     {"id":"tti", "name":"Tiny Tinkering", "time":["Fri 10am"]},
     {"id":"mth", "name":"Making Through History", "time":["Fri 1pm"]},
     {"id":"chill", "name":"Curiosity Hacked Independent Learning Lab", "time":["2 day","3 day"]},
