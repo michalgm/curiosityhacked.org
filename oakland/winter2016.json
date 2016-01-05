@@ -1,11 +1,9 @@
 {"classes":[
-    {"id":"vgdd", "name":"Video Game Design", "time":["Mon 1pm", "Mon 4pm"]},
-    {"id":"chem", "name":"Chemistry", "time":["Thu 10am"]},
+    {"id":"vgdd", "name":"Video Game Design", "time":["Mon 1pm"]},
     {"id":"tti", "name":"Tiny Tinkering", "time":["Fri 10am"]},
     {"id":"mth", "name":"Making Through History", "time":["Fri 1pm"]},
     {"id":"chill", "name":"Curiosity Hacked Independent Learning Lab", "time":["2 day","3 day"]},
-    {"id":"ase1day", "name":"Albany ASE Guild 1-day", "time":["Monday","Friday"]},
-    {"id":"ase2day", "name":"Albany ASE Guild 2-day", "time":["Monday and Friday"]}
+    {"id":"ase1day", "name":"Albany ASE Guild 1-day", "time":["Monday"]}
   ],
   "paypal":{
     "vgdd-Mon1pm":"MCFNWQHZB8ZBE",
