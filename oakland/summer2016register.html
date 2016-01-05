@@ -1,0 +1,221 @@
+---
+published: true
+layout: default
+---
+<script>
+function GetURLParameter(sParam)
+{
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++)
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam)
+        {
+            return sParameterName[1];
+        }
+    }
+}
+var paypal;
+
+
+</script>
+<header class='major'>
+<h2>Curiosity Hacked Class Registration</h2>
+<p>Thank you for your interest in our classes.</p>
+<p>Questions on a class? info@curiosityhacked.org</p>
+</header>
+<form id="classselform" name="classselform">
+<label for='classsel'>Please verify the proper class is selected:</label>
+<select id='classsel'>
+<option value="ews1"> Educator Workshop June 13-15</option>
+<option value="ews2"> Educator Workshop June 16-19</option>
+<option value="hackerling"> Hackerling Circuit Camp June 27-July 1</option>
+<option value="2dto3d"> 2D to 3D Camp July 5-8</option>
+<option value="hackwarts"> Hackwarts Camp July 11-15</option>
+<option value="sparks"> Sparks Camp July 25-29</option>
+<option value="elemonth"> Elemental August Camps</option>
+<option value="air"> Air August 1-5</option>
+<option value="water"> Water August 8-12</option>
+<option value="earth"> Earth August 15-19</option>
+<option value="fire"> Fire August 22-26</option>
+</select></form>
+<script>
+ $(function(){
+      $('#classsel').val(decodeURIComponent(GetURLParameter('a')));
+ });
+</script>
+
+<form action="javascript:return false;" id="registrationform" >
+<div class='6u'>
+<h3>Child</h3>
+<label class="ss-q-item-label" for="entry_1971468574">Child&#39;s Name
+<span class="ss-required-asterisk" aria-hidden="true">*</span>
+</label>
+<input type="text" name="entry.1971468574" class="ss-q-short" id="entry_1971468574" dir="auto" aria-label="Child&#39;s Name  " aria-required="true" required="" title="">
+<br>
+<label class="ss-q-item-label" for="entry_310604489">Child&#39;s birthday
+<span class="ss-required-asterisk" aria-hidden="true">*</span>
+</label>
+<input type="date" name="entry.310604489" class="ss-q-date" dir="auto" id="entry_310604489" aria-label="Child&#39;s birthday  " aria-required="true" required="">
+<br>
+<label class="ss-q-item-label" for="entry_1350312985">Address
+<span class="ss-required-asterisk" aria-hidden="true">*</span>
+</label>
+<textarea name="entry.1350312985" rows="8" cols="0" class="ss-q-long" id="entry_1350312985" dir="auto" aria-label="Address  " aria-required="true" required=""></textarea>
+<br>
+<label class="ss-q-item-label" for="entry_1272613416">Child&#39;s email
+<div class="ss-secondary-text">(if any) Must be a valid email address</div>
+</label>
+<input type="email" name="entry.1272613416" class="ss-q-short" id="entry_1272613416" dir="auto" aria-label="Child&#39;s email (if any) Must be a valid email address" title="Must be a valid email address">
+<br>
+<label class="ss-q-item-label" for="entry_899706627">Does your child have any allergies we should be aware of?
+<span class="ss-required-asterisk" aria-hidden="true">*</span>
+</label>
+<textarea name="entry.899706627" rows="8" cols="0" class="ss-q-long" id="entry_899706627" dir="auto" aria-label="Does your child have any allergies we should be aware of?  " aria-required="true" required=""></textarea>
+<br>
+<label class="ss-q-item-label" for="entry_1026069468">Tell us a little about your child!
+<span class="ss-required-asterisk" aria-hidden="true">*</span>
+<div class="ss-secondary-text">Anything we should know about to best work with them?</div>
+</label>
+<textarea name="entry.1026069468" rows="8" cols="0" class="ss-q-long" id="entry_1026069468" dir="auto" aria-label="Tell us a little about your child!  Anything we should know about to best work with them? " aria-required="true" required=""></textarea>
+<br>
+</div>
+<div class='6u'>
+<h3>Guardian</h3>
+<label class="ss-q-item-label" for="entry_1933350169">Parent/Guardian Name
+<span class="ss-required-asterisk" aria-hidden="true">*</span>
+</label>
+<input type="text" name="entry.1933350169" class="ss-q-short" id="entry_1933350169" dir="auto" aria-label="Parent/Guardian (Name)  " aria-required="true" required="" title="">
+<br>
+<label class="ss-q-item-label" for="entry_2087606971">Parent/Guardian Phone Number
+<span class="ss-required-asterisk" aria-hidden="true">*</span>
+</label>
+<input type="text" name="entry.2087606971" class="ss-q-short" id="entry_2087606971" dir="auto" aria-label="Parent/Guardian (Phone Number)  " aria-required="true" required="" title="">
+<br>
+<label class="ss-q-item-label" for="entry_1271794087">Parent Guardian Email
+<span class="ss-required-asterisk" aria-hidden="true">*</span>
+</label>
+<input type="email" name="entry.1271794087" class="ss-q-short" id="entry_1271794087" dir="auto" aria-label="Parent Guardian (Email)  Must be a valid email address" aria-required="true" required="" title="Must be a valid email address">
+<br>
+<label class="ss-q-item-label" for="entry_1560112480">Parent/Guardian Address
+<span class="ss-required-asterisk" aria-hidden="true">*</span>
+<div class="ss-secondary-text">(write &quot;same as above&quot; if same as child)</div>
+</label>
+<textarea name="entry.1560112480" rows="8" cols="0" class="ss-q-long" id="entry_1560112480" dir="auto" aria-label="Parent/Guardian (Address) (write &quot;same as above&quot; if same as child) " aria-required="true" required=""></textarea>
+<br>
+<label class="ss-q-item-label" for="entry_2100513296">In addition to above, who may pick up your child?
+<div class="ss-secondary-text">Full name and phone number</div>
+</label>
+<textarea name="entry.2100513296" rows="8" cols="0" class="ss-q-long" id="entry_2100513296" dir="auto" aria-label="In addition to above, who may pick up your child? Full name and phone number "></textarea>
+<br>
+<label class="ss-q-item-label" for="entry_1314175626">Emergency Contacts
+<span class="ss-required-asterisk" aria-hidden="true">*</span>
+<div class="ss-secondary-text">Please include the phone number of one local emergency contact other than yourself, and one out of state if possible (in case of earthquake, lines going out of state are more often intact than local lines)</div>
+</label>
+<textarea name="entry.1314175626" rows="8" cols="0" class="ss-q-long" id="entry_1314175626" dir="auto" aria-label="Emergency Contacts please include the phone number of one local emergency contact other than yourself, and one out of state if possible (in case of earthquake, lines going out of state are more often intact than local lines) " aria-required="true" required=""></textarea>
+<br>
+</div>
+<div>
+<label class="ss-q-item-label" for="entry_1091775880"><div class="ss-q-title">Is there anything in particular that your child is hoping to get out of the class?</div>
+<div class='ss-secondary-text'>This insight aids us in tailoring the classes to specific interests.</div>
+</label>
+<textarea name="entry.1091775880" rows="8" cols="0" class="ss-q-long" id="entry_1091775880" dir="auto" aria-label="Is there anything in particular that your child is hoping to get out of the class? This insight aids us in tailoring the classes to specific interests. "></textarea>
+<br>
+<label class="ss-q-item-label" for="entry_758535236">I understand that photography and video is often used at the Curiosity Hacked Oakland Lab for documentation. Sometimes photos are used for sharing on our website or social media. Names are never published.
+<span class="ss-required-asterisk" aria-hidden="true">*</span>
+</label>
+<ul class="ss-choices" role="radiogroup" aria-label="I understand that photography and video is often used at the Curiosity Hacked Oakland Lab for documentation. Sometimes photos are used for sharing on our website or social media. Names are never published.  "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1198401305" value="I agree" id="group_1198401305_1" role="radio" class="ss-q-radio" aria-label="I agree" required="" aria-required="true"></span>
+<span class="ss-choice-label">I agree</span>
+</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1198401305" value="I prefer that photos of my child not be used." id="group_1198401305_2" role="radio" class="ss-q-radio" aria-label="I prefer that photos of my child not be used." required="" aria-required="true"></span>
+<span class="ss-choice-label">I prefer that photos of my child not be used.</span>
+</label></li></ul>
+<br>
+<label class="ss-q-item-label" for="entry_2054543004">I have read and agree to the <a href="http://www.curiosityhacked.org/oakland/CuriosityHackedLiabilityRelease.pdf">CH Liability Waiver</a>.
+<span class="ss-required-asterisk" aria-hidden="true">*</span>
+</label>
+<ul class="ss-choices ss-choices-required" role="group" aria-label="I have read and agree to the CH Liability Waiver. CH Liability Waiver: https://www.curiosityhacked.org/oakland/CuriosityHackedLiabilityRelease.pdf "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1637419504" value="I agree." id="group_1637419504_1" role="checkbox" class="ss-q-checkbox" aria-required="true" required=""></span>
+<span class="ss-choice-label">I agree.</span>
+</label></li></ul>
+<br>
+<label class="ss-q-item-label" for="entry_2055516812">I understand that this registration is not sufficient to hold placement without an accompanying payment.
+<span class="ss-required-asterisk" aria-hidden="true">*</span>
+</label>
+<ul class="ss-choices ss-choices-required" role="group" aria-label="I understand that this registration is not sufficient to hold placement without an accompanying payment.  "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1949933081" value="I agree." id="group_1949933081_1" role="checkbox" class="ss-q-checkbox" aria-required="true" required=""></span>
+<span class="ss-choice-label">I agree.</span>
+</label></li></ul>
+<input type="hidden" name="entry.1415844574" id="entry_1415844574" >
+<input type="hidden" name="entry.1993237748" id="entry_1993237748" >
+<br>
+</div>
+<span class="ss-required-asterisk" aria-hidden="true">* Required</span><br>
+<input type="submit" name="submit" value="Register and go to payment" id="ss-submit" class="jfk-button jfk-button-action ">
+<img id="loading" src="/images/ajax-loader.gif" alt="loading..." style="display:none;"/>
+<div id="formresult"></div>
+</form>
+<script>
+//<span id="formsubmit" class="smallbutton ltblue">Register and go to payment</span>
+  function gotoBlink(blinkthis){
+     acton = $('[name="'+blinkthis+'"]');
+     $('html, body').animate({ scrollTop: acton.offset().top-100 }, 1000);
+     $('[name="'+v["name"]+'"]').attr('style','border: 1px solid #FF0000');
+     $("#formresult").html("<h1>Please check required fields for validity.</h1>");
+  };
+
+// Attach a submit handler to the form
+ $("#registrationform").submit(function( event ) {
+    $('#formresult').empty();
+
+    $('#entry_1993237748').val($('#classsel').val());
+    $('#entry_1415844574').val( "winter"+((new Date).getTime()).toString()+'.'+Math.floor((Math.random() * 1000) + 1).toString() );
+
+    var missingval = false;
+    $.each($('#registrationform [required][type!=checkbox][type!=radio]').serializeArray(),function(i,v){
+        if (v['value'] == ""){
+           gotoBlink(v['name']);
+           missingval = true;
+           return false;
+        };
+     })
+     if ( missingval ) { return false; }
+
+     if (typeof $('#registrationform [name="entry.1198401305"]:checked').val() == 'undefined') {
+        gotoBlink('entry.1198401305');
+        missingval = true;
+     }
+     if ( missingval ) { return false; }
+
+     if (typeof $('#registrationform [required][type=checkbox]:not(:checked)')[0] != 'undefined') {
+        gotoBlink($('#registrationform [required][type=checkbox]:not(:checked)')[0].name);
+        missingval = true;
+     }
+     if ( missingval ) { return false; }
+     event.preventDefault();
+     $("#formresult").html("<h1>Submitting</h1>");
+     $.post( "http://steam.curiosityhacked.org/cgi-bin/registration.py", $( "#registrationform" ).serialize() )
+        .fail(function(data) {
+           $("#formresult").html("<h1>Fail</h1>");
+         })
+         .done(function(data) {
+           paypal = {
+             "ews1":"MCFNWQHZB8ZBE",
+             "ews2":"WA3QQZDK3B952",
+             "hackerling":"YATXLRXSL2TA4",
+             "2dto3d":"B44LJ6NUWDQJU",
+             "hackwarts":"NTUBF25RTC4U8",
+             "sparks":"4K7VWRCJUJLNJ",
+             "elemonth":"8LKQW39QCH2FE",
+             "air":"79WM8QJZF6C9A",
+             "water":"J3NBQDYGNYMCE",
+             "earth":"4MRQKB32YZPSA",
+             "fire":"4BHTR5S3JFNKG"
+           }
+           $("#formresult").html("<h1>"+data['success']+"  </h1><a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id="+paypal[$('#entry_1993237748').val()]+"&custom="+$('#entry_1415844574').val()+"&invoice="+$('#entry_1415844574').val()+"'>Continue to payment</a>");
+           $("#ss-submit").hide();
+           if ( data['success'] == "Success" ) {
+
+           }
+         });
+     return false;
+  });
+</script>
