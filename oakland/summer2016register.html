@@ -28,7 +28,7 @@ var paypal;
 <div style="border:1">
 <form id="classselform" name="classselform">
 <label for='classsel'>Please verify the proper class is selected:</label>
-<select id='classsel'>
+<select id='classsel' onchange='updateClasssel();'>
 <option value="ews1"> Educator Workshop June 13-15</option>
 <option value="ews2"> Educator Workshop June 16-19</option>
 <option value="hackerling"> Hackerling Circuit Camp June 27-July 1</option>
@@ -43,15 +43,38 @@ var paypal;
 </select>
 <span id="lunchq" style="display: none">
 <label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="lunch" value="Add catered lunch for $50?" id="lunch" role="checkbox" class="ss-q-checkbox" aria-required="true" required=""></span>
-<span class="ss-choice-label">Add catered lunch for $50?</span>
-</label>
-</span>
+<span class="ss-choice-label">Add catered lunch for $50?</span></label></span>
+<span id="after4q" style="display: none">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="after4" value="Is after care needed? (3pm - 5pm, $80)" id="after4" role="checkbox" class="ss-q-checkbox" aria-required="true" required=""></span>
+<span class="ss-choice-label">Is after care needed? (3pm - 5pm, $80)</span></label></span>
+<span id="after5q" style="display: none">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="after5" value="Is after care needed? (3pm - 5pm, $100)" id="after5" role="checkbox" class="ss-q-checkbox" aria-required="true" required=""></span>
+<span class="ss-choice-label">Is after care needed? (3pm - 5pm, $100)</span></label></span>
+<span id="afterallq" style="display: none">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="afterall" value="Is after care needed? (3pm - 5pm, $400)" id="afterall" role="checkbox" class="ss-q-checkbox" aria-required="true" required=""></span>
+<span class="ss-choice-label">Is after care needed? (3pm - 5pm, $400)</span></label></span>
 </form>
 <script>
  $(function(){
       $('#classsel').val(decodeURIComponent(GetURLParameter('a')));
-      if ($('#classsel').val() == 'ews1' || $('#classsel').val() == 'ews1') {
+      updateClasssel();
+ });
+ $(function updateClasssel(){
+      $('#lunchq').hide();
+      $('#afterall').hide();
+      $('#after4').hide();
+      $('#after5').hide();
+      if ($('#classsel').val() == 'ews1' or $('#classsel').val() == 'ews1') {
         $('#lunchq').show();
+      }
+      else if ($('#classsel').val() == 'elemonth') {
+        $('#afterall').show();
+      }
+      else if ($('#classsel').val() == '2dto3d') {
+        $('#after4').show();
+      }
+      else {
+        $('#after5').show();
       }
  });
 </script>
