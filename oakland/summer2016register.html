@@ -17,6 +17,7 @@ function GetURLParameter(sParam)
     }
 };
 var paypal;
+var extraFlag = "";
 
 </script>
 <script>
@@ -207,7 +208,6 @@ function updateClasssel()
     $('#formresult').empty();
 
     $('#entry_1993237748').val($('#classsel').val());
-    var extraFlag = "";
     if ( l4check.prop('checked')){ extraFlag = "C";}
     $('#entry_1415844574').val( "summer"+extraFlag+((new Date).getTime()).toString()+'.'+Math.floor((Math.random() * 1000) + 1).toString() );
 
@@ -252,7 +252,7 @@ function updateClasssel()
              "earth":"4PSRGHSKWRFYE",
              "fire":"WHXQXGSB9BTCG"
            };
-           
+
            if ( extraFlag == "C" ) {
               addtourl = l4yes;
             } else {
