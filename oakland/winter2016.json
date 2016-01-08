@@ -3,7 +3,7 @@
     {"id":"tti", "name":"Tiny Tinkering", "time":["Fri 10am"]},
     {"id":"mth", "name":"Making Through History", "time":["Fri 1pm"]},
     {"id":"chill", "name":"Curiosity Hacked Independent Learning Lab", "time":["2 day","3 day"]},
-    {"id":"ase1day", "name":"Albany ASE Guild 1-day", "time":["Monday"]}
+    {"id":"ase1day", "name":"Albany ASE Guild 1-day", "time":["Monday","Wednesday"]}
   ],
   "paypal":{
     "vgdd-Mon1pm":"MCFNWQHZB8ZBE",
@@ -24,6 +24,7 @@
     "chill-2day":"XKEPELMARVZPC",
     "chill-3day":"ZKJK6E3DEBHNY",
     "ase1day-Monday":"353TRYYBKEU6L",
+    "ase1day-Wednesday":"UTH222DA2CGG6",
     "ase1day-Friday":"7DS2628ACCMHC",
     "ase2day-MondayandFriday":"RPBXXA2NXN9RS"
   }
