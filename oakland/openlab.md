@@ -20,12 +20,12 @@ Oakland, CA 94609
 Open Labs are all ages and a great way to get started! You can come for the featured project, use our available materials and tools to design your own project, or bring in a project you want to work on and/or need help with! Please note that Open Labs are subject to change when the kids inspire us to try something new. You can check back here for any changes we make prior to each Open Lab. Material fees for Open Lab run $5-$15 depending on the project.
 
 - January 3rd, 2016: Resolutions Open Lab! Learn a new skill or tool, get help planning a new project... we will show you the possibilities!
-- January 10th, 2016: We have gotten a lot of requests for light sabers lately. The force is obviously strong with our young hackers! Let's do it. (Can't guarantee a spoiler free environment, but we'll try) 
+- January 10th, 2016: Mouse Trap Race Cars and Derby!
 - January 17th, 2016: TBA
-- January 24th, 2016: Turn your smart phone into a microscope!
-- January 31st, 2016: TBA
+- January 24th, 2016: We have gotten a lot of requests for light sabers lately. The force is obviously strong with our young hackers! Let's do it. (Can't guarantee a spoiler free environment, but we'll try) 
+- January 31st, 2016: Turn your smart phone into a microscope!
 - February 7th, 2016: Google Cardboard
-- February 14th, 2016: TBA
+- February 14th, 2016: Victorian Valentines, Hat making, Steampunk Goggles
 
 ##Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
