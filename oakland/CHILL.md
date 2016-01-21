@@ -22,7 +22,7 @@ This January, we will be starting a part time program in our Oakland location, w
 
 <br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue' onClick=" window.location.assign('/oakland/winter2016register?a=chill-3day');">3 Day</span>  <span class='buttonsmall ltblue' onClick=" window.location.assign('/oakland/winter2016register?a=chill-2day');">2 Day</span>
 
-####Please join us on Thursday 12/10/15 at 6:30pm for our information night!
+####Please join us on Wednesday 2/3/16 at 6:30pm for our information night!
 
 
 #####How did this program come about?
@@ -39,6 +39,9 @@ The kids will also be selecting a theme every few months, which they will explor
 #####What will a typical day look like?
 It is difficult to say what a typical day will look like, since so much of what will happen will be driven by the kids and their inspiration. We will, however, hold a rhythm that feels right. A morning meeting to go over important items and set our goals for the day and a closing documentation of the work and experience that day. Certain classes that the kids have requested will usually fall on the same day and time. We want a structure that keeps the energy going, while also being flexible enough to change if an opportunity arises.
 
+#####So, are you like a free/democratic/Sudbury school?
+You will certainly find elements of democratic education at CHILL. The kids have an equal say in most decisions, make choices on how and what they invest their time on, and create the environment that best fits them as a community. But, you will also see a bit of forest school philosophy (we spend at least one day a month in the woods), Montessori in how we and the kids are choosing to organize our space, Reggio Emilia communication and documentations, object based learning, worldschooling and more. All with a hacker/mentor/entrepreneur mindset. We believe in taking the best of all pedogogy and infusing it to best serve us, our families, and our community. 
+
 #####What days and what is the cost?
 We are offering two options this spring: a 2 day and a 3 day program. We understand the busy schedules of families, which is why we have a 2 day option, but many of our kids want 3 days. One day a week will primarily be spent outside the hackerspace in the community on field trips. This spring, we are offering CHILL on Mondays, Tuesdays, and Wednesdays, from 10am-4pm. The cost for 3 days a week will be $575 monthly, 2 days will be $395 monthly.
 
@@ -49,7 +52,7 @@ We have already been interviewing mentors, a process in which the kids are heavi
 
 #####What the kids are already saying:
 
-*“I want to join this new program because it’s like homeschooling and school but not, with the benefits of both. I get to hang out with friends and go to cool places. I want to learn about the things I’m into but also learn about the things my friends are interested in too. I already take a cool video game design class at the Lab and it’s cool; I want boatloads more of that.”*
+*“I wanted to join this new program because it’s like homeschooling and school but not, with the benefits of both. I get to hang out with friends and go to cool places. I want to learn about the things I’m into but also learn about the things my friends are interested in too. I already take a cool video game design class at the Lab and it’s cool; I want boatloads more of that.”*
 
 *“I'm excited that I can be with friends learning about things I'd never even heard of before I heard about this program. I'm also excited that I'm going to learn how to learn about things I want to explore."*  
 
