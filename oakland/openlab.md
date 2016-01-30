@@ -23,8 +23,8 @@ Open Labs are all ages and a great way to get started! You can come for the feat
 - January 10th, 2016: Mouse Trap Race Cars and Derby!
 - January 17th, 2016: Laser cutting!
 - January 24th, 2016: We have gotten a lot of requests for light sabers lately. The force is obviously strong with our young hackers! Let's do it. (Can't guarantee a spoiler free environment, but we'll try) 
-- January 31st, 2016: Turn your smart phone into a microscope!
-- February 7th, 2016: Google Cardboard
+- January 31st, 2016: TBD
+- February 7th, 2016: TBD
 - February 14th, 2016: Victorian Valentines, Hat making, Steampunk Goggles
 
 ##Past Projects:
