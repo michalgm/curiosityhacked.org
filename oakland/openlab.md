@@ -23,9 +23,13 @@ Open Labs are all ages and a great way to get started! You can come for the feat
 - January 10th, 2016: Mouse Trap Race Cars and Derby!
 - January 17th, 2016: Laser cutting!
 - January 24th, 2016: We have gotten a lot of requests for light sabers lately. The force is obviously strong with our young hackers! Let's do it. (Can't guarantee a spoiler free environment, but we'll try) 
-- January 31st, 2016: TBD
-- February 7th, 2016: TBD
+- January 31st, 2016: Micro-Crossbows
+- February 7th, 2016: Cork Launchers and Mechanical Hands
 - February 14th, 2016: Victorian Valentines, Hat making, Steampunk Goggles
+- February 21st, 2016: TBD
+- February 28th, 2016: TBD
+- March 6th, 2016:TBD
+- March 13th, 2016:TBD
 
 ##Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
