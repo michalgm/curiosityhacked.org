@@ -26,10 +26,12 @@ Open Labs are all ages and a great way to get started! You can come for the feat
 - January 31st, 2016: Micro-Crossbows
 - February 7th, 2016: Cork Launchers and Mechanical Hands
 - February 14th, 2016: Victorian Valentines, Hat making, Steampunk Goggles
-- February 21st, 2016: TBD
-- February 28th, 2016: TBD
-- March 6th, 2016:TBD
-- March 13th, 2016:TBD
+- February 21st, 2016: Kids Choice! Although, at our Lab it's always kids choice!
+- February 28th, 2016: Pixels! Come dive into 3 projects that illustrate the beauty, function, and mathematics of pixels!
+- March 6th, 2016: Celebrate National Frozen Food Day with liquid nitrogen experiments and ice cream!
+- March 13th, 2016: Pi Day! One day early, but worth a fun day of projects based on the mathematical constant!
+- March 20th, 2016: Celebrate the arrival of Spring with us! Color eggs with natural dyes, create designs for the Eggbot, lasercut chocolate, and needlefelt wool bunnies and chicks (or whatever inspires you!)
+- March 27th, 2016: No Open Lab
 
 ##Past Projects:
 - September 7th, 2014 - Micro Crossbows - design by [Sonic Dad](http://www.sonicdad.com/project-details/micro-crossbow/)
