@@ -85,8 +85,8 @@
         "dates": "April 7- May 26",
         "times": {
           "dayofweek": "Monday",
-          "start": "13:00",
-          "end": "15:00"
+          "start": "11:00",
+          "end": "12:00"
         },
         "ages": "7-14",
         "cost": "225",
@@ -106,7 +106,7 @@
         "cost": "225",
         "paypaltag": "paypal!",
         "maxseats": "",
-        "status": ""
+        "status": "This class is full"
       },
       {
         "sessionid": "2df-2",
