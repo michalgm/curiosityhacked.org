@@ -63,7 +63,7 @@ layout: default
             {% for session in class.sessions %}
               {% if session.times.dayofweek == day %}
                 <div class='class-link buttonsmall ltblue'>
-                  <a id='class-link-{{session.id}}' href='scrollToElement("{{class.id}}")'>
+                  <a id='class-link-{{session.id}}' onclick='scrollToElement("{{class.id}}")'>
                   {{session.times.start | date:"%l:%M" | strip}}-{{session.times.end | date:"%l:%M" | strip}} {{class.title}}
                   </a>
                 </div>
