@@ -62,8 +62,8 @@ layout: default
           {% for class in site.data.classes %}
             {% for session in class.sessions %}
               {% if session.times.dayofweek == day %}
-                <div class='class-link buttonsmall ltblue'>
-                  <a id='class-link-{{session.id}}' onclick='scrollToElement("{{class.id}}")'>
+                <div class='class-link buttonsmall ltblue' onclick='scrollToElement("#{{class.classid}}")'>
+                  <a id='class-link-{{session.id}}'>
                   {{session.times.start | date:"%l:%M" | strip}}-{{session.times.end | date:"%l:%M" | strip}} {{class.title}}
                   </a>
                 </div>
@@ -87,7 +87,7 @@ layout: default
       {% for class in site.data.classes %}
       {% assign mod = forloop.index | modulo:2 %}
         {% if mod == col %}
-        <article id='class.id' class='box excerpt'>
+        <article id='{{class.classid}}' class='box excerpt'>
           <header>
             <h4>{{class.title}}</h4>
           </header>
