@@ -1,0 +1,128 @@
+[
+  {
+    "classid": "2df",
+    "title": "2D to 3D Fabrication First",
+    "description": "In this class, young hackers will become proficient in Inkscape and CAD as well as the elements of design, and then be able to accurately produce a 3D design that uses 2d parts, either on the laser cutter, 3D printer or another machine. This class is about how to make cool 3d stuff using 2d parts.  Kids will learn about making designs, choosing materials, joining parts (where your work first becomes 3D!) and fabrication. All kids will leave with a variety of projects and a badge!",
+    "approval": "",
+    "reoccurring": "",
+    "sessions": [
+      {
+        "sessionid": "2df-1",
+        "dates": "April 7- May 26",
+        "times": {
+          "dayofweek": "Thursday",
+          "start": "13:00",
+          "end": "15:00"
+        },
+        "ages": "7-14",
+        "cost": "225",
+        "paypaltag": "paypal!",
+        "maxseats": "",
+        "status":""
+      },
+      {
+        "sessionid": "2df-2",
+        "dates": "April 7- May 26",
+        "times": {
+          "dayofweek": "Thursday",
+          "start": "16:00",
+          "end": "18:00"
+        },
+        "ages": "7-14",
+        "cost": "225",
+        "paypaltag": "paypal!",
+        "maxseats": "",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "classid": "2df",
+    "title": "2D to 3D Fabrication",
+    "description": "In this class, young hackers will become proficient in Inkscape and CAD as well as the elements of design, and then be able to accurately produce a 3D design that uses 2d parts, either on the laser cutter, 3D printer or another machine. This class is about how to make cool 3d stuff using 2d parts.  Kids will learn about making designs, choosing materials, joining parts (where your work first becomes 3D!) and fabrication. All kids will leave with a variety of projects and a badge!",
+    "approval": "",
+    "reoccurring": "",
+    "sessions": [
+      {
+        "sessionid": "2df-1",
+        "dates": "April 7- May 26",
+        "times": {
+          "dayofweek": "Monday",
+          "start": "13:00",
+          "end": "15:00"
+        },
+        "ages": "7-14",
+        "cost": "225",
+        "paypaltag": "paypal!",
+        "maxseats": "",
+        "status":""
+      },
+      {
+        "sessionid": "2df-2",
+        "dates": "April 7- May 26",
+        "times": {
+          "dayofweek": "Wednesday",
+          "start": "16:00",
+          "end": "18:00"
+        },
+        "ages": "7-14",
+        "cost": "225",
+        "paypaltag": "paypal!",
+        "maxseats": "",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "classid": "2df",
+    "title": "2D to 3D Fabrication Thirds",
+    "description": "In this class, young hackers will become proficient in Inkscape and CAD as well as the elements of design, and then be able to accurately produce a 3D design that uses 2d parts, either on the laser cutter, 3D printer or another machine. This class is about how to make cool 3d stuff using 2d parts.  Kids will learn about making designs, choosing materials, joining parts (where your work first becomes 3D!) and fabrication. All kids will leave with a variety of projects and a badge!",
+    "approval": "",
+    "reoccurring": "",
+    "sessions": [
+      {
+        "sessionid": "2df-1",
+        "dates": "April 7- May 26",
+        "times": {
+          "dayofweek": "Monday",
+          "start": "13:00",
+          "end": "15:00"
+        },
+        "ages": "7-14",
+        "cost": "225",
+        "paypaltag": "paypal!",
+        "maxseats": "",
+        "status":""
+      },
+      {
+        "sessionid": "2df-2",
+        "dates": "April 7- May 26",
+        "times": {
+          "dayofweek": "Wednesday",
+          "start": "16:00",
+          "end": "18:00"
+        },
+        "ages": "7-14",
+        "cost": "225",
+        "paypaltag": "paypal!",
+        "maxseats": "",
+        "status": ""
+      },
+      {
+        "sessionid": "2df-2",
+        "dates": "April 7- May 26",
+        "times": {
+          "dayofweek": "Friday",
+          "start": "16:00",
+          "end": "18:00"
+        },
+        "ages": "7-14",
+        "cost": "225",
+        "paypaltag": "paypal!",
+        "maxseats": "",
+        "status": ""
+      }
+    ]
+  }
+
+]
