@@ -2,9 +2,10 @@
 published: true
 layout: default
 ---
-{% assign days = 'Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday' | split: "|" %}
-{% assign daycount = days | size %}
-<style media="screen">
+<style>
+  th {
+    font-weight: bold;
+  }
   .buttonsmall {
     cursor: pointer;
   }
@@ -18,11 +19,14 @@ layout: default
     display: inline-block;
     margin-bottom: 10px;
   }
-  .class-link a {
-    margin-left: 10px;
+  .class-link-text {
+    display: inline-block;
+    padding-left: 10px;
     text-indent: -10px;
   }
-
+  .class-link-time {
+    font-weight: 600;
+  }
   .session {
     max-width: 200px;
     display: inline-block;
@@ -30,8 +34,14 @@ layout: default
     padding: 10px;
     border-radius: 10px;
   }
+  .session.disabled {
+    color: #666;
+  }
   .session:first-child {
     margin-left: 0px;
+  }
+  .session .status {
+    font-weight: bold;
   }
   .session ul {
     margin: 0px;
@@ -39,10 +49,9 @@ layout: default
   .session-title {
     font-weight: bold;
   }
-  .class-link {
-
-  }
 </style>
+{% assign days = 'Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday' | split: "|" %}
+{% assign daycount = days | size %}
 
 <header class='major'>
 <h2>Winter 2016 Classes</h2>
@@ -62,10 +71,11 @@ layout: default
           {% for class in site.data.classes %}
             {% for session in class.sessions %}
               {% if session.times.dayofweek == day %}
-                <div class='class-link buttonsmall ltblue'>
-                  <a id='class-link-{{session.id}}' href='scrollToElement("{{class.id}}")'>
-                  {{session.times.start | date:"%l:%M" | strip}}-{{session.times.end | date:"%l:%M" | strip}} {{class.title}}
-                  </a>
+                <div class='class-link buttonsmall ltblue' onclick='scrollToElement("#{{class.classid}}")'>
+                  <span class='class-link-text' id='class-link-{{session.id}}'>
+                    <span class='class-link-time'>{{session.times.start | date:"%l:%M" | strip}}-{{session.times.end | date:"%l:%M" | strip}}</span>
+                    <span class='class-link-title'>{{class.title}}</span>
+                  </span>
                 </div>
               {% endif %}
             {% endfor %}
@@ -87,7 +97,7 @@ layout: default
       {% for class in site.data.classes %}
       {% assign mod = forloop.index | modulo:2 %}
         {% if mod == col %}
-        <article id='class.id' class='box excerpt'>
+        <article id='{{class.classid}}' class='box excerpt'>
           <header>
             <h4>{{class.title}}</h4>
           </header>
@@ -97,7 +107,7 @@ layout: default
           <h5>Sessions</h5>
           <div class='sessions'>
             {% for session in class.sessions %}
-              <div class='session buttonsmall ltblue' id='{{session.sessionid}}'>
+              <div class='session buttonsmall {% if session.status == "" %}ltblue{% else %}disabled{% endif %}' id='{{session.sessionid}}'>
                 <div class='session-title'>
                   {{session.times.dayofweek}}s {{session.times.start | date:"%l:%M" | strip }}-{{session.times.end | date:"%l:%M" | strip }}
                 </div>
@@ -105,8 +115,12 @@ layout: default
                   <ul>
                     <li>{{session.dates}}</li>
                     <li>Ages {{session.ages}}</li>
-                    <li>${{session.cost}}</li>
-                    <!-- <li><span class='buttonsmall ltblue'>Registration Closed</span></li> -->
+                    {% if session.status == ''%}
+                      <li>${{session.cost}}</li>
+                    {% else %}
+                      <li class='status'>{{session.status}}</li>
+                    {% endif %}
+
                 </div>
               </div>
             {% endfor %}
@@ -118,138 +132,6 @@ layout: default
   </div>
 {% endfor %}
 
-<!-- <article id='tti' class='box excerpt'>
-<header>
-<h4>Tiny Tinkering</h4>
-</header>
-Join us with your little Makers as we explore the hackerspace, learn how to use real tools and
-technology, and create useful and fun projects in this awesome parent/kid class! This class offers a
-combination of guided skills and child-led exploration.
-<br>
-<span class='italic'>This class is led by awesome designer, rocket scientist, mother, and STEAM educator Anne Mayoral.</span>
-<br>Ages 3-5 with caregiver
-<span class='date'>Fridays 10am-12pm, $300</span>
-10 week session 1/15/16 through 3/18/16; Drop-ins Welcome, space permitting ($30 fee)
-<br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue'>Registration Closed</span>
-</article>
-
-<article id='vgdd' class='box excerpt'>
-<header>
-<h4>Video Game Design and Development</h4>
-</header>
-In a continuation from last session with mentor Cara, this 10 week session will have students building a solid foundation in various aspects of game design and development while using RPG Maker to start designing and creating their own game. Ages 13 and up, younger with instructor permission. Kids do not need to have taken the previous class to take this session.
-<br>
-<span class='italic'>Cara Ricci started playing video games in second grade and has been in love with the medium ever
-since. She graduated with a degree in Game Design Art and hopes to inspire others to get into games as
-well. She believes young people have some of the best game ideas but don’t always know how to
-execute them—that’s where this class comes in! Her favorite series is Legend of Zelda and she enjoys
-adventure, horror, and puzzle games.</span>
-<br>Ages 13 and up
-<span class='date'>Two times offered; Mondays 1pm-3pm or Mondays 4pm-6pm, $275</span>
-10 week session: 1/11/16 through 3/21/16, no class 2/15
-<br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue'>Mon 1pm</span> <span class='buttonsmall ltblue'>Registration Closed<del>Mon 4pm</del></span>
-</article>
-
-<article id='tlxmm' class='box excerpt'>
-<header>
-<h4>Minecraft Modding</h4>
-</header>
-Reprogram Minecraft as you see fit while learning JavaScript programming! You’ll program invisible drones that build for you in Minecraft, and create new wands that shoot pigs, fireballs, or call down lightning. You’ll create your very own server plugin, and try modding Minecraft in a variety of ways.
-<br><span class='italic'>This class is powered by a collaberation between Curiosity Hacked and TechLX.</span>
-<br>Ages 10 and up; You must have your own computer based Minecraft account. BYO Laptop, or use one of ours.
-<span class='date'>Two times offered; Wed 4pm-6pm or Thurs 12pm-2pm, $325</span>
-10 week session: Begins week January 11th
-<br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue'>Registration Closed</span> <span class='buttonsmall ltblue'>Registration Closed</span>
-</article>
-
-<article id='tlxart' class='box excerpt'>
-<header>
-<h4>Arduino Robotics Tinkering</h4>
-</header>
-Come build a remote controlled robot, compete against classmates, then take home your robot to play with and tinker on. We’ll cover the basics of programming, but most of your time will be spent wiring, soldering, and piecing your robot together. You’ll leave with parts and knowledge to keep building on your own, or join up with a robotics team!
-<br><span class='italic'>This class is powered by a collaberation between Curiosity Hacked and TechLX.</span>
-<br>Ages 8 and up, materials fee included ($60) - Kids keep their robot!
-<span class='date'>Two times offered; Thursday 2pm-4pm or Thursday 4pm-6pm, $375</span>
-10 week session: Begins week January 11th
-<br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue'>Registration Closed</span> <span class='buttonsmall ltblue'>Registration Closed</span>
-</article>
-
-<article id='tlxweb' class='box excerpt'>
-<header>
-<h4>Web Programming</h4>
-</header>
-Learn web design, development, and programming from HTML5, CSS3 and JavaScript, to jQuery and Bootstrap. You’ll not only learn how to serve static web pages, but how to bring them to life with JavaScript and jQuery. Leave with a personal portfolio and web game similar to Connect 4.
-<br><span class='italic'>This class is powered by a collaberation between Curiosity Hacked and TechLX.</span>
-<br>Ages 10 and up, Bring a laptop or use one of ours.
-<span class='date'>Two times offered; Wednesday 2pm-4pm or Wednesday 6:30pm-8:30pm, $325</span>
-10 week session: Begins week January 11th
-<br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue'>Registration Closed</span> <span class='buttonsmall ltblue'>Registration Closed</span>
-</article>
-
-</section>
-</div>
-<div class='6u'>
-<section class='article-list box'>
-
-<article id='chem' class='box excerpt'>
-<header>
-<h4>Chemistry</h4>
-</header>
-<p>A proton and a neutron are walking down the street.</p>
-<p>The proton says, "Wait, I dropped an electron help me look for it."</p>
-<p>The neutron says "Are you sure?" The proton replies "I'm positive."</p>
-<p></p>
-<p>Would you like to understand why chemists find this joke hilarious but ultimately inaccurate? Join us for introduction to chemistry to find out! In our class we’ll dive deeply into the concepts of atomic structure, molecular bonding and polarity. We will engage in tests to compare the solubility of substances and discuss the ways matter is constantly interacting all around us. Selected readings will be provided as an introduction to the concept that will be covered in class. We will perform in class tests or experiments, with an optional writing portion for each experiment. This class will also integrate the CH Matter Badge, which includes objectives and projects that support a hands-on experience in understanding the fundamentals of Chemistry.</p>
-<br>
-<span class='italic'>Jade Rivera is an innovative educator, writer and coach. She proudly serves as a GHF Ambassador for neurodiverse families. Prior to her career in progressive education she was a chemist. In 2003 she earned a Fulbright scholarship for academic research in Thailand.</span>
-<br>Ages 11+
-<span class='date'>Thursdays 10-11:30am, $325</span>
-12 week session: 1/7/16- 3/24/16
-<br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue'>Registration Closed</span>
-</article>
-
-<article id='mth' class='box excerpt'>
-<header>
-<h4>Making Through History: Middle Ages</h4>
-</header>
-Join us for an immersion of history, seen through the art, innovation, and inventions of the Middle Ages. Starting just after the fall of Rome and working our way to the Renaissance, we will research, explore, recreate, build, and appreciate medieval technology and aesthetics, while connecting design and ingenuity to modern day influence and function. Blacksmithing, warfare innovation, stained glass, engineering, herbalism, and more! We will use quality materials and traditional techniques to explore the ways cultures all over the world expressed and advanced themselves in the Medieval world.
-<br>
-<span class='italic'>This class will be taught by mentor Samantha Cook, who is the founder of Curiosity Hacked and has
-been teaching for over 20 years. She has an extensive background in history, humanities, art, and
-making.</span> (Making Through History: Renaissance will be offered Spring 2016)
-<br>Ages 7 and up
-<span class='date'>Friday 1pm-3pm, $395</span>
-1/22/16 through 3/25/16
-<br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue'>Fri 1pm</span>
-</article>
-
-<article id='tlxarp' class='box excerpt'>
-<header>
-<h4>Arduino Robotics Programing</h4>
-</header>
-Learn programming while building and competing with your own personal robot. You’ll spend time constructing and wiring up your robot, but most of the time will be spent programming it for fun challenges, like mazes and tag. You’ll leave with parts and knowledge to keep building on your own, or join up with a robotics team!
-<br><span class='italic'>This class is powered by a collaberation between Curiosity Hacked and TechLX.</span>
-<br>Ages 10 and up, materials fee included ($85) - Kids keep their robot!
-<span class='date'>Two times offered; Thursday 2pm-4pm or Thursday 6:30pm-8:30pm, $395</span>
-10 week session: Begins week January 11th
-<br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue'>Registration Closed</span> <span class='buttonsmall ltblue'>Registration Closed</span>
-</article>
-
-
-<article id='tlxmgd' class='box excerpt'>
-<header>
-<h4>Minecraft Game Design</h4>
-</header>
-Master Minecraft using tools like Redstone, Command Blocks, WorldEdit, Texture Packs, Mods, Servers and more! Learn the skills to shape Minecraft like the server admins, map makers, and youtubers that make the Minecraft into the thriving universe that it is. Leave with your own Minecraft minigame or adventure map to share with your friends and family!
-<br><span class='italic'>This class is powered by a collaberation between Curiosity Hacked and TechLX.</span>
-<br>Ages 8 and up; You must have your own computer based Minecraft account. BYO Laptop, or use one of ours.
-<span class='date'>Two times offered; Thursday 12pm-2pm or Friday 4pm-6pm, $325</span>
-10 week session: Begins week January 11th
-<br><span class="date" style="display: inline;">Register: </span><span class='buttonsmall ltblue'>Registration Closed</span> <span class='buttonsmall ltblue'>Registration Closed</span>
-</article>
-
-</section> -->
-<!-- </div> -->
 <script type="text/javascript">
   var scrollToElement = function(selector) {
     $('html, body').animate({
@@ -257,11 +139,7 @@ Master Minecraft using tools like Redstone, Command Blocks, WorldEdit, Texture P
     }, 2000);
     return false;
   }
-  $('.session').click( function() {
-    console.log($(this).attr('id'));
-    <!-- window.location.assign("/oakland/winter2016register?a="+$(this).attr('id')); -->
+  $('.session.ltblue').click( function() {
+    window.location.assign("/oakland/winter2016register?a="+$(this).attr('id'));
   });
-</script>
-<script>
-<!-- $('.buttonsmall.ltblue').click( function() { window.location.assign("/oakland/winter2016register?a="+$(this).parent().attr('id')+'-'+$(this).html().replace(/\s+/g, '')); } ); -->
 </script>
