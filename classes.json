@@ -107,6 +107,18 @@
         "paypaltag": "paypal!",
         "maxseats": "",
         "status": ""
+      },
+      {
+        "sessionid": "2df-1",
+        "dates": "April 7- May 26",
+        "dayofweek": "Monday",
+        "start": "9:00",
+        "end": "10:00",
+        "ages": "7-14",
+        "cost": "225",
+        "paypaltag": "paypal!",
+        "maxseats": "",
+        "status":""
       }
     ]
   }

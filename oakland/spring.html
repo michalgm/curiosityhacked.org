@@ -103,7 +103,7 @@ layout: default
               <%=c.description%>
             </p>
             <h5>Sessions</h5>
-            <% _.each(_.sortBy(c.sessions, ['dayofweek', 'start']), function(session) { %>
+            <% _.each(_.sortBy(c.sessions, ['dayofweek']), function(session) { %>
               <div class='session buttonsmall <%= session.status == "" ? "ltblue" : "disabled" %>' id='<%= session.sessionid %>'>
                 <div class='session-title'>
                   <%= session.dayofweek %>s <%= session.time %>
@@ -135,12 +135,19 @@ layout: default
     return (pieces[0] < 13 ? pieces[0] : pieces[0] - 12) + ":"+pieces[1];
   };
 
+  var sortSessions = function(sessions) {
+    return _.sortByAll(sessions, [
+      function(s) { return weekdays.indexOf(s.dayofweek); },
+      function(s) { return parseInt(s.start.split(":")[0]); },
+    ]);
+  }
   var loadClasses = function(classes) {
     var days = {};
     _.each(weekdays, function(day) {
       days[day] = [];
     });
     _.each(classes, function(c) {
+      c.sessions = sortSessions(c.sessions);
       _.each(c.sessions, function(session) {
         session.title = c.title;
         session.classid = c.classid;
@@ -150,7 +157,7 @@ layout: default
     });
 
     _.each(_.keys(days), function(name) {
-      days[name] = _.sortBy(days[name], 'start');
+      days[name] = sortSessions(days[name]);
     });
 
     $('.class-table').html(_.template($("#calendarTemplate").html())({days: days}));
