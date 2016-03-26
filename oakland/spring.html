@@ -50,96 +50,126 @@ layout: default
     font-weight: bold;
   }
 </style>
-{% assign days = 'Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday' | split: "|" %}
-{% assign daycount = days | size %}
-
 <header class='major'>
 <h2>Winter 2016 Classes</h2>
 <p>Each class is a 10 session program meeting once a week for two hours located at the Curiosity Hacked Oakland Lab, 6036 Telegraph Ave, Oakland, CA 94609</p>
 <p>Questions on a class? info@curiosityhacked.org</p>
 </header>
-<table class='classtable' style="margin: auto;">
-  <thead>
-    {% for day in days %}
-      <th style="width: {{ 100 | divided_by:daycount }}%;">{{day}}</th>
-    {% endfor %}
-  </thead>
-  <tbody class="classtable">
-    <tr>
-      {% for day in days %}
-        <td class='table-{{day}}'>
-          {% for class in site.data.classes %}
-            {% for session in class.sessions %}
-              {% if session.times.dayofweek == day %}
-                <div class='class-link buttonsmall ltblue' onclick='scrollToElement("#{{class.classid}}")'>
-                  <span class='class-link-text' id='class-link-{{session.id}}'>
-                    <span class='class-link-time'>{{session.times.start | date:"%l:%M" | strip}}-{{session.times.end | date:"%l:%M" | strip}}</span>
-                    <span class='class-link-title'>{{class.title}}</span>
-                  </span>
-                </div>
-              {% endif %}
-            {% endfor %}
-          {% endfor %}
-        </td>
-      {% endfor %}
-    </tr>
-  </tbody>
-</table>
+<div class='class-table'></div>
+
 <header class='major'>
 <h2></h2>
 <p><a href="/oakland/index.html#cal">Full calendar of Oakland Lab activities</a></p>
 </header>
-{% assign cols = "1|0" | split:"|"%}
-{% for colnum in cols %}
-  {% assign col = colnum | plus:0 %}
+<div class='class-list'></div>
+
+<script type="text/template" id="calendarTemplate">
+  <table class='classtable' style="margin: auto;">
+    <thead>
+      <% _.each(_.keys(days), function(day) { %>
+        <th style="width: <%= 100/_.keys(days).length %>%"><%= day %></th>
+      <% }); %>
+    </thead>
+    <tbody class="classtable">
+      <tr>
+        <% _.each(_.keys(days), function(day) { %>
+          <td class='table-{{day}}'>
+            <% _.each(days[day], function(session) { %>
+                <div class='class-link buttonsmall ltblue' onclick='scrollToElement("#<%=session.classid%>")'>
+                  <span class='class-link-text'>
+                    <span class='class-link-time'><%= session.time %></span>
+                    <span class='class-link-title'><%= session.title %></span>
+                  </span>
+                </div>
+            <% }); %>
+          </td>
+        <% }); %>
+      </tr>
+    </tbody>
+  </table>
+</script>
+
+<script type="text/template" id="listTemplate">
+<% _.each([0, 1], function(col) { %>
   <div class='6u'>
     <section class='article-list box'>
-      {% for class in site.data.classes %}
-      {% assign mod = forloop.index | modulo:2 %}
-        {% if mod == col %}
-        <article id='{{class.classid}}' class='box excerpt'>
-          <header>
-            <h4>{{class.title}}</h4>
-          </header>
-          <p class='class-description'>
-            {{class.description}}
-          </p>
-          <h5>Sessions</h5>
-          <div class='sessions'>
-            {% for session in class.sessions %}
-              <div class='session buttonsmall {% if session.status == "" %}ltblue{% else %}disabled{% endif %}' id='{{session.sessionid}}'>
+      <% _.each(classes, function(c, i) { %>
+        <% if( i %2 == col) { %>
+          <article id='<%=c.classid%>' class='box excerpt'>
+            <header>
+              <h4><%=c.title%></h4>
+            </header>
+            <p class='class-description'>
+              <%=c.description%>
+            </p>
+            <h5>Sessions</h5>
+            <% _.each(_.sortBy(c.sessions, ['dayofweek', 'start']), function(session) { %>
+              <div class='session buttonsmall <%= session.status == "" ? "ltblue" : "disabled" %>' id='<%= session.sessionid %>'>
                 <div class='session-title'>
-                  {{session.times.dayofweek}}s {{session.times.start | date:"%l:%M" | strip }}-{{session.times.end | date:"%l:%M" | strip }}
+                  <%= session.dayofweek %>s <%= session.time %>
                 </div>
                 <div class='session-details'>
                   <ul>
-                    <li>{{session.dates}}</li>
-                    <li>Ages {{session.ages}}</li>
-                    {% if session.status == ''%}
-                      <li>${{session.cost}}</li>
-                    {% else %}
-                      <li class='status'>{{session.status}}</li>
-                    {% endif %}
-
+                    <li><%= session.dates %></li>
+                    <li>Ages <%= session.ages %></li>
+                    <% if (session.status) { %>
+                      <li class='status'><%= session.status %></li>
+                    <% } else { %>
+                      <li>$<%= session.cost %></li>
+                    <% } %>
                 </div>
               </div>
-            {% endfor %}
-          </div>
-        </article>
-        {% endif %}
-      {% endfor %}
+            <%})%>
+          </article>
+        <% } %>
+      <%})%>
     </section>
   </div>
-{% endfor %}
+<%})%>
+</script>
 
 <script type="text/javascript">
+  var weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  var formatTime = function(time) {
+    var pieces = time.split(':');
+    return (pieces[0] < 13 ? pieces[0] : pieces[0] - 12) + ":"+pieces[1];
+  };
+
+  var loadClasses = function(classes) {
+    var days = {};
+    _.each(weekdays, function(day) {
+      days[day] = [];
+    });
+    _.each(classes, function(c) {
+      _.each(c.sessions, function(session) {
+        session.title = c.title;
+        session.classid = c.classid;
+        session.time = formatTime(session.start) + '-'+formatTime(session.end);
+        days[session.dayofweek].push(session);
+      });
+    });
+
+    _.each(_.keys(days), function(name) {
+      days[name] = _.sortBy(days[name], 'start');
+    });
+
+    $('.class-table').html(_.template($("#calendarTemplate").html())({days: days}));
+    $('.class-list').html(_.template($("#listTemplate").html())({classes: classes}));
+
+    $('.session.ltblue').click( function() {
+      window.location.assign("/oakland/winter2016register?a="+$(this).attr('id'));
+    });
+  };
+
+  $(document).ready(function() {
+    $.get('/classes.json', loadClasses);
+  });
+
   var scrollToElement = function(selector) {
     $('html, body').animate({
         scrollTop: $(selector).offset().top
     }, 2000);
     return false;
-  }
-  $('.session.ltblue').click( function() {
-    window.location.assign("/oakland/winter2016register?a="+$(this).attr('id'));
-  });
+  };
+
 </script>

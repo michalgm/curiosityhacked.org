@@ -9,11 +9,9 @@
       {
         "sessionid": "2df-1",
         "dates": "April 7- May 26",
-        "times": {
-          "dayofweek": "Thursday",
-          "start": "13:00",
-          "end": "15:00"
-        },
+        "dayofweek": "Thursday",
+        "start": "13:00",
+        "end": "15:00",
         "ages": "7-14",
         "cost": "225",
         "paypaltag": "paypal!",
@@ -23,11 +21,9 @@
       {
         "sessionid": "2df-2",
         "dates": "April 7- May 26",
-        "times": {
-          "dayofweek": "Thursday",
-          "start": "16:00",
-          "end": "18:00"
-        },
+        "dayofweek": "Thursday",
+        "start": "16:00",
+        "end": "18:00",
         "ages": "7-14",
         "cost": "225",
         "paypaltag": "paypal!",
@@ -46,11 +42,9 @@
       {
         "sessionid": "2df-1",
         "dates": "April 7- May 26",
-        "times": {
-          "dayofweek": "Monday",
-          "start": "13:00",
-          "end": "15:00"
-        },
+        "dayofweek": "Monday",
+        "start": "13:00",
+        "end": "15:00",
         "ages": "7-14",
         "cost": "225",
         "paypaltag": "paypal!",
@@ -60,11 +54,9 @@
       {
         "sessionid": "2df-2",
         "dates": "April 7- May 26",
-        "times": {
-          "dayofweek": "Wednesday",
-          "start": "16:00",
-          "end": "18:00"
-        },
+        "dayofweek": "Wednesday",
+        "start": "16:00",
+        "end": "18:00",
         "ages": "7-14",
         "cost": "225",
         "paypaltag": "paypal!",
@@ -83,11 +75,9 @@
       {
         "sessionid": "2df-1",
         "dates": "April 7- May 26",
-        "times": {
-          "dayofweek": "Monday",
-          "start": "11:00",
-          "end": "12:00"
-        },
+        "dayofweek": "Monday",
+        "start": "11:00",
+        "end": "12:00",
         "ages": "7-14",
         "cost": "225",
         "paypaltag": "paypal!",
@@ -97,11 +87,9 @@
       {
         "sessionid": "2df-2",
         "dates": "April 7- May 26",
-        "times": {
-          "dayofweek": "Wednesday",
-          "start": "16:00",
-          "end": "18:00"
-        },
+        "dayofweek": "Wednesday",
+        "start": "16:00",
+        "end": "18:00",
         "ages": "7-14",
         "cost": "225",
         "paypaltag": "paypal!",
@@ -111,11 +99,9 @@
       {
         "sessionid": "2df-2",
         "dates": "April 7- May 26",
-        "times": {
-          "dayofweek": "Friday",
-          "start": "16:00",
-          "end": "18:00"
-        },
+        "dayofweek": "Friday",
+        "start": "16:00",
+        "end": "18:00",
         "ages": "7-14",
         "cost": "225",
         "paypaltag": "paypal!",
